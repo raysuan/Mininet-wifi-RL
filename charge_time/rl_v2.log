@@ -1,0 +1,1711 @@
+2025-02-14 13:07:51.775187: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:477] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1739563671.795662 3652584 cuda_dnn.cc:8310] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1739563671.801967 3652584 cuda_blas.cc:1418] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-02-14 13:07:51.822836: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Created rate files for 10 sensors in 1 clusters in /mydata/mydata/RL_agent/output_multi_cluster
+start time:  1739563678.614844
+*** Creating nodes
+*** Adding Controller
+*** Configuring wifi nodes
+*** Connecting to wmediumd server /var/run/wmediumd.sock
+*** Creating links
+*** Starting network
+*** Starting controller(s)
+c0 
+*** Starting L2 nodes
+ap0 ...
+*** Setting up communication flow
+*** Starting receivers
+Error in count_unique_packets for cluster 0: [Errno 2] No such file or directory: '/mydata/mydata/RL_agent/output_multi_cluster/ch_received_from_sensors_cluster_0.txt'
+Cluster 0 Receiver: Started listening on port 5001 for sensor 0
+Cluster 0 Receiver: Started listening on port 5002 for sensor 1
+Cluster 0 Receiver: Started listening on port 5003 for sensor 2
+Cluster 0 Receiver: Started listening on port 5004 for sensor 3
+Cluster 0 Receiver: Started listening on port 5005 for sensor 4
+Cluster 0 Receiver: Started listening on port 5006 for sensor 5
+Cluster 0 Receiver: Started listening on port 5007 for sensor 6
+Cluster 0 Receiver: Started listening on port 5008 for sensor 7
+Cluster 0 Receiver: Started listening on port 5009 for sensor 8
+Cluster 0 Receiver: Started listening on port 5010 for sensor 9
+Cluster 0 Receiver: Started tcpdump capture on ports 5001-5010
+*** Starting senders
+Cluster 0, Sensor 0: chunk size 2765
+Cluster 0, Sensor 1: chunk size 2679
+Cluster 0, Sensor 2: chunk size 2765
+Cluster 0, Sensor 3: chunk size 2592
+Cluster 0, Sensor 4: chunk size 2592
+Cluster 0, Sensor 5: chunk size 2592
+Cluster 0, Sensor 6: chunk size 2592
+Cluster 0, Sensor 7: chunk size 2592
+Cluster 0, Sensor 8: chunk size 2592
+Waiting for initial data before starting RL agents
+Cluster 0, Sensor 9: chunk size 2592
+Total rows: 0Cluster 0 - New unique packets: 0, Total unique packets: 0
+ 2025-02-14 13:08:08Cluster 0, Sensor 2: Sent packet 0 of size 87.00 KB at 2025-02-14 13:08:07.914
+Cluster 0, Sensor 6: Sent packet 0 of size 88.17 KB at 2025-02-14 13:08:07.926
+Cluster 0, Sensor 1: Sent packet 0 of size 87.03 KB at 2025-02-14 13:08:07.911
+Cluster 0, Sensor 4: Sent packet 0 of size 90.10 KB at 2025-02-14 13:08:07.919
+Cluster 0, Sensor 0: Sent packet 0 of size 86.96 KB at 2025-02-14 13:08:07.909
+Cluster 0, Sensor 3: Sent packet 0 of size 88.04 KB at 2025-02-14 13:08:07.917
+Cluster 0, Sensor 9: Sent packet 0 of size 87.07 KB at 2025-02-14 13:08:07.941
+Cluster 0, Sensor 8: Sent packet 0 of size 87.07 KB at 2025-02-14 13:08:07.937
+Cluster 0, Sensor 7: Sent packet 0 of size 88.16 KB at 2025-02-14 13:08:07.932
+Cluster 0, Sensor 5: Sent packet 0 of size 88.19 KB at 2025-02-14 13:08:07.921
+Total rows: 1379Cluster 0 - New unique packets: 717, Total unique packets: 717
+ 2025-02-14 13:08:11Cluster 0, Sensor 2: Sent packet 1 of size 87.91 KB at 2025-02-14 13:08:11.995
+Cluster 0, Sensor 1: Sent packet 1 of size 87.93 KB at 2025-02-14 13:08:12.000
+Cluster 0, Sensor 3: Sent packet 1 of size 89.05 KB at 2025-02-14 13:08:12.000
+Cluster 0, Sensor 4: Sent packet 1 of size 91.09 KB at 2025-02-14 13:08:11.998
+Cluster 0, Sensor 0: Sent packet 1 of size 87.83 KB at 2025-02-14 13:08:11.999
+Cluster 0, Sensor 6: Sent packet 1 of size 89.23 KB at 2025-02-14 13:08:11.997
+Cluster 0, Sensor 9: Sent packet 1 of size 88.07 KB at 2025-02-14 13:08:12.601
+Cluster 0, Sensor 5: Sent packet 1 of size 89.19 KB at 2025-02-14 13:08:12.603
+Cluster 0, Sensor 7: Sent packet 1 of size 89.20 KB at 2025-02-14 13:08:12.603
+Cluster 0, Sensor 8: Sent packet 1 of size 87.92 KB at 2025-02-14 13:08:12.604
+Sufficient data received. Starting RL agents.
+*** Starting RL agents
+Final temperature data shape: (10, 1182)
+Training the RL agent for Cluster 0...
+Determining sensor usage:   0%|          | 0/1 [00:00<?, ?step/s]
+Determining sensor usage: 100%|██████████| 1/1 [00:00<00:00, 1252.03step/s]
+Cluster 0 Sensor 0: Usage [0]
+Cluster 0, Sensor 2: Sent packet 2 of size 87.99 KB at 2025-02-14 13:08:14.029
+Cluster 0, Sensor 1: Sent packet 2 of size 88.04 KB at 2025-02-14 13:08:14.031
+Cluster 0, Sensor 3: Sent packet 2 of size 89.19 KB at 2025-02-14 13:08:14.033
+Cluster 0, Sensor 4: Sent packet 2 of size 90.70 KB at 2025-02-14 13:08:14.119
+Cluster 0, Sensor 0: Sent packet 2 of size 87.72 KB at 2025-02-14 13:08:14.147
+Cluster 0, Sensor 6: Sent packet 2 of size 89.15 KB at 2025-02-14 13:08:14.176
+Cluster 0, Sensor 9: Sent packet 2 of size 88.16 KB at 2025-02-14 13:08:14.648
+Cluster 0, Sensor 5: Sent packet 2 of size 89.15 KB at 2025-02-14 13:08:14.694
+Cluster 0, Sensor 7: Sent packet 2 of size 89.22 KB at 2025-02-14 13:08:14.753
+Cluster 0, Sensor 8: Sent packet 2 of size 88.20 KB at 2025-02-14 13:08:14.810
+Cluster 0, Sensor 0: Skipped sending packet 3 due to rate 0 at 2025-02-14 13:08:16.305
+Cluster 0 Sensor 1: Usage [0]
+Cluster 0, Sensor 2: Sent packet 3 of size 87.82 KB at 2025-02-14 13:08:16.088
+Cluster 0, Sensor 1: Sent packet 3 of size 87.86 KB at 2025-02-14 13:08:16.112
+Cluster 0, Sensor 3: Sent packet 3 of size 88.58 KB at 2025-02-14 13:08:16.176
+Cluster 0, Sensor 4: Sent packet 3 of size 89.79 KB at 2025-02-14 13:08:16.252
+Cluster 0, Sensor 6: Sent packet 3 of size 88.27 KB at 2025-02-14 13:08:16.343
+Total rows: 17480Cluster 0 - New unique packets: 3723, Total unique packets: 4440
+ 2025-02-14 13:08:17Cluster 0, Sensor 9: Sent packet 3 of size 87.88 KB at 2025-02-14 13:08:16.782
+Cluster 0, Sensor 5: Sent packet 3 of size 88.04 KB at 2025-02-14 13:08:16.815
+Cluster 0, Sensor 7: Sent packet 3 of size 89.07 KB at 2025-02-14 13:08:16.880
+Cluster 0, Sensor 8: Sent packet 3 of size 87.83 KB at 2025-02-14 13:08:16.970
+Cluster 0, Sensor 1: Skipped sending packet 4 due to rate 0 at 2025-02-14 13:08:18.162
+Cluster 0, Sensor 0: Skipped sending packet 4 due to rate 0 at 2025-02-14 13:08:18.315
+Cluster 0 Sensor 2: Usage [0]
+Cluster 0, Sensor 2: Sent packet 4 of size 87.99 KB at 2025-02-14 13:08:18.152
+Cluster 0, Sensor 3: Sent packet 4 of size 88.60 KB at 2025-02-14 13:08:18.232
+Cluster 0, Sensor 4: Sent packet 4 of size 88.63 KB at 2025-02-14 13:08:18.306
+Cluster 0, Sensor 6: Sent packet 4 of size 86.92 KB at 2025-02-14 13:08:18.405
+Cluster 0, Sensor 9: Sent packet 4 of size 88.44 KB at 2025-02-14 13:08:18.827
+Cluster 0, Sensor 5: Sent packet 4 of size 87.42 KB at 2025-02-14 13:08:18.851
+Cluster 0, Sensor 7: Sent packet 4 of size 90.07 KB at 2025-02-14 13:08:18.916
+Cluster 0, Sensor 8: Sent packet 4 of size 88.54 KB at 2025-02-14 13:08:19.008
+Cluster 0, Sensor 1: Skipped sending packet 5 due to rate 0 at 2025-02-14 13:08:20.165
+Cluster 0, Sensor 2: Skipped sending packet 5 due to rate 0 at 2025-02-14 13:08:20.192
+Cluster 0, Sensor 0: Skipped sending packet 5 due to rate 0 at 2025-02-14 13:08:20.318
+Cluster 0 Sensor 3: Usage [0]
+Cluster 0, Sensor 3: Sent packet 5 of size 89.17 KB at 2025-02-14 13:08:20.284
+Cluster 0, Sensor 4: Sent packet 5 of size 89.17 KB at 2025-02-14 13:08:20.337
+Cluster 0, Sensor 6: Sent packet 5 of size 88.13 KB at 2025-02-14 13:08:20.514
+Cluster 0, Sensor 9: Sent packet 5 of size 89.02 KB at 2025-02-14 13:08:20.875
+Cluster 0, Sensor 7: Sent packet 5 of size 90.09 KB at 2025-02-14 13:08:20.956
+Cluster 0, Sensor 5: Sent packet 5 of size 88.17 KB at 2025-02-14 13:08:20.955
+Cluster 0, Sensor 8: Sent packet 5 of size 88.70 KB at 2025-02-14 13:08:21.053
+Cluster 0, Sensor 1: Skipped sending packet 6 due to rate 0 at 2025-02-14 13:08:22.202
+Cluster 0, Sensor 2: Skipped sending packet 6 due to rate 0 at 2025-02-14 13:08:22.225
+Cluster 0, Sensor 0: Skipped sending packet 6 due to rate 0 at 2025-02-14 13:08:22.366
+Cluster 0, Sensor 3: Skipped sending packet 6 due to rate 0 at 2025-02-14 13:08:22.382
+Cluster 0 Sensor 4: Usage [0]
+Cluster 0, Sensor 4: Sent packet 6 of size 89.18 KB at 2025-02-14 13:08:22.405
+Cluster 0, Sensor 6: Sent packet 6 of size 87.91 KB at 2025-02-14 13:08:22.566
+Cluster 0, Sensor 9: Sent packet 6 of size 89.07 KB at 2025-02-14 13:08:22.993
+Cluster 0, Sensor 5: Sent packet 6 of size 87.90 KB at 2025-02-14 13:08:23.054
+Cluster 0, Sensor 7: Sent packet 6 of size 89.59 KB at 2025-02-14 13:08:23.107
+Cluster 0, Sensor 1: Skipped sending packet 7 due to rate 0 at 2025-02-14 13:08:24.223
+Cluster 0, Sensor 2: Skipped sending packet 7 due to rate 0 at 2025-02-14 13:08:24.260
+Cluster 0, Sensor 8: Sent packet 6 of size 89.15 KB at 2025-02-14 13:08:23.213
+Cluster 0, Sensor 0: Skipped sending packet 7 due to rate 0 at 2025-02-14 13:08:24.389
+Cluster 0, Sensor 3: Skipped sending packet 7 due to rate 0 at 2025-02-14 13:08:24.430
+Cluster 0, Sensor 4: Skipped sending packet 7 due to rate 0 at 2025-02-14 13:08:24.481
+Cluster 0 Sensor 5: Usage [0]
+Cluster 0, Sensor 6: Sent packet 7 of size 87.12 KB at 2025-02-14 13:08:24.691
+Total rows: 25362Cluster 0 - New unique packets: 1659, Total unique packets: 6099
+ 2025-02-14 13:08:26Cluster 0, Sensor 5: Sent packet 7 of size 87.08 KB at 2025-02-14 13:08:25.148
+Cluster 0, Sensor 1: Skipped sending packet 8 due to rate 0 at 2025-02-14 13:08:26.235
+Cluster 0, Sensor 7: Sent packet 7 of size 88.49 KB at 2025-02-14 13:08:25.201
+Cluster 0, Sensor 9: Sent packet 7 of size 88.23 KB at 2025-02-14 13:08:25.201
+Cluster 0, Sensor 2: Skipped sending packet 8 due to rate 0 at 2025-02-14 13:08:26.288
+Cluster 0, Sensor 8: Sent packet 7 of size 87.33 KB at 2025-02-14 13:08:25.324
+Cluster 0, Sensor 0: Skipped sending packet 8 due to rate 0 at 2025-02-14 13:08:26.434
+Cluster 0, Sensor 3: Skipped sending packet 8 due to rate 0 at 2025-02-14 13:08:26.452
+Cluster 0, Sensor 4: Skipped sending packet 8 due to rate 0 at 2025-02-14 13:08:26.488
+Cluster 0, Sensor 5: Skipped sending packet 8 due to rate 0 at 2025-02-14 13:08:27.233
+Cluster 0, Sensor 6: Sent packet 8 of size 87.98 KB at 2025-02-14 13:08:26.767
+Cluster 0, Sensor 1: Skipped sending packet 9 due to rate 0 at 2025-02-14 13:08:28.255
+Cluster 0, Sensor 2: Skipped sending packet 9 due to rate 0 at 2025-02-14 13:08:28.310
+Cluster 0 Sensor 6: Usage [0]
+Cluster 0, Sensor 9: Sent packet 8 of size 88.95 KB at 2025-02-14 13:08:27.262
+Cluster 0, Sensor 0: Skipped sending packet 9 due to rate 0 at 2025-02-14 13:08:28.437
+Cluster 0, Sensor 7: Sent packet 8 of size 89.00 KB at 2025-02-14 13:08:27.261
+Cluster 0, Sensor 3: Skipped sending packet 9 due to rate 0 at 2025-02-14 13:08:28.487
+Cluster 0, Sensor 4: Skipped sending packet 9 due to rate 0 at 2025-02-14 13:08:28.490
+Cluster 0, Sensor 8: Sent packet 8 of size 88.04 KB at 2025-02-14 13:08:27.400
+Cluster 0, Sensor 6: Skipped sending packet 9 due to rate 0 at 2025-02-14 13:08:28.899
+Cluster 0, Sensor 5: Skipped sending packet 9 due to rate 0 at 2025-02-14 13:08:29.309
+Cluster 0, Sensor 2: Skipped sending packet 10 due to rate 0 at 2025-02-14 13:08:30.324
+Cluster 0, Sensor 1: Skipped sending packet 10 due to rate 0 at 2025-02-14 13:08:30.416
+Cluster 0, Sensor 0: Skipped sending packet 10 due to rate 0 at 2025-02-14 13:08:30.457
+Cluster 0, Sensor 3: Skipped sending packet 10 due to rate 0 at 2025-02-14 13:08:30.523
+Cluster 0, Sensor 4: Skipped sending packet 10 due to rate 0 at 2025-02-14 13:08:30.524
+Cluster 0, Sensor 8: Sent packet 9 of size 88.09 KB at 2025-02-14 13:08:29.544
+Cluster 0, Sensor 7: Sent packet 9 of size 89.19 KB at 2025-02-14 13:08:29.544
+Cluster 0, Sensor 9: Sent packet 9 of size 89.14 KB at 2025-02-14 13:08:29.454
+Cluster 0, Sensor 6: Skipped sending packet 10 due to rate 0 at 2025-02-14 13:08:30.933
+Cluster 0, Sensor 5: Skipped sending packet 10 due to rate 0 at 2025-02-14 13:08:31.326
+Cluster 0 Sensor 7: Usage [1]
+Cluster 0, Sensor 2: Skipped sending packet 11 due to rate 0 at 2025-02-14 13:08:32.355
+Cluster 0, Sensor 1: Skipped sending packet 11 due to rate 0 at 2025-02-14 13:08:32.434
+Cluster 0, Sensor 0: Skipped sending packet 11 due to rate 0 at 2025-02-14 13:08:32.496
+Cluster 0, Sensor 4: Skipped sending packet 11 due to rate 0 at 2025-02-14 13:08:32.559
+Cluster 0, Sensor 3: Skipped sending packet 11 due to rate 0 at 2025-02-14 13:08:32.559
+Cluster 0, Sensor 8: Sent packet 10 of size 87.97 KB at 2025-02-14 13:08:31.653
+Cluster 0, Sensor 7: Sent packet 10 of size 88.84 KB at 2025-02-14 13:08:31.806
+Cluster 0, Sensor 6: Skipped sending packet 11 due to rate 0 at 2025-02-14 13:08:32.988
+Cluster 0, Sensor 9: Sent packet 10 of size 88.74 KB at 2025-02-14 13:08:31.903
+Cluster 0, Sensor 5: Skipped sending packet 11 due to rate 0 at 2025-02-14 13:08:33.344
+Cluster 0 Sensor 8: Usage [0]
+Cluster 0, Sensor 8: Skipped sending packet 11 due to rate 0 at 2025-02-14 13:08:33.791
+Cluster 0, Sensor 2: Skipped sending packet 12 due to rate 0 at 2025-02-14 13:08:34.420
+Cluster 0, Sensor 1: Skipped sending packet 12 due to rate 0 at 2025-02-14 13:08:34.500
+Cluster 0, Sensor 4: Skipped sending packet 12 due to rate 0 at 2025-02-14 13:08:34.579
+Cluster 0, Sensor 3: Skipped sending packet 12 due to rate 0 at 2025-02-14 13:08:34.580
+Cluster 0, Sensor 0: Skipped sending packet 12 due to rate 0 at 2025-02-14 13:08:34.589
+Cluster 0, Sensor 6: Skipped sending packet 12 due to rate 0 at 2025-02-14 13:08:35.065
+Cluster 0, Sensor 7: Sent packet 11 of size 89.04 KB at 2025-02-14 13:08:33.975
+Cluster 0, Sensor 9: Sent packet 11 of size 88.25 KB at 2025-02-14 13:08:34.167
+Cluster 0, Sensor 5: Skipped sending packet 12 due to rate 0 at 2025-02-14 13:08:35.461
+Cluster 0, Sensor 8: Skipped sending packet 12 due to rate 0 at 2025-02-14 13:08:35.862
+Cluster 0 Sensor 9: Usage [0]
+Cluster 0, Sensor 9: Skipped sending packet 12 due to rate 0 at 2025-02-14 13:08:36.338
+Cluster 0, Sensor 2: Skipped sending packet 13 due to rate 0 at 2025-02-14 13:08:36.455
+Cluster 0, Sensor 4: Skipped sending packet 13 due to rate 0 at 2025-02-14 13:08:36.597
+Cluster 0, Sensor 3: Skipped sending packet 13 due to rate 0 at 2025-02-14 13:08:36.597
+Cluster 0, Sensor 0: Skipped sending packet 13 due to rate 0 at 2025-02-14 13:08:36.597
+Cluster 0, Sensor 1: Skipped sending packet 13 due to rate 0 at 2025-02-14 13:08:36.647
+Cluster 0, Sensor 6: Skipped sending packet 13 due to rate 0 at 2025-02-14 13:08:37.093
+Cluster 0, Sensor 5: Skipped sending packet 13 due to rate 0 at 2025-02-14 13:08:37.553
+Total rows: 31879Cluster 0 - New unique packets: 1715, Total unique packets: 7814
+ 2025-02-14 13:08:37Cluster 0, Sensor 7: Sent packet 12 of size 89.87 KB at 2025-02-14 13:08:36.374
+Cluster 0, Sensor 8: Skipped sending packet 13 due to rate 0 at 2025-02-14 13:08:37.864
+Cluster 0, Sensor 9: Skipped sending packet 13 due to rate 0 at 2025-02-14 13:08:38.392
+Cluster 0, Sensor 2: Skipped sending packet 14 due to rate 0 at 2025-02-14 13:08:38.511
+Cluster 0, Sensor 4: Skipped sending packet 14 due to rate 0 at 2025-02-14 13:08:38.630
+Cluster 0, Sensor 3: Skipped sending packet 14 due to rate 0 at 2025-02-14 13:08:38.631
+Cluster 0, Sensor 0: Skipped sending packet 14 due to rate 0 at 2025-02-14 13:08:38.631
+Cluster 0, Sensor 1: Skipped sending packet 14 due to rate 0 at 2025-02-14 13:08:38.676
+
+Determining sensor usage:   0%|          | 0/1 [00:00<?, ?step/s]
+Determining sensor usage: 100%|██████████| 1/1 [00:00<00:00, 1629.49step/s]
+Cluster 0 Sensor 0: Usage [0]
+Cluster 0, Sensor 6: Skipped sending packet 14 due to rate 0 at 2025-02-14 13:08:39.111
+Cluster 0, Sensor 5: Skipped sending packet 14 due to rate 0 at 2025-02-14 13:08:39.560
+Cluster 0, Sensor 7: Sent packet 13 of size 90.30 KB at 2025-02-14 13:08:38.648
+Cluster 0, Sensor 8: Skipped sending packet 14 due to rate 0 at 2025-02-14 13:08:39.867
+Cluster 0, Sensor 9: Skipped sending packet 14 due to rate 0 at 2025-02-14 13:08:40.395
+Cluster 0, Sensor 2: Skipped sending packet 15 due to rate 0 at 2025-02-14 13:08:40.512
+Cluster 0, Sensor 0: Skipped sending packet 15 due to rate 0 at 2025-02-14 13:08:40.663
+Cluster 0, Sensor 3: Skipped sending packet 15 due to rate 0 at 2025-02-14 13:08:40.664
+Cluster 0, Sensor 4: Skipped sending packet 15 due to rate 0 at 2025-02-14 13:08:40.664
+Cluster 0, Sensor 1: Skipped sending packet 15 due to rate 0 at 2025-02-14 13:08:40.701
+Cluster 0, Sensor 6: Skipped sending packet 15 due to rate 0 at 2025-02-14 13:08:41.183
+Cluster 0, Sensor 5: Skipped sending packet 15 due to rate 0 at 2025-02-14 13:08:41.689
+Cluster 0, Sensor 8: Skipped sending packet 15 due to rate 0 at 2025-02-14 13:08:41.911
+Cluster 0, Sensor 7: Sent packet 14 of size 90.50 KB at 2025-02-14 13:08:40.843
+Cluster 0, Sensor 9: Skipped sending packet 15 due to rate 0 at 2025-02-14 13:08:42.401
+Cluster 0 Sensor 1: Usage [0]
+Cluster 0, Sensor 2: Skipped sending packet 16 due to rate 0 at 2025-02-14 13:08:42.579
+Cluster 0, Sensor 4: Skipped sending packet 16 due to rate 0 at 2025-02-14 13:08:42.678
+Cluster 0, Sensor 3: Skipped sending packet 16 due to rate 0 at 2025-02-14 13:08:42.678
+Cluster 0, Sensor 0: Skipped sending packet 16 due to rate 0 at 2025-02-14 13:08:42.737
+Cluster 0, Sensor 1: Skipped sending packet 16 due to rate 0 at 2025-02-14 13:08:43.032
+Cluster 0, Sensor 6: Skipped sending packet 16 due to rate 0 at 2025-02-14 13:08:43.189
+Cluster 0, Sensor 5: Skipped sending packet 16 due to rate 0 at 2025-02-14 13:08:43.780
+Cluster 0, Sensor 8: Skipped sending packet 16 due to rate 0 at 2025-02-14 13:08:43.976
+Cluster 0, Sensor 9: Skipped sending packet 16 due to rate 0 at 2025-02-14 13:08:44.440
+Cluster 0, Sensor 7: Sent packet 15 of size 90.61 KB at 2025-02-14 13:08:43.032
+Cluster 0, Sensor 2: Skipped sending packet 17 due to rate 0 at 2025-02-14 13:08:44.633
+Cluster 0, Sensor 4: Skipped sending packet 17 due to rate 0 at 2025-02-14 13:08:44.748
+Cluster 0, Sensor 3: Skipped sending packet 17 due to rate 0 at 2025-02-14 13:08:44.759
+Cluster 0, Sensor 0: Skipped sending packet 17 due to rate 0 at 2025-02-14 13:08:44.962
+Cluster 0, Sensor 1: Skipped sending packet 17 due to rate 0 at 2025-02-14 13:08:45.071
+Cluster 0, Sensor 6: Skipped sending packet 17 due to rate 0 at 2025-02-14 13:08:45.202
+Cluster 0, Sensor 5: Skipped sending packet 17 due to rate 0 at 2025-02-14 13:08:45.799
+Cluster 0, Sensor 8: Skipped sending packet 17 due to rate 0 at 2025-02-14 13:08:45.986
+Cluster 0 Sensor 2: Usage [0]
+Cluster 0, Sensor 9: Skipped sending packet 17 due to rate 0 at 2025-02-14 13:08:46.529
+Cluster 0, Sensor 2: Skipped sending packet 18 due to rate 0 at 2025-02-14 13:08:46.682
+Cluster 0, Sensor 3: Skipped sending packet 18 due to rate 0 at 2025-02-14 13:08:46.796
+Cluster 0, Sensor 4: Skipped sending packet 18 due to rate 0 at 2025-02-14 13:08:46.796
+Cluster 0, Sensor 7: Sent packet 16 of size 91.06 KB at 2025-02-14 13:08:45.670
+Cluster 0, Sensor 0: Skipped sending packet 18 due to rate 0 at 2025-02-14 13:08:47.012
+Cluster 0, Sensor 1: Skipped sending packet 18 due to rate 0 at 2025-02-14 13:08:47.135
+Cluster 0, Sensor 6: Skipped sending packet 18 due to rate 0 at 2025-02-14 13:08:47.212
+Cluster 0, Sensor 5: Skipped sending packet 18 due to rate 0 at 2025-02-14 13:08:47.817
+Cluster 0, Sensor 8: Skipped sending packet 18 due to rate 0 at 2025-02-14 13:08:48.054
+Cluster 0, Sensor 9: Skipped sending packet 18 due to rate 0 at 2025-02-14 13:08:48.618
+Cluster 0, Sensor 2: Skipped sending packet 19 due to rate 0 at 2025-02-14 13:08:48.773
+Cluster 0, Sensor 4: Skipped sending packet 19 due to rate 0 at 2025-02-14 13:08:48.809
+Cluster 0 Sensor 3: Usage [1]
+Cluster 0, Sensor 0: Skipped sending packet 19 due to rate 0 at 2025-02-14 13:08:49.022
+Cluster 0, Sensor 7: Sent packet 17 of size 91.00 KB at 2025-02-14 13:08:47.990
+Cluster 0, Sensor 1: Skipped sending packet 19 due to rate 0 at 2025-02-14 13:08:49.158
+Cluster 0, Sensor 6: Skipped sending packet 19 due to rate 0 at 2025-02-14 13:08:49.225
+Cluster 0, Sensor 5: Skipped sending packet 19 due to rate 0 at 2025-02-14 13:08:49.826
+Cluster 0, Sensor 3: Sent packet 19 of size 88.05 KB at 2025-02-14 13:08:48.845
+Cluster 0, Sensor 8: Skipped sending packet 19 due to rate 0 at 2025-02-14 13:08:50.145
+Total rows: 36255Cluster 0 - New unique packets: 856, Total unique packets: 8670
+ 2025-02-14 13:08:50Cluster 0, Sensor 9: Skipped sending packet 19 due to rate 0 at 2025-02-14 13:08:50.672
+Cluster 0, Sensor 2: Skipped sending packet 20 due to rate 0 at 2025-02-14 13:08:50.814
+Cluster 0, Sensor 4: Skipped sending packet 20 due to rate 0 at 2025-02-14 13:08:50.856
+Cluster 0, Sensor 0: Skipped sending packet 20 due to rate 0 at 2025-02-14 13:08:51.039
+Cluster 0, Sensor 1: Skipped sending packet 20 due to rate 0 at 2025-02-14 13:08:51.177
+Cluster 0 Sensor 4: Usage [0]
+Cluster 0, Sensor 6: Skipped sending packet 20 due to rate 0 at 2025-02-14 13:08:51.227
+Cluster 0, Sensor 7: Sent packet 18 of size 88.11 KB at 2025-02-14 13:08:50.127
+Cluster 0, Sensor 5: Skipped sending packet 20 due to rate 0 at 2025-02-14 13:08:51.860
+Cluster 0, Sensor 3: Sent packet 20 of size 87.75 KB at 2025-02-14 13:08:50.994
+Cluster 0, Sensor 8: Skipped sending packet 20 due to rate 0 at 2025-02-14 13:08:52.179
+Cluster 0, Sensor 9: Skipped sending packet 20 due to rate 0 at 2025-02-14 13:08:52.687
+Cluster 0, Sensor 2: Skipped sending packet 21 due to rate 0 at 2025-02-14 13:08:52.822
+Cluster 0, Sensor 4: Skipped sending packet 21 due to rate 0 at 2025-02-14 13:08:52.870
+Cluster 0, Sensor 0: Skipped sending packet 21 due to rate 0 at 2025-02-14 13:08:53.062
+Cluster 0, Sensor 1: Skipped sending packet 21 due to rate 0 at 2025-02-14 13:08:53.179
+Cluster 0, Sensor 6: Skipped sending packet 21 due to rate 0 at 2025-02-14 13:08:53.230
+Cluster 0, Sensor 7: Sent packet 19 of size 89.15 KB at 2025-02-14 13:08:52.371
+Cluster 0 Sensor 5: Usage [0]
+Cluster 0, Sensor 5: Skipped sending packet 21 due to rate 0 at 2025-02-14 13:08:53.910
+Cluster 0, Sensor 8: Skipped sending packet 21 due to rate 0 at 2025-02-14 13:08:54.200
+Cluster 0, Sensor 3: Sent packet 21 of size 88.16 KB at 2025-02-14 13:08:53.173
+Cluster 0, Sensor 9: Skipped sending packet 21 due to rate 0 at 2025-02-14 13:08:54.732
+Cluster 0, Sensor 2: Skipped sending packet 22 due to rate 0 at 2025-02-14 13:08:54.956
+Cluster 0, Sensor 4: Skipped sending packet 22 due to rate 0 at 2025-02-14 13:08:54.959
+Cluster 0, Sensor 0: Skipped sending packet 22 due to rate 0 at 2025-02-14 13:08:55.095
+Cluster 0, Sensor 1: Skipped sending packet 22 due to rate 0 at 2025-02-14 13:08:55.204
+Cluster 0, Sensor 6: Skipped sending packet 22 due to rate 0 at 2025-02-14 13:08:55.407
+Cluster 0, Sensor 7: Sent packet 20 of size 89.17 KB at 2025-02-14 13:08:54.546
+Cluster 0, Sensor 5: Skipped sending packet 22 due to rate 0 at 2025-02-14 13:08:55.975
+Cluster 0 Sensor 6: Usage [1]
+Cluster 0, Sensor 8: Skipped sending packet 22 due to rate 0 at 2025-02-14 13:08:56.254
+Cluster 0, Sensor 3: Sent packet 22 of size 88.67 KB at 2025-02-14 13:08:55.516
+Cluster 0, Sensor 7: Energy below threshold (16.0). Recharging...
+Cluster 0, Sensor 9: Skipped sending packet 22 due to rate 0 at 2025-02-14 13:08:56.908
+Cluster 0, Sensor 4: Skipped sending packet 23 due to rate 0 at 2025-02-14 13:08:57.059
+Cluster 0, Sensor 2: Skipped sending packet 23 due to rate 0 at 2025-02-14 13:08:57.065
+Cluster 0, Sensor 1: Skipped sending packet 23 due to rate 0 at 2025-02-14 13:08:57.298
+Cluster 0, Sensor 0: Skipped sending packet 23 due to rate 0 at 2025-02-14 13:08:57.485
+Cluster 0, Sensor 5: Skipped sending packet 23 due to rate 0 at 2025-02-14 13:08:57.980
+Cluster 0 Sensor 7: Usage [0]
+Cluster 0, Sensor 8: Skipped sending packet 23 due to rate 0 at 2025-02-14 13:08:58.372
+Cluster 0, Sensor 9: Skipped sending packet 23 due to rate 0 at 2025-02-14 13:08:58.998
+Cluster 0, Sensor 2: Skipped sending packet 24 due to rate 0 at 2025-02-14 13:08:59.083
+Cluster 0, Sensor 6: Sent packet 23 of size 87.99 KB at 2025-02-14 13:08:57.468
+Cluster 0, Sensor 4: Skipped sending packet 24 due to rate 0 at 2025-02-14 13:08:59.160
+Cluster 0, Sensor 1: Skipped sending packet 24 due to rate 0 at 2025-02-14 13:08:59.457
+Cluster 0, Sensor 3: Sent packet 23 of size 89.15 KB at 2025-02-14 13:08:57.895
+Cluster 0, Sensor 0: Skipped sending packet 24 due to rate 0 at 2025-02-14 13:08:59.633
+Cluster 0, Sensor 7: Recharged to full energy (100),Current time: 1739563736.8979018,chargecount1. Resuming operations.
+Cluster 0, Sensor 5: Skipped sending packet 24 due to rate 0 at 2025-02-14 13:08:59.995
+Cluster 0, Sensor 7: Skipped sending packet 21 due to rate 0 at 2025-02-14 13:09:00.090
+Cluster 0, Sensor 8: Skipped sending packet 24 due to rate 0 at 2025-02-14 13:09:00.639
+Cluster 0, Sensor 9: Skipped sending packet 24 due to rate 0 at 2025-02-14 13:09:01.069
+Cluster 0, Sensor 2: Skipped sending packet 25 due to rate 0 at 2025-02-14 13:09:01.089
+Cluster 0, Sensor 1: Skipped sending packet 25 due to rate 0 at 2025-02-14 13:09:01.575
+Cluster 0, Sensor 4: Skipped sending packet 25 due to rate 0 at 2025-02-14 13:09:01.723
+Cluster 0, Sensor 0: Skipped sending packet 25 due to rate 0 at 2025-02-14 13:09:01.811
+Cluster 0, Sensor 6: Sent packet 24 of size 88.16 KB at 2025-02-14 13:09:00.275
+Cluster 0, Sensor 5: Skipped sending packet 25 due to rate 0 at 2025-02-14 13:09:02.293
+Cluster 0, Sensor 7: Skipped sending packet 22 due to rate 0 at 2025-02-14 13:09:02.543
+Cluster 0, Sensor 3: Sent packet 24 of size 88.90 KB at 2025-02-14 13:09:00.638
+Cluster 0, Sensor 8: Skipped sending packet 25 due to rate 0 at 2025-02-14 13:09:02.771
+Cluster 0 Sensor 8: Usage [0]
+Cluster 0, Sensor 2: Skipped sending packet 26 due to rate 0 at 2025-02-14 13:09:03.091
+Cluster 0, Sensor 9: Skipped sending packet 25 due to rate 0 at 2025-02-14 13:09:03.112
+Cluster 0, Sensor 1: Skipped sending packet 26 due to rate 0 at 2025-02-14 13:09:03.586
+Cluster 0, Sensor 4: Skipped sending packet 26 due to rate 0 at 2025-02-14 13:09:03.829
+Cluster 0, Sensor 0: Skipped sending packet 26 due to rate 0 at 2025-02-14 13:09:03.831
+Cluster 0, Sensor 6: Sent packet 25 of size 87.18 KB at 2025-02-14 13:09:02.965
+Cluster 0, Sensor 5: Skipped sending packet 26 due to rate 0 at 2025-02-14 13:09:04.344
+Cluster 0, Sensor 7: Skipped sending packet 23 due to rate 0 at 2025-02-14 13:09:04.549
+Cluster 0, Sensor 8: Skipped sending packet 26 due to rate 0 at 2025-02-14 13:09:04.985
+Cluster 0, Sensor 3: Sent packet 25 of size 88.26 KB at 2025-02-14 13:09:03.709
+Cluster 0, Sensor 2: Skipped sending packet 27 due to rate 0 at 2025-02-14 13:09:05.111
+Cluster 0, Sensor 9: Skipped sending packet 26 due to rate 0 at 2025-02-14 13:09:05.115
+Cluster 0 Sensor 9: Usage [0]
+Cluster 0, Sensor 1: Skipped sending packet 27 due to rate 0 at 2025-02-14 13:09:05.632
+Cluster 0, Sensor 0: Skipped sending packet 27 due to rate 0 at 2025-02-14 13:09:05.940
+Cluster 0, Sensor 4: Skipped sending packet 27 due to rate 0 at 2025-02-14 13:09:06.061
+Total rows: 39547Cluster 0 - New unique packets: 552, Total unique packets: 9222
+ 2025-02-14 13:09:06Cluster 0, Sensor 5: Skipped sending packet 27 due to rate 0 at 2025-02-14 13:09:06.358
+Cluster 0, Sensor 7: Skipped sending packet 24 due to rate 0 at 2025-02-14 13:09:06.560
+Cluster 0, Sensor 6: Sent packet 26 of size 87.71 KB at 2025-02-14 13:09:05.172
+Cluster 0, Sensor 8: Skipped sending packet 27 due to rate 0 at 2025-02-14 13:09:07.112
+Cluster 0, Sensor 2: Skipped sending packet 28 due to rate 0 at 2025-02-14 13:09:07.118
+Cluster 0, Sensor 9: Skipped sending packet 27 due to rate 0 at 2025-02-14 13:09:07.118
+Cluster 0, Sensor 1: Skipped sending packet 28 due to rate 0 at 2025-02-14 13:09:07.654
+Cluster 0, Sensor 0: Skipped sending packet 28 due to rate 0 at 2025-02-14 13:09:07.953
+Cluster 0, Sensor 3: Sent packet 26 of size 88.95 KB at 2025-02-14 13:09:06.124
+Cluster 0, Sensor 4: Skipped sending packet 28 due to rate 0 at 2025-02-14 13:09:08.077
+
+Determining sensor usage:   0%|          | 0/1 [00:00<?, ?step/s]
+Determining sensor usage: 100%|██████████| 1/1 [00:00<00:00, 1613.19step/s]
+Cluster 0 Sensor 0: Usage [1]
+Cluster 0, Sensor 5: Skipped sending packet 28 due to rate 0 at 2025-02-14 13:09:08.372
+Cluster 0, Sensor 7: Skipped sending packet 25 due to rate 0 at 2025-02-14 13:09:08.605
+Cluster 0, Sensor 6: Sent packet 27 of size 88.08 KB at 2025-02-14 13:09:07.592
+Cluster 0, Sensor 2: Skipped sending packet 29 due to rate 0 at 2025-02-14 13:09:09.143
+Cluster 0, Sensor 8: Skipped sending packet 28 due to rate 0 at 2025-02-14 13:09:09.163
+Cluster 0, Sensor 9: Skipped sending packet 28 due to rate 0 at 2025-02-14 13:09:09.163
+Cluster 0, Sensor 1: Skipped sending packet 29 due to rate 0 at 2025-02-14 13:09:09.707
+Cluster 0, Sensor 3: Sent packet 27 of size 89.00 KB at 2025-02-14 13:09:09.050
+Cluster 0, Sensor 4: Skipped sending packet 29 due to rate 0 at 2025-02-14 13:09:10.300
+Cluster 0, Sensor 5: Skipped sending packet 29 due to rate 0 at 2025-02-14 13:09:10.388
+Cluster 0 Sensor 1: Usage [1]
+Cluster 0, Sensor 7: Skipped sending packet 26 due to rate 0 at 2025-02-14 13:09:10.620
+Cluster 0, Sensor 6: Sent packet 28 of size 88.10 KB at 2025-02-14 13:09:09.739
+Cluster 0, Sensor 0: Sent packet 29 of size 88.70 KB at 2025-02-14 13:09:10.056
+Cluster 0, Sensor 2: Skipped sending packet 30 due to rate 0 at 2025-02-14 13:09:11.307
+Cluster 0, Sensor 8: Skipped sending packet 29 due to rate 0 at 2025-02-14 13:09:11.346
+Cluster 0, Sensor 9: Skipped sending packet 29 due to rate 0 at 2025-02-14 13:09:11.434
+Cluster 0, Sensor 4: Skipped sending packet 30 due to rate 0 at 2025-02-14 13:09:12.359
+Cluster 0, Sensor 5: Skipped sending packet 30 due to rate 0 at 2025-02-14 13:09:12.436
+Cluster 0, Sensor 7: Skipped sending packet 27 due to rate 0 at 2025-02-14 13:09:12.673
+Cluster 0, Sensor 2: Skipped sending packet 31 due to rate 0 at 2025-02-14 13:09:13.343
+Cluster 0, Sensor 8: Skipped sending packet 30 due to rate 0 at 2025-02-14 13:09:13.415
+Cluster 0, Sensor 9: Skipped sending packet 30 due to rate 0 at 2025-02-14 13:09:13.487
+Cluster 0 Sensor 2: Usage [1]
+Cluster 0, Sensor 1: Sent packet 30 of size 87.24 KB at 2025-02-14 13:09:11.793
+Cluster 0, Sensor 4: Skipped sending packet 31 due to rate 0 at 2025-02-14 13:09:14.413
+Cluster 0, Sensor 5: Skipped sending packet 31 due to rate 0 at 2025-02-14 13:09:14.499
+Cluster 0, Sensor 7: Skipped sending packet 28 due to rate 0 at 2025-02-14 13:09:14.732
+Cluster 0, Sensor 6: Sent packet 29 of size 88.40 KB at 2025-02-14 13:09:11.957
+Cluster 0, Sensor 8: Skipped sending packet 31 due to rate 0 at 2025-02-14 13:09:15.466
+Cluster 0, Sensor 9: Skipped sending packet 31 due to rate 0 at 2025-02-14 13:09:15.561
+Cluster 0, Sensor 4: Skipped sending packet 32 due to rate 0 at 2025-02-14 13:09:16.468
+Cluster 0, Sensor 5: Skipped sending packet 32 due to rate 0 at 2025-02-14 13:09:16.562
+Cluster 0, Sensor 7: Skipped sending packet 29 due to rate 0 at 2025-02-14 13:09:16.793
+Cluster 0, Sensor 8: Skipped sending packet 32 due to rate 0 at 2025-02-14 13:09:17.540
+Cluster 0, Sensor 9: Skipped sending packet 32 due to rate 0 at 2025-02-14 13:09:17.635
+Cluster 0, Sensor 4: Skipped sending packet 33 due to rate 0 at 2025-02-14 13:09:18.542
+Cluster 0, Sensor 5: Skipped sending packet 33 due to rate 0 at 2025-02-14 13:09:18.615
+Cluster 0, Sensor 7: Skipped sending packet 30 due to rate 0 at 2025-02-14 13:09:18.852
+Cluster 0, Sensor 8: Skipped sending packet 33 due to rate 0 at 2025-02-14 13:09:19.593
+Cluster 0, Sensor 9: Skipped sending packet 33 due to rate 0 at 2025-02-14 13:09:19.694
+Total rows: 43535Cluster 0 - New unique packets: 629, Total unique packets: 9851
+ 2025-02-14 13:09:20Cluster 0, Sensor 4: Skipped sending packet 34 due to rate 0 at 2025-02-14 13:09:20.555
+Cluster 0, Sensor 5: Skipped sending packet 34 due to rate 0 at 2025-02-14 13:09:20.627
+Cluster 0, Sensor 7: Skipped sending packet 31 due to rate 0 at 2025-02-14 13:09:20.864
+Cluster 0, Sensor 8: Skipped sending packet 34 due to rate 0 at 2025-02-14 13:09:21.606
+Cluster 0, Sensor 9: Skipped sending packet 34 due to rate 0 at 2025-02-14 13:09:21.706
+Cluster 0, Sensor 4: Skipped sending packet 35 due to rate 0 at 2025-02-14 13:09:22.557
+Cluster 0, Sensor 5: Skipped sending packet 35 due to rate 0 at 2025-02-14 13:09:22.630
+Cluster 0, Sensor 7: Skipped sending packet 32 due to rate 0 at 2025-02-14 13:09:22.866
+Cluster 0, Sensor 8: Skipped sending packet 35 due to rate 0 at 2025-02-14 13:09:23.674
+Cluster 0, Sensor 9: Skipped sending packet 35 due to rate 0 at 2025-02-14 13:09:23.780
+Cluster 0, Sensor 4: Skipped sending packet 36 due to rate 0 at 2025-02-14 13:09:24.615
+Cluster 0, Sensor 5: Skipped sending packet 36 due to rate 0 at 2025-02-14 13:09:24.673
+Cluster 0, Sensor 7: Skipped sending packet 33 due to rate 0 at 2025-02-14 13:09:24.909
+Cluster 0, Sensor 8: Skipped sending packet 36 due to rate 0 at 2025-02-14 13:09:25.722
+Cluster 0, Sensor 9: Skipped sending packet 36 due to rate 0 at 2025-02-14 13:09:25.849
+Cluster 0, Sensor 3: Sent packet 28 of size 88.87 KB at 2025-02-14 13:09:11.265
+Cluster 0, Sensor 4: Skipped sending packet 37 due to rate 0 at 2025-02-14 13:09:26.684
+Cluster 0, Sensor 5: Skipped sending packet 37 due to rate 0 at 2025-02-14 13:09:26.729
+Cluster 0, Sensor 7: Skipped sending packet 34 due to rate 0 at 2025-02-14 13:09:26.988
+Cluster 0, Sensor 0: Sent packet 30 of size 88.54 KB at 2025-02-14 13:09:12.201
+Cluster 0, Sensor 8: Skipped sending packet 37 due to rate 0 at 2025-02-14 13:09:27.781
+Cluster 0, Sensor 9: Skipped sending packet 37 due to rate 0 at 2025-02-14 13:09:27.928
+Cluster 0, Sensor 4: Skipped sending packet 38 due to rate 0 at 2025-02-14 13:09:28.757
+Cluster 0, Sensor 5: Skipped sending packet 38 due to rate 0 at 2025-02-14 13:09:28.772
+Cluster 0, Sensor 7: Skipped sending packet 35 due to rate 0 at 2025-02-14 13:09:29.040
+Cluster 0 Sensor 3: Usage [1]
+Cluster 0, Sensor 8: Skipped sending packet 38 due to rate 0 at 2025-02-14 13:09:29.861
+Cluster 0, Sensor 1: Sent packet 31 of size 87.87 KB at 2025-02-14 13:09:14.946
+Cluster 0, Sensor 9: Skipped sending packet 38 due to rate 0 at 2025-02-14 13:09:30.002
+Cluster 0, Sensor 0: Sent packet 31 of size 88.13 KB at 2025-02-14 13:09:28.295
+Cluster 0, Sensor 2: Sent packet 32 of size 88.75 KB at 2025-02-14 13:09:15.406
+Cluster 0, Sensor 5: Skipped sending packet 39 due to rate 0 at 2025-02-14 13:09:30.811
+Cluster 0, Sensor 4: Skipped sending packet 39 due to rate 0 at 2025-02-14 13:09:30.836
+Cluster 0, Sensor 6: Sent packet 30 of size 88.94 KB at 2025-02-14 13:09:16.053
+Cluster 0, Sensor 7: Skipped sending packet 36 due to rate 0 at 2025-02-14 13:09:31.104
+Cluster 0, Sensor 8: Skipped sending packet 39 due to rate 0 at 2025-02-14 13:09:31.933
+Cluster 0, Sensor 9: Skipped sending packet 39 due to rate 0 at 2025-02-14 13:09:32.071
+Cluster 0, Sensor 5: Skipped sending packet 40 due to rate 0 at 2025-02-14 13:09:32.854
+Cluster 0, Sensor 4: Skipped sending packet 40 due to rate 0 at 2025-02-14 13:09:32.920
+Cluster 0, Sensor 7: Skipped sending packet 37 due to rate 0 at 2025-02-14 13:09:33.188
+Cluster 0, Sensor 8: Skipped sending packet 40 due to rate 0 at 2025-02-14 13:09:34.001
+Cluster 0, Sensor 9: Skipped sending packet 40 due to rate 0 at 2025-02-14 13:09:34.134
+Cluster 0, Sensor 5: Skipped sending packet 41 due to rate 0 at 2025-02-14 13:09:34.896
+Cluster 0, Sensor 4: Skipped sending packet 41 due to rate 0 at 2025-02-14 13:09:34.984
+Total rows: 46672Cluster 0 - New unique packets: 590, Total unique packets: 10441
+ 2025-02-14 13:09:34Cluster 0, Sensor 7: Skipped sending packet 38 due to rate 0 at 2025-02-14 13:09:35.201
+Cluster 0, Sensor 8: Skipped sending packet 41 due to rate 0 at 2025-02-14 13:09:36.014
+Cluster 0, Sensor 9: Skipped sending packet 41 due to rate 0 at 2025-02-14 13:09:36.147
+Cluster 0, Sensor 5: Skipped sending packet 42 due to rate 0 at 2025-02-14 13:09:36.909
+Cluster 0, Sensor 4: Skipped sending packet 42 due to rate 0 at 2025-02-14 13:09:36.997
+Cluster 0, Sensor 7: Skipped sending packet 39 due to rate 0 at 2025-02-14 13:09:37.204
+Cluster 0, Sensor 8: Skipped sending packet 42 due to rate 0 at 2025-02-14 13:09:38.088
+Cluster 0, Sensor 9: Skipped sending packet 42 due to rate 0 at 2025-02-14 13:09:38.206
+Cluster 0, Sensor 5: Skipped sending packet 43 due to rate 0 at 2025-02-14 13:09:38.967
+Cluster 0, Sensor 4: Skipped sending packet 43 due to rate 0 at 2025-02-14 13:09:39.055
+Cluster 0, Sensor 7: Skipped sending packet 40 due to rate 0 at 2025-02-14 13:09:39.252
+Cluster 0, Sensor 8: Skipped sending packet 43 due to rate 0 at 2025-02-14 13:09:40.162
+Cluster 0, Sensor 9: Skipped sending packet 43 due to rate 0 at 2025-02-14 13:09:40.279
+Cluster 0, Sensor 5: Skipped sending packet 44 due to rate 0 at 2025-02-14 13:09:41.030
+Cluster 0, Sensor 4: Skipped sending packet 44 due to rate 0 at 2025-02-14 13:09:41.129
+Cluster 0, Sensor 7: Skipped sending packet 41 due to rate 0 at 2025-02-14 13:09:41.311
+Cluster 0, Sensor 8: Skipped sending packet 44 due to rate 0 at 2025-02-14 13:09:42.220
+Cluster 0, Sensor 9: Skipped sending packet 44 due to rate 0 at 2025-02-14 13:09:42.353
+Cluster 0, Sensor 5: Skipped sending packet 45 due to rate 0 at 2025-02-14 13:09:43.083
+Cluster 0, Sensor 4: Skipped sending packet 45 due to rate 0 at 2025-02-14 13:09:43.193
+Cluster 0, Sensor 7: Skipped sending packet 42 due to rate 0 at 2025-02-14 13:09:43.375
+Cluster 0, Sensor 8: Skipped sending packet 45 due to rate 0 at 2025-02-14 13:09:44.284
+Cluster 0, Sensor 9: Skipped sending packet 45 due to rate 0 at 2025-02-14 13:09:44.412
+Cluster 0, Sensor 5: Skipped sending packet 46 due to rate 0 at 2025-02-14 13:09:45.146
+Cluster 0, Sensor 4: Skipped sending packet 46 due to rate 0 at 2025-02-14 13:09:45.272
+Cluster 0, Sensor 7: Skipped sending packet 43 due to rate 0 at 2025-02-14 13:09:45.443
+Cluster 0 Sensor 4: Usage [1]
+Cluster 0, Sensor 1: Sent packet 32 of size 88.00 KB at 2025-02-14 13:09:31.029
+Cluster 0, Sensor 8: Skipped sending packet 46 due to rate 0 at 2025-02-14 13:09:46.347
+Cluster 0, Sensor 3: Sent packet 29 of size 88.16 KB at 2025-02-14 13:09:27.402
+Cluster 0, Sensor 9: Skipped sending packet 46 due to rate 0 at 2025-02-14 13:09:46.466
+Cluster 0, Sensor 6: Sent packet 31 of size 89.17 KB at 2025-02-14 13:09:32.132
+Cluster 0, Sensor 5: Skipped sending packet 47 due to rate 0 at 2025-02-14 13:09:47.209
+Cluster 0, Sensor 7: Skipped sending packet 44 due to rate 0 at 2025-02-14 13:09:47.518
+Cluster 0, Sensor 8: Skipped sending packet 47 due to rate 0 at 2025-02-14 13:09:48.417
+Cluster 0, Sensor 9: Skipped sending packet 47 due to rate 0 at 2025-02-14 13:09:48.534
+Cluster 0, Sensor 5: Skipped sending packet 48 due to rate 0 at 2025-02-14 13:09:49.277
+Cluster 0, Sensor 7: Skipped sending packet 45 due to rate 0 at 2025-02-14 13:09:49.562
+Total rows: 47673Cluster 0 - New unique packets: 154, Total unique packets: 10595
+ 2025-02-14 13:09:50Cluster 0, Sensor 8: Skipped sending packet 48 due to rate 0 at 2025-02-14 13:09:50.430
+Cluster 0, Sensor 9: Skipped sending packet 48 due to rate 0 at 2025-02-14 13:09:50.552
+Cluster 0, Sensor 5: Skipped sending packet 49 due to rate 0 at 2025-02-14 13:09:51.290
+Cluster 0, Sensor 7: Skipped sending packet 46 due to rate 0 at 2025-02-14 13:09:51.575
+Cluster 0, Sensor 8: Skipped sending packet 49 due to rate 0 at 2025-02-14 13:09:52.432
+Cluster 0, Sensor 9: Skipped sending packet 49 due to rate 0 at 2025-02-14 13:09:52.555
+Cluster 0, Sensor 5: Skipped sending packet 50 due to rate 0 at 2025-02-14 13:09:53.343
+Cluster 0, Sensor 7: Skipped sending packet 47 due to rate 0 at 2025-02-14 13:09:53.627
+Cluster 0, Sensor 8: Skipped sending packet 50 due to rate 0 at 2025-02-14 13:09:54.486
+Cluster 0, Sensor 9: Skipped sending packet 50 due to rate 0 at 2025-02-14 13:09:54.598
+Cluster 0, Sensor 5: Skipped sending packet 51 due to rate 0 at 2025-02-14 13:09:55.411
+Cluster 0, Sensor 7: Skipped sending packet 48 due to rate 0 at 2025-02-14 13:09:55.685
+Cluster 0, Sensor 8: Skipped sending packet 51 due to rate 0 at 2025-02-14 13:09:56.549
+Cluster 0, Sensor 9: Skipped sending packet 51 due to rate 0 at 2025-02-14 13:09:56.677
+Cluster 0, Sensor 5: Skipped sending packet 52 due to rate 0 at 2025-02-14 13:09:57.469
+Cluster 0, Sensor 7: Skipped sending packet 49 due to rate 0 at 2025-02-14 13:09:57.754
+Cluster 0, Sensor 8: Skipped sending packet 52 due to rate 0 at 2025-02-14 13:09:58.598
+Cluster 0, Sensor 9: Skipped sending packet 52 due to rate 0 at 2025-02-14 13:09:58.756
+Cluster 0, Sensor 5: Skipped sending packet 53 due to rate 0 at 2025-02-14 13:09:59.522
+Cluster 0, Sensor 7: Skipped sending packet 50 due to rate 0 at 2025-02-14 13:09:59.828
+Cluster 0, Sensor 8: Skipped sending packet 53 due to rate 0 at 2025-02-14 13:10:00.671
+Cluster 0, Sensor 9: Skipped sending packet 53 due to rate 0 at 2025-02-14 13:10:00.830
+Cluster 0, Sensor 0: Sent packet 32 of size 88.80 KB at 2025-02-14 13:09:31.397
+Cluster 0, Sensor 5: Skipped sending packet 54 due to rate 0 at 2025-02-14 13:10:01.591
+Cluster 0, Sensor 7: Skipped sending packet 51 due to rate 0 at 2025-02-14 13:10:01.882
+Cluster 0 Sensor 5: Usage [1]
+Cluster 0, Sensor 1: Sent packet 33 of size 87.95 KB at 2025-02-14 13:09:47.124
+Cluster 0, Sensor 2: Sent packet 33 of size 88.85 KB at 2025-02-14 13:09:31.501
+Cluster 0, Sensor 8: Skipped sending packet 54 due to rate 0 at 2025-02-14 13:10:02.740
+Cluster 0, Sensor 9: Skipped sending packet 54 due to rate 0 at 2025-02-14 13:10:02.888
+Cluster 0, Sensor 6: Sent packet 32 of size 86.72 KB at 2025-02-14 13:09:48.277
+Cluster 0, Sensor 7: Skipped sending packet 52 due to rate 0 at 2025-02-14 13:10:03.940
+Cluster 0, Sensor 6: Energy below threshold (19.80000000000004). Recharging...
+Cluster 0, Sensor 8: Skipped sending packet 55 due to rate 0 at 2025-02-14 13:10:04.804
+Cluster 0, Sensor 9: Skipped sending packet 55 due to rate 0 at 2025-02-14 13:10:04.962
+Total rows: 48674Cluster 0 - New unique packets: 28, Total unique packets: 10623
+ 2025-02-14 13:10:05Cluster 0, Sensor 7: Skipped sending packet 53 due to rate 0 at 2025-02-14 13:10:05.953
+Cluster 0, Sensor 8: Skipped sending packet 56 due to rate 0 at 2025-02-14 13:10:06.816
+Cluster 0, Sensor 9: Skipped sending packet 56 due to rate 0 at 2025-02-14 13:10:06.975
+Cluster 0, Sensor 6: Recharged to full energy (100),Current time: 1739563804.3514335,chargecount1. Resuming operations.
+Cluster 0, Sensor 7: Skipped sending packet 54 due to rate 0 at 2025-02-14 13:10:07.956
+Cluster 0, Sensor 8: Skipped sending packet 57 due to rate 0 at 2025-02-14 13:10:08.869
+Cluster 0, Sensor 9: Skipped sending packet 57 due to rate 0 at 2025-02-14 13:10:09.054
+Cluster 0, Sensor 7: Skipped sending packet 55 due to rate 0 at 2025-02-14 13:10:10.004
+Cluster 0, Sensor 8: Skipped sending packet 58 due to rate 0 at 2025-02-14 13:10:10.938
+Cluster 0, Sensor 9: Skipped sending packet 58 due to rate 0 at 2025-02-14 13:10:11.138
+Cluster 0, Sensor 7: Skipped sending packet 56 due to rate 0 at 2025-02-14 13:10:12.068
+Cluster 0, Sensor 8: Skipped sending packet 59 due to rate 0 at 2025-02-14 13:10:13.011
+Cluster 0, Sensor 9: Skipped sending packet 59 due to rate 0 at 2025-02-14 13:10:13.212
+Cluster 0, Sensor 7: Skipped sending packet 57 due to rate 0 at 2025-02-14 13:10:14.122
+Cluster 0, Sensor 8: Skipped sending packet 60 due to rate 0 at 2025-02-14 13:10:15.075
+Cluster 0, Sensor 9: Skipped sending packet 60 due to rate 0 at 2025-02-14 13:10:15.286
+Cluster 0, Sensor 7: Skipped sending packet 58 due to rate 0 at 2025-02-14 13:10:16.191
+Cluster 0, Sensor 8: Skipped sending packet 61 due to rate 0 at 2025-02-14 13:10:17.149
+Cluster 0, Sensor 4: Sent packet 47 of size 90.28 KB at 2025-02-14 13:09:47.341
+Cluster 0, Sensor 9: Skipped sending packet 61 due to rate 0 at 2025-02-14 13:10:17.370
+Cluster 0, Sensor 3: Sent packet 30 of size 89.00 KB at 2025-02-14 13:09:47.524
+Cluster 0 Sensor 6: Usage [0]
+Cluster 0, Sensor 1: Sent packet 34 of size 88.49 KB at 2025-02-14 13:10:03.199
+Cluster 0, Sensor 7: Skipped sending packet 59 due to rate 0 at 2025-02-14 13:10:18.254
+Cluster 0, Sensor 2: Sent packet 34 of size 87.83 KB at 2025-02-14 13:10:03.608
+Cluster 0, Sensor 5: Sent packet 55 of size 87.95 KB at 2025-02-14 13:10:03.681
+Cluster 0, Sensor 8: Skipped sending packet 62 due to rate 0 at 2025-02-14 13:10:19.202
+Cluster 0, Sensor 9: Skipped sending packet 62 due to rate 0 at 2025-02-14 13:10:19.459
+Cluster 0, Sensor 7: Skipped sending packet 60 due to rate 0 at 2025-02-14 13:10:20.323
+Cluster 0, Sensor 8: Skipped sending packet 63 due to rate 0 at 2025-02-14 13:10:21.271
+Cluster 0, Sensor 9: Skipped sending packet 63 due to rate 0 at 2025-02-14 13:10:21.536
+Total rows: 49675Cluster 0 - New unique packets: 54, Total unique packets: 10677
+ 2025-02-14 13:10:21Cluster 0, Sensor 7: Skipped sending packet 61 due to rate 0 at 2025-02-14 13:10:22.337
+Cluster 0, Sensor 6: Sent packet 33 of size 86.80 KB at 2025-02-14 13:10:07.365
+Cluster 0, Sensor 8: Skipped sending packet 64 due to rate 0 at 2025-02-14 13:10:23.284
+Cluster 0, Sensor 6: Skipped sending packet 34 due to rate 0 at 2025-02-14 13:10:23.383
+Cluster 0, Sensor 9: Skipped sending packet 64 due to rate 0 at 2025-02-14 13:10:23.549
+Cluster 0, Sensor 7: Skipped sending packet 62 due to rate 0 at 2025-02-14 13:10:24.339
+Cluster 0, Sensor 8: Skipped sending packet 65 due to rate 0 at 2025-02-14 13:10:25.342
+Cluster 0, Sensor 6: Skipped sending packet 35 due to rate 0 at 2025-02-14 13:10:25.442
+Cluster 0, Sensor 9: Skipped sending packet 65 due to rate 0 at 2025-02-14 13:10:25.613
+Cluster 0, Sensor 7: Skipped sending packet 63 due to rate 0 at 2025-02-14 13:10:26.382
+Cluster 0, Sensor 8: Skipped sending packet 66 due to rate 0 at 2025-02-14 13:10:27.416
+Cluster 0, Sensor 6: Skipped sending packet 36 due to rate 0 at 2025-02-14 13:10:27.516
+Cluster 0, Sensor 9: Skipped sending packet 66 due to rate 0 at 2025-02-14 13:10:27.676
+Cluster 0, Sensor 7: Skipped sending packet 64 due to rate 0 at 2025-02-14 13:10:28.446
+Cluster 0, Sensor 8: Skipped sending packet 67 due to rate 0 at 2025-02-14 13:10:29.495
+Cluster 0, Sensor 6: Skipped sending packet 37 due to rate 0 at 2025-02-14 13:10:29.579
+Cluster 0, Sensor 9: Skipped sending packet 67 due to rate 0 at 2025-02-14 13:10:29.740
+Cluster 0, Sensor 7: Skipped sending packet 65 due to rate 0 at 2025-02-14 13:10:30.504
+Cluster 0, Sensor 8: Skipped sending packet 68 due to rate 0 at 2025-02-14 13:10:31.548
+Cluster 0, Sensor 6: Skipped sending packet 38 due to rate 0 at 2025-02-14 13:10:31.647
+Cluster 0, Sensor 9: Skipped sending packet 68 due to rate 0 at 2025-02-14 13:10:31.809
+Cluster 0, Sensor 0: Sent packet 33 of size 88.84 KB at 2025-02-14 13:10:02.494
+Cluster 0, Sensor 7: Skipped sending packet 66 due to rate 0 at 2025-02-14 13:10:32.560
+Cluster 0, Sensor 4: Sent packet 48 of size 91.11 KB at 2025-02-14 13:10:18.448
+Cluster 0, Sensor 3: Sent packet 31 of size 89.03 KB at 2025-02-14 13:10:18.621
+Cluster 0, Sensor 8: Skipped sending packet 69 due to rate 0 at 2025-02-14 13:10:33.664
+Cluster 0, Sensor 6: Skipped sending packet 39 due to rate 0 at 2025-02-14 13:10:33.715
+Cluster 0, Sensor 9: Skipped sending packet 69 due to rate 0 at 2025-02-14 13:10:33.883
+Cluster 0, Sensor 7: Skipped sending packet 67 due to rate 0 at 2025-02-14 13:10:34.612
+Cluster 0, Sensor 2: Sent packet 35 of size 87.20 KB at 2025-02-14 13:10:19.721
+Cluster 0, Sensor 5: Sent packet 56 of size 87.99 KB at 2025-02-14 13:10:19.786
+Cluster 0 Sensor 7: Usage [1]
+Cluster 0, Sensor 1: Sent packet 35 of size 89.03 KB at 2025-02-14 13:10:19.291
+Cluster 0, Sensor 8: Skipped sending packet 70 due to rate 0 at 2025-02-14 13:10:35.733
+Cluster 0, Sensor 6: Skipped sending packet 40 due to rate 0 at 2025-02-14 13:10:35.789
+Cluster 0, Sensor 9: Skipped sending packet 70 due to rate 0 at 2025-02-14 13:10:35.953
+Cluster 0, Sensor 4: Sent packet 49 of size 91.05 KB at 2025-02-14 13:10:34.544
+Total rows: 49675Cluster 0 - New unique packets: 0, Total unique packets: 10677
+ 2025-02-14 13:10:37Cluster 0, Sensor 0: Sent packet 34 of size 88.86 KB at 2025-02-14 13:10:33.607
+Cluster 0, Sensor 8: Skipped sending packet 71 due to rate 0 at 2025-02-14 13:10:37.776
+Cluster 0, Sensor 6: Skipped sending packet 41 due to rate 0 at 2025-02-14 13:10:37.802
+Cluster 0, Sensor 9: Skipped sending packet 71 due to rate 0 at 2025-02-14 13:10:37.966
+Cluster 0, Sensor 7: Sent packet 68 of size 90.96 KB at 2025-02-14 13:10:36.669
+Cluster 0, Sensor 3: Sent packet 32 of size 87.62 KB at 2025-02-14 13:10:34.712
+Cluster 0, Sensor 8: Skipped sending packet 72 due to rate 0 at 2025-02-14 13:10:39.779
+Cluster 0, Sensor 6: Skipped sending packet 42 due to rate 0 at 2025-02-14 13:10:39.805
+Cluster 0, Sensor 9: Skipped sending packet 72 due to rate 0 at 2025-02-14 13:10:39.968
+Cluster 0, Sensor 3: Energy below threshold (16.100000000000037). Recharging...
+Cluster 0, Sensor 2: Sent packet 36 of size 87.57 KB at 2025-02-14 13:10:35.820
+Cluster 0, Sensor 1: Sent packet 36 of size 88.78 KB at 2025-02-14 13:10:36.399
+Cluster 0, Sensor 6: Skipped sending packet 43 due to rate 0 at 2025-02-14 13:10:41.853
+Cluster 0, Sensor 8: Skipped sending packet 73 due to rate 0 at 2025-02-14 13:10:41.870
+Cluster 0, Sensor 9: Skipped sending packet 73 due to rate 0 at 2025-02-14 13:10:42.012
+Cluster 0, Sensor 4: Sent packet 50 of size 90.26 KB at 2025-02-14 13:10:37.579
+Cluster 0 Sensor 8: Usage [0]
+Cluster 0, Sensor 0: Sent packet 35 of size 90.42 KB at 2025-02-14 13:10:38.630
+Cluster 0, Sensor 3: Recharged to full energy (100),Current time: 1739563840.7561831,chargecount1. Resuming operations.
+Cluster 0, Sensor 6: Skipped sending packet 44 due to rate 0 at 2025-02-14 13:10:43.896
+Cluster 0, Sensor 8: Skipped sending packet 74 due to rate 0 at 2025-02-14 13:10:43.932
+Cluster 0, Sensor 9: Skipped sending packet 74 due to rate 0 at 2025-02-14 13:10:44.081
+Cluster 0, Sensor 6: Skipped sending packet 45 due to rate 0 at 2025-02-14 13:10:45.949
+Cluster 0, Sensor 8: Skipped sending packet 75 due to rate 0 at 2025-02-14 13:10:46.000
+Cluster 0, Sensor 9: Skipped sending packet 75 due to rate 0 at 2025-02-14 13:10:46.139
+Cluster 0, Sensor 6: Skipped sending packet 46 due to rate 0 at 2025-02-14 13:10:48.007
+Cluster 0, Sensor 8: Skipped sending packet 76 due to rate 0 at 2025-02-14 13:10:48.068
+Cluster 0, Sensor 9: Skipped sending packet 76 due to rate 0 at 2025-02-14 13:10:48.213
+Cluster 0, Sensor 6: Skipped sending packet 47 due to rate 0 at 2025-02-14 13:10:50.075
+Cluster 0, Sensor 8: Skipped sending packet 77 due to rate 0 at 2025-02-14 13:10:50.121
+Cluster 0, Sensor 9: Skipped sending packet 77 due to rate 0 at 2025-02-14 13:10:50.271
+Cluster 0, Sensor 5: Sent packet 57 of size 88.08 KB at 2025-02-14 13:10:35.896
+Cluster 0, Sensor 6: Skipped sending packet 48 due to rate 0 at 2025-02-14 13:10:52.143
+Cluster 0, Sensor 8: Skipped sending packet 78 due to rate 0 at 2025-02-14 13:10:52.200
+Cluster 0, Sensor 9: Skipped sending packet 78 due to rate 0 at 2025-02-14 13:10:52.330
+Cluster 0, Sensor 6: Skipped sending packet 49 due to rate 0 at 2025-02-14 13:10:54.217
+Cluster 0, Sensor 8: Skipped sending packet 79 due to rate 0 at 2025-02-14 13:10:54.258
+Cluster 0, Sensor 9: Skipped sending packet 79 due to rate 0 at 2025-02-14 13:10:54.404
+Total rows: 55260Cluster 0 - New unique packets: 1013, Total unique packets: 11690
+ 2025-02-14 13:10:56Cluster 0, Sensor 6: Skipped sending packet 50 due to rate 0 at 2025-02-14 13:10:56.240
+Cluster 0, Sensor 8: Skipped sending packet 80 due to rate 0 at 2025-02-14 13:10:56.271
+Cluster 0, Sensor 9: Skipped sending packet 80 due to rate 0 at 2025-02-14 13:10:56.416
+Cluster 0, Sensor 2: Sent packet 37 of size 87.90 KB at 2025-02-14 13:10:41.932
+Cluster 0, Sensor 1: Sent packet 37 of size 85.86 KB at 2025-02-14 13:10:42.505
+Cluster 0, Sensor 6: Skipped sending packet 51 due to rate 0 at 2025-02-14 13:10:58.243
+Cluster 0, Sensor 8: Skipped sending packet 81 due to rate 0 at 2025-02-14 13:10:58.273
+Cluster 0, Sensor 9: Skipped sending packet 81 due to rate 0 at 2025-02-14 13:10:58.419
+Cluster 0, Sensor 4: Sent packet 51 of size 90.64 KB at 2025-02-14 13:10:43.681
+Cluster 0, Sensor 7: Sent packet 69 of size 88.92 KB at 2025-02-14 13:10:39.695
+Cluster 0 Sensor 9: Usage [1]
+Cluster 0, Sensor 0: Sent packet 36 of size 90.17 KB at 2025-02-14 13:10:44.728
+Cluster 0, Sensor 3: Sent packet 33 of size 87.68 KB at 2025-02-14 13:10:43.815
+Cluster 0, Sensor 2: Sent packet 38 of size 87.12 KB at 2025-02-14 13:10:57.951
+Cluster 0, Sensor 6: Skipped sending packet 52 due to rate 0 at 2025-02-14 13:11:00.296
+Cluster 0, Sensor 8: Skipped sending packet 82 due to rate 0 at 2025-02-14 13:11:00.317
+Cluster 0, Sensor 5: Sent packet 58 of size 88.59 KB at 2025-02-14 13:10:51.970
+
+Determining sensor usage:   0%|          | 0/1 [00:00<?, ?step/s]
+Determining sensor usage: 100%|██████████| 1/1 [00:00<00:00, 31.90step/s]
+Cluster 0 Sensor 0: Usage [0]
+Cluster 0, Sensor 6: Skipped sending packet 53 due to rate 0 at 2025-02-14 13:11:02.368
+Cluster 0, Sensor 8: Skipped sending packet 83 due to rate 0 at 2025-02-14 13:11:02.383
+Cluster 0, Sensor 9: Sent packet 82 of size 88.52 KB at 2025-02-14 13:11:00.488
+Cluster 0, Sensor 1: Sent packet 38 of size 86.84 KB at 2025-02-14 13:10:58.524
+Cluster 0, Sensor 6: Skipped sending packet 54 due to rate 0 at 2025-02-14 13:11:04.426
+Cluster 0, Sensor 8: Skipped sending packet 84 due to rate 0 at 2025-02-14 13:11:04.457
+Cluster 0, Sensor 6: Skipped sending packet 55 due to rate 0 at 2025-02-14 13:11:06.506
+Cluster 0, Sensor 8: Skipped sending packet 85 due to rate 0 at 2025-02-14 13:11:06.526
+Cluster 0, Sensor 6: Skipped sending packet 56 due to rate 0 at 2025-02-14 13:11:08.575
+Cluster 0, Sensor 8: Skipped sending packet 86 due to rate 0 at 2025-02-14 13:11:08.616
+Cluster 0, Sensor 6: Skipped sending packet 57 due to rate 0 at 2025-02-14 13:11:10.644
+Cluster 0, Sensor 8: Skipped sending packet 87 due to rate 0 at 2025-02-14 13:11:10.685
+Cluster 0, Sensor 6: Skipped sending packet 58 due to rate 0 at 2025-02-14 13:11:12.707
+Cluster 0, Sensor 8: Skipped sending packet 88 due to rate 0 at 2025-02-14 13:11:12.754
+Cluster 0, Sensor 6: Skipped sending packet 59 due to rate 0 at 2025-02-14 13:11:14.771
+Cluster 0, Sensor 7: Sent packet 70 of size 88.04 KB at 2025-02-14 13:10:59.783
+Cluster 0, Sensor 8: Skipped sending packet 89 due to rate 0 at 2025-02-14 13:11:14.818
+Cluster 0, Sensor 0: Sent packet 37 of size 88.25 KB at 2025-02-14 13:11:00.799
+Cluster 0, Sensor 3: Sent packet 34 of size 87.65 KB at 2025-02-14 13:11:00.924
+Cluster 0, Sensor 2: Sent packet 39 of size 87.46 KB at 2025-02-14 13:11:01.040
+Cluster 0, Sensor 6: Skipped sending packet 60 due to rate 0 at 2025-02-14 13:11:16.835
+Cluster 0, Sensor 8: Skipped sending packet 90 due to rate 0 at 2025-02-14 13:11:16.897
+Cluster 0, Sensor 0: Skipped sending packet 38 due to rate 0 at 2025-02-14 13:11:16.902
+Cluster 0, Sensor 5: Sent packet 59 of size 89.02 KB at 2025-02-14 13:11:02.072
+Total rows: 60265Cluster 0 - New unique packets: 985, Total unique packets: 12675
+ 2025-02-14 13:11:17Cluster 0, Sensor 4: Sent packet 52 of size 91.46 KB at 2025-02-14 13:10:59.762
+Cluster 0 Sensor 1: Usage [0]
+Cluster 0, Sensor 9: Sent packet 83 of size 87.20 KB at 2025-02-14 13:11:03.618
+Cluster 0, Sensor 6: Skipped sending packet 61 due to rate 0 at 2025-02-14 13:11:18.843
+Cluster 0, Sensor 8: Skipped sending packet 91 due to rate 0 at 2025-02-14 13:11:18.899
+Cluster 0, Sensor 7: Sent packet 71 of size 88.13 KB at 2025-02-14 13:11:15.878
+Cluster 0, Sensor 0: Skipped sending packet 39 due to rate 0 at 2025-02-14 13:11:18.915
+Cluster 0, Sensor 1: Sent packet 39 of size 86.96 KB at 2025-02-14 13:11:04.620
+Cluster 0, Sensor 3: Sent packet 35 of size 88.17 KB at 2025-02-14 13:11:17.014
+Cluster 0, Sensor 1: Skipped sending packet 40 due to rate 0 at 2025-02-14 13:11:20.700
+Cluster 0, Sensor 6: Skipped sending packet 62 due to rate 0 at 2025-02-14 13:11:20.906
+Cluster 0, Sensor 8: Skipped sending packet 92 due to rate 0 at 2025-02-14 13:11:20.943
+Cluster 0, Sensor 0: Skipped sending packet 40 due to rate 0 at 2025-02-14 13:11:21.004
+Cluster 0, Sensor 5: Sent packet 60 of size 89.13 KB at 2025-02-14 13:11:18.106
+Cluster 0, Sensor 2: Sent packet 40 of size 87.55 KB at 2025-02-14 13:11:17.151
+Cluster 0, Sensor 1: Skipped sending packet 41 due to rate 0 at 2025-02-14 13:11:22.764
+Cluster 0, Sensor 6: Skipped sending packet 63 due to rate 0 at 2025-02-14 13:11:22.970
+Cluster 0, Sensor 8: Skipped sending packet 93 due to rate 0 at 2025-02-14 13:11:23.032
+Cluster 0, Sensor 0: Skipped sending packet 41 due to rate 0 at 2025-02-14 13:11:23.083
+Cluster 0, Sensor 1: Skipped sending packet 42 due to rate 0 at 2025-02-14 13:11:24.828
+Cluster 0, Sensor 6: Skipped sending packet 64 due to rate 0 at 2025-02-14 13:11:25.044
+Cluster 0, Sensor 8: Skipped sending packet 94 due to rate 0 at 2025-02-14 13:11:25.096
+Cluster 0, Sensor 0: Skipped sending packet 42 due to rate 0 at 2025-02-14 13:11:25.147
+Cluster 0, Sensor 1: Skipped sending packet 43 due to rate 0 at 2025-02-14 13:11:26.901
+Cluster 0, Sensor 6: Skipped sending packet 65 due to rate 0 at 2025-02-14 13:11:27.108
+Cluster 0, Sensor 8: Skipped sending packet 95 due to rate 0 at 2025-02-14 13:11:27.205
+Cluster 0, Sensor 0: Skipped sending packet 43 due to rate 0 at 2025-02-14 13:11:27.241
+Cluster 0, Sensor 1: Skipped sending packet 44 due to rate 0 at 2025-02-14 13:11:28.960
+Cluster 0, Sensor 6: Skipped sending packet 66 due to rate 0 at 2025-02-14 13:11:29.177
+Cluster 0, Sensor 8: Skipped sending packet 96 due to rate 0 at 2025-02-14 13:11:29.264
+Cluster 0, Sensor 0: Skipped sending packet 44 due to rate 0 at 2025-02-14 13:11:29.305
+Cluster 0, Sensor 1: Skipped sending packet 45 due to rate 0 at 2025-02-14 13:11:31.044
+Cluster 0, Sensor 6: Skipped sending packet 67 due to rate 0 at 2025-02-14 13:11:31.246
+Cluster 0, Sensor 8: Skipped sending packet 97 due to rate 0 at 2025-02-14 13:11:31.328
+Cluster 0, Sensor 0: Skipped sending packet 45 due to rate 0 at 2025-02-14 13:11:31.374
+Cluster 0, Sensor 1: Skipped sending packet 46 due to rate 0 at 2025-02-14 13:11:33.108
+Cluster 0, Sensor 6: Skipped sending packet 68 due to rate 0 at 2025-02-14 13:11:33.320
+Cluster 0, Sensor 8: Skipped sending packet 98 due to rate 0 at 2025-02-14 13:11:33.392
+Cluster 0, Sensor 0: Skipped sending packet 46 due to rate 0 at 2025-02-14 13:11:33.433
+Cluster 0, Sensor 4: Sent packet 53 of size 89.95 KB at 2025-02-14 13:11:18.783
+Cluster 0, Sensor 7: Sent packet 72 of size 88.04 KB at 2025-02-14 13:11:19.906
+Cluster 0, Sensor 1: Skipped sending packet 47 due to rate 0 at 2025-02-14 13:11:35.187
+Cluster 0, Sensor 6: Skipped sending packet 69 due to rate 0 at 2025-02-14 13:11:35.389
+Cluster 0, Sensor 8: Skipped sending packet 99 due to rate 0 at 2025-02-14 13:11:35.455
+Cluster 0, Sensor 8: Finished sending messages
+Cluster 0, Sensor 0: Skipped sending packet 47 due to rate 0 at 2025-02-14 13:11:35.522
+Cluster 0, Sensor 3: Sent packet 36 of size 87.96 KB at 2025-02-14 13:11:21.110
+Cluster 0, Sensor 4: Sent packet 54 of size 88.12 KB at 2025-02-14 13:11:34.878
+Cluster 0, Sensor 1: Skipped sending packet 48 due to rate 0 at 2025-02-14 13:11:37.271
+Cluster 0 Sensor 2: Usage [0]
+Cluster 0, Sensor 6: Skipped sending packet 70 due to rate 0 at 2025-02-14 13:11:37.458
+Cluster 0, Sensor 0: Skipped sending packet 48 due to rate 0 at 2025-02-14 13:11:37.596
+Cluster 0, Sensor 9: Sent packet 84 of size 87.98 KB at 2025-02-14 13:11:19.637
+Cluster 0, Sensor 7: Sent packet 73 of size 88.72 KB at 2025-02-14 13:11:35.992
+Cluster 0, Sensor 5: Sent packet 61 of size 87.47 KB at 2025-02-14 13:11:22.206
+Cluster 0, Sensor 9: Energy below threshold (19.000000000000185). Recharging...
+Cluster 0, Sensor 3: Sent packet 37 of size 88.94 KB at 2025-02-14 13:11:37.225
+Cluster 0, Sensor 2: Sent packet 41 of size 87.78 KB at 2025-02-14 13:11:23.258
+Cluster 0, Sensor 1: Skipped sending packet 49 due to rate 0 at 2025-02-14 13:11:39.373
+Cluster 0, Sensor 6: Skipped sending packet 71 due to rate 0 at 2025-02-14 13:11:39.527
+Cluster 0, Sensor 0: Skipped sending packet 49 due to rate 0 at 2025-02-14 13:11:39.675
+Cluster 0, Sensor 5: Sent packet 62 of size 87.70 KB at 2025-02-14 13:11:39.332
+Cluster 0, Sensor 2: Skipped sending packet 42 due to rate 0 at 2025-02-14 13:11:40.405
+Cluster 0, Sensor 1: Skipped sending packet 50 due to rate 0 at 2025-02-14 13:11:41.437
+Cluster 0 Sensor 3: Usage [0]
+Cluster 0, Sensor 6: Skipped sending packet 72 due to rate 0 at 2025-02-14 13:11:41.587
+Total rows: 66271Cluster 0 - New unique packets: 623, Total unique packets: 13298
+ 2025-02-14 13:11:41Cluster 0, Sensor 0: Skipped sending packet 50 due to rate 0 at 2025-02-14 13:11:41.688
+Cluster 0, Sensor 9: Recharged to full energy (100),Current time: 1739563898.7082388,chargecount1. Resuming operations.
+Cluster 0, Sensor 4: Sent packet 55 of size 89.17 KB at 2025-02-14 13:11:37.985
+Cluster 0, Sensor 7: Sent packet 74 of size 88.92 KB at 2025-02-14 13:11:39.070
+Cluster 0, Sensor 3: Sent packet 38 of size 89.12 KB at 2025-02-14 13:11:40.328
+Cluster 0, Sensor 2: Skipped sending packet 43 due to rate 0 at 2025-02-14 13:11:42.417
+Cluster 0, Sensor 3: Skipped sending packet 39 due to rate 0 at 2025-02-14 13:11:43.353
+Cluster 0, Sensor 1: Skipped sending packet 51 due to rate 0 at 2025-02-14 13:11:43.454
+Cluster 0, Sensor 5: Sent packet 63 of size 88.09 KB at 2025-02-14 13:11:41.442
+Cluster 0, Sensor 6: Skipped sending packet 73 due to rate 0 at 2025-02-14 13:11:43.594
+Cluster 0, Sensor 0: Skipped sending packet 51 due to rate 0 at 2025-02-14 13:11:43.690
+Cluster 0, Sensor 9: Sent packet 85 of size 88.09 KB at 2025-02-14 13:11:41.721
+Cluster 0, Sensor 2: Skipped sending packet 44 due to rate 0 at 2025-02-14 13:11:44.420
+Cluster 0, Sensor 5: Energy below threshold (17.900000000000134). Recharging...
+Cluster 0 Sensor 4: Usage [0]
+Cluster 0, Sensor 4: Sent packet 56 of size 88.97 KB at 2025-02-14 13:11:43.005
+Cluster 0, Sensor 7: Sent packet 75 of size 89.44 KB at 2025-02-14 13:11:43.099
+Cluster 0, Sensor 3: Skipped sending packet 40 due to rate 0 at 2025-02-14 13:11:45.411
+Cluster 0, Sensor 1: Skipped sending packet 52 due to rate 0 at 2025-02-14 13:11:45.528
+Cluster 0, Sensor 6: Skipped sending packet 74 due to rate 0 at 2025-02-14 13:11:45.653
+Cluster 0, Sensor 0: Skipped sending packet 52 due to rate 0 at 2025-02-14 13:11:45.749
+Cluster 0, Sensor 4: Skipped sending packet 57 due to rate 0 at 2025-02-14 13:11:46.106
+Cluster 0, Sensor 2: Skipped sending packet 45 due to rate 0 at 2025-02-14 13:11:46.483
+Cluster 0 Sensor 5: Usage [0]
+Cluster 0, Sensor 9: Sent packet 86 of size 87.81 KB at 2025-02-14 13:11:44.829
+Cluster 0, Sensor 7: Sent packet 76 of size 92.30 KB at 2025-02-14 13:11:46.192
+Cluster 0, Sensor 5: Recharged to full energy (100),Current time: 1739563904.468672,chargecount1. Resuming operations.
+Cluster 0, Sensor 3: Skipped sending packet 41 due to rate 0 at 2025-02-14 13:11:47.486
+Cluster 0, Sensor 5: Skipped sending packet 64 due to rate 0 at 2025-02-14 13:11:47.522
+Cluster 0, Sensor 1: Skipped sending packet 53 due to rate 0 at 2025-02-14 13:11:47.602
+Cluster 0, Sensor 6: Skipped sending packet 75 due to rate 0 at 2025-02-14 13:11:47.717
+Cluster 0, Sensor 0: Skipped sending packet 53 due to rate 0 at 2025-02-14 13:11:47.817
+Cluster 0, Sensor 4: Energy below threshold (19.700000000000113). Recharging...
+Cluster 0, Sensor 2: Skipped sending packet 46 due to rate 0 at 2025-02-14 13:11:48.567
+Cluster 0 Sensor 6: Usage [0]
+Cluster 0, Sensor 9: Sent packet 87 of size 88.56 KB at 2025-02-14 13:11:47.910
+Cluster 0, Sensor 7: Sent packet 77 of size 94.25 KB at 2025-02-14 13:11:48.285
+Cluster 0, Sensor 3: Skipped sending packet 42 due to rate 0 at 2025-02-14 13:11:49.549
+Cluster 0, Sensor 5: Skipped sending packet 65 due to rate 0 at 2025-02-14 13:11:49.601
+Cluster 0, Sensor 1: Skipped sending packet 54 due to rate 0 at 2025-02-14 13:11:49.686
+Cluster 0, Sensor 6: Skipped sending packet 76 due to rate 0 at 2025-02-14 13:11:49.796
+Cluster 0, Sensor 0: Skipped sending packet 54 due to rate 0 at 2025-02-14 13:11:49.891
+Cluster 0, Sensor 2: Skipped sending packet 47 due to rate 0 at 2025-02-14 13:11:50.646
+Cluster 0 Sensor 7: Usage [0]
+Cluster 0, Sensor 9: Sent packet 88 of size 88.91 KB at 2025-02-14 13:11:50.002
+Cluster 0, Sensor 4: Recharged to full energy (100),Current time: 1739563908.1496193,chargecount1. Resuming operations.
+Cluster 0, Sensor 4: Skipped sending packet 58 due to rate 0 at 2025-02-14 13:11:51.204
+Cluster 0, Sensor 7: Sent packet 78 of size 93.42 KB at 2025-02-14 13:11:50.384
+Cluster 0, Sensor 3: Skipped sending packet 43 due to rate 0 at 2025-02-14 13:11:51.634
+Cluster 0, Sensor 5: Skipped sending packet 66 due to rate 0 at 2025-02-14 13:11:51.680
+Cluster 0, Sensor 1: Skipped sending packet 55 due to rate 0 at 2025-02-14 13:11:51.765
+Cluster 0, Sensor 6: Skipped sending packet 77 due to rate 0 at 2025-02-14 13:11:51.865
+Cluster 0, Sensor 0: Skipped sending packet 55 due to rate 0 at 2025-02-14 13:11:51.960
+Cluster 0, Sensor 7: Skipped sending packet 79 due to rate 0 at 2025-02-14 13:11:52.492
+Cluster 0, Sensor 2: Skipped sending packet 48 due to rate 0 at 2025-02-14 13:11:52.715
+Cluster 0 Sensor 8: Usage [0]
+Cluster 0, Sensor 9: Sent packet 89 of size 89.23 KB at 2025-02-14 13:11:52.097
+Cluster 0, Sensor 4: Skipped sending packet 59 due to rate 0 at 2025-02-14 13:11:53.257
+Cluster 0, Sensor 3: Skipped sending packet 44 due to rate 0 at 2025-02-14 13:11:53.708
+Cluster 0, Sensor 5: Skipped sending packet 67 due to rate 0 at 2025-02-14 13:11:53.764
+Cluster 0, Sensor 1: Skipped sending packet 56 due to rate 0 at 2025-02-14 13:11:53.839
+Cluster 0, Sensor 6: Skipped sending packet 78 due to rate 0 at 2025-02-14 13:11:53.928
+Cluster 0, Sensor 0: Skipped sending packet 56 due to rate 0 at 2025-02-14 13:11:54.028
+Cluster 0, Sensor 7: Skipped sending packet 80 due to rate 0 at 2025-02-14 13:11:54.556
+Cluster 0, Sensor 2: Skipped sending packet 49 due to rate 0 at 2025-02-14 13:11:54.789
+Cluster 0 Sensor 9: Usage [0]
+Cluster 0, Sensor 9: Sent packet 90 of size 91.90 KB at 2025-02-14 13:11:54.203
+Cluster 0, Sensor 4: Skipped sending packet 60 due to rate 0 at 2025-02-14 13:11:55.331
+Cluster 0, Sensor 3: Skipped sending packet 45 due to rate 0 at 2025-02-14 13:11:55.781
+Cluster 0, Sensor 5: Skipped sending packet 68 due to rate 0 at 2025-02-14 13:11:55.833
+Cluster 0, Sensor 1: Skipped sending packet 57 due to rate 0 at 2025-02-14 13:11:55.913
+Cluster 0, Sensor 6: Skipped sending packet 79 due to rate 0 at 2025-02-14 13:11:56.002
+Cluster 0, Sensor 0: Skipped sending packet 57 due to rate 0 at 2025-02-14 13:11:56.102
+Cluster 0, Sensor 9: Skipped sending packet 91 due to rate 0 at 2025-02-14 13:11:56.316
+Cluster 0, Sensor 7: Skipped sending packet 81 due to rate 0 at 2025-02-14 13:11:56.635
+Cluster 0, Sensor 2: Skipped sending packet 50 due to rate 0 at 2025-02-14 13:11:56.847
+
+Determining sensor usage:   0%|          | 0/1 [00:00<?, ?step/s]
+Determining sensor usage: 100%|██████████| 1/1 [00:00<00:00, 31.97step/s]
+Cluster 0 Sensor 0: Usage [1]
+Cluster 0, Sensor 4: Skipped sending packet 61 due to rate 0 at 2025-02-14 13:11:57.399
+Cluster 0, Sensor 3: Skipped sending packet 46 due to rate 0 at 2025-02-14 13:11:57.871
+Cluster 0, Sensor 5: Skipped sending packet 69 due to rate 0 at 2025-02-14 13:11:57.897
+Cluster 0, Sensor 1: Skipped sending packet 58 due to rate 0 at 2025-02-14 13:11:57.976
+Cluster 0, Sensor 6: Skipped sending packet 80 due to rate 0 at 2025-02-14 13:11:58.071
+Cluster 0, Sensor 9: Skipped sending packet 92 due to rate 0 at 2025-02-14 13:11:58.390
+Cluster 0, Sensor 7: Skipped sending packet 82 due to rate 0 at 2025-02-14 13:11:58.708
+Cluster 0, Sensor 2: Skipped sending packet 51 due to rate 0 at 2025-02-14 13:11:58.916
+Cluster 0, Sensor 4: Skipped sending packet 62 due to rate 0 at 2025-02-14 13:11:59.468
+Cluster 0, Sensor 3: Skipped sending packet 47 due to rate 0 at 2025-02-14 13:11:59.961
+Cluster 0, Sensor 5: Skipped sending packet 70 due to rate 0 at 2025-02-14 13:11:59.982
+Cluster 0, Sensor 1: Skipped sending packet 59 due to rate 0 at 2025-02-14 13:12:00.066
+Cluster 0, Sensor 6: Skipped sending packet 81 due to rate 0 at 2025-02-14 13:12:00.145
+Cluster 0, Sensor 0: Sent packet 58 of size 89.92 KB at 2025-02-14 13:11:58.176
+Cluster 0, Sensor 9: Skipped sending packet 93 due to rate 0 at 2025-02-14 13:12:00.454
+Cluster 0, Sensor 7: Skipped sending packet 83 due to rate 0 at 2025-02-14 13:12:00.772
+Cluster 0, Sensor 2: Skipped sending packet 52 due to rate 0 at 2025-02-14 13:12:00.980
+Cluster 0, Sensor 4: Skipped sending packet 63 due to rate 0 at 2025-02-14 13:12:01.542
+Cluster 0, Sensor 3: Skipped sending packet 48 due to rate 0 at 2025-02-14 13:12:02.061
+Cluster 0, Sensor 5: Skipped sending packet 71 due to rate 0 at 2025-02-14 13:12:02.066
+Cluster 0 Sensor 1: Usage [1]
+Cluster 0, Sensor 6: Skipped sending packet 82 due to rate 0 at 2025-02-14 13:12:02.216
+Cluster 0, Sensor 0: Sent packet 59 of size 90.54 KB at 2025-02-14 13:12:01.274
+Cluster 0, Sensor 9: Skipped sending packet 94 due to rate 0 at 2025-02-14 13:12:02.527
+Cluster 0, Sensor 7: Skipped sending packet 84 due to rate 0 at 2025-02-14 13:12:02.851
+Cluster 0, Sensor 2: Skipped sending packet 53 due to rate 0 at 2025-02-14 13:12:03.048
+Cluster 0, Sensor 1: Sent packet 60 of size 87.47 KB at 2025-02-14 13:12:02.143
+Cluster 0, Sensor 4: Skipped sending packet 64 due to rate 0 at 2025-02-14 13:12:03.616
+Cluster 0, Sensor 3: Skipped sending packet 49 due to rate 0 at 2025-02-14 13:12:04.156
+Cluster 0, Sensor 5: Skipped sending packet 72 due to rate 0 at 2025-02-14 13:12:04.176
+Cluster 0, Sensor 6: Skipped sending packet 83 due to rate 0 at 2025-02-14 13:12:04.305
+Cluster 0, Sensor 0: Sent packet 60 of size 90.65 KB at 2025-02-14 13:12:03.369
+Cluster 0, Sensor 9: Skipped sending packet 95 due to rate 0 at 2025-02-14 13:12:04.596
+Cluster 0, Sensor 7: Skipped sending packet 85 due to rate 0 at 2025-02-14 13:12:04.909
+Cluster 0, Sensor 2: Skipped sending packet 54 due to rate 0 at 2025-02-14 13:12:05.122
+Cluster 0 Sensor 2: Usage [1]
+Cluster 0, Sensor 1: Sent packet 61 of size 87.94 KB at 2025-02-14 13:12:04.243
+Cluster 0, Sensor 4: Skipped sending packet 65 due to rate 0 at 2025-02-14 13:12:05.680
+Cluster 0, Sensor 5: Skipped sending packet 73 due to rate 0 at 2025-02-14 13:12:06.255
+Cluster 0, Sensor 3: Skipped sending packet 50 due to rate 0 at 2025-02-14 13:12:06.261
+Cluster 0, Sensor 6: Skipped sending packet 84 due to rate 0 at 2025-02-14 13:12:06.402
+Cluster 0, Sensor 0: Sent packet 61 of size 89.04 KB at 2025-02-14 13:12:05.477
+Cluster 0, Sensor 9: Skipped sending packet 96 due to rate 0 at 2025-02-14 13:12:06.670
+Cluster 0, Sensor 7: Skipped sending packet 86 due to rate 0 at 2025-02-14 13:12:06.983
+Cluster 0 Sensor 3: Usage [1]
+Cluster 0, Sensor 1: Sent packet 62 of size 87.43 KB at 2025-02-14 13:12:06.350
+Cluster 0, Sensor 4: Skipped sending packet 66 due to rate 0 at 2025-02-14 13:12:07.743
+Cluster 0, Sensor 2: Sent packet 55 of size 88.83 KB at 2025-02-14 13:12:07.186
+Cluster 0, Sensor 5: Skipped sending packet 74 due to rate 0 at 2025-02-14 13:12:08.314
+Cluster 0, Sensor 1: Energy below threshold (18.20000000000011). Recharging...
+Cluster 0, Sensor 6: Skipped sending packet 85 due to rate 0 at 2025-02-14 13:12:08.465
+Cluster 0, Sensor 0: Sent packet 62 of size 88.41 KB at 2025-02-14 13:12:07.584
+Cluster 0, Sensor 9: Skipped sending packet 97 due to rate 0 at 2025-02-14 13:12:08.734
+Cluster 0, Sensor 7: Skipped sending packet 87 due to rate 0 at 2025-02-14 13:12:09.042
+Cluster 0 Sensor 4: Usage [0]
+Cluster 0, Sensor 3: Sent packet 51 of size 88.72 KB at 2025-02-14 13:12:08.345
+Cluster 0, Sensor 0: Energy below threshold (18.20000000000013). Recharging...
+Cluster 0, Sensor 4: Skipped sending packet 67 due to rate 0 at 2025-02-14 13:12:09.807
+Cluster 0, Sensor 2: Sent packet 56 of size 88.93 KB at 2025-02-14 13:12:09.287
+Cluster 0, Sensor 5: Skipped sending packet 75 due to rate 0 at 2025-02-14 13:12:10.372
+Cluster 0, Sensor 6: Skipped sending packet 86 due to rate 0 at 2025-02-14 13:12:10.534
+Cluster 0, Sensor 9: Skipped sending packet 98 due to rate 0 at 2025-02-14 13:12:10.807
+Cluster 0, Sensor 7: Skipped sending packet 88 due to rate 0 at 2025-02-14 13:12:11.105
+Cluster 0 Sensor 5: Usage [1]
+Total rows: 77038Cluster 0 - New unique packets: 704, Total unique packets: 14002
+ 2025-02-14 13:12:11Cluster 0, Sensor 1: Recharged to full energy (100),Current time: 1739563928.4188476,chargecount1. Resuming operations.
+Cluster 0, Sensor 3: Sent packet 52 of size 89.02 KB at 2025-02-14 13:12:10.440
+Cluster 0, Sensor 4: Skipped sending packet 68 due to rate 0 at 2025-02-14 13:12:11.820
+Cluster 0, Sensor 2: Sent packet 57 of size 87.92 KB at 2025-02-14 13:12:11.399
+Cluster 0, Sensor 6: Skipped sending packet 87 due to rate 0 at 2025-02-14 13:12:12.546
+Cluster 0, Sensor 0: Recharged to full energy (100),Current time: 1739563929.6611032,chargecount1. Resuming operations.
+Cluster 0, Sensor 9: Skipped sending packet 99 due to rate 0 at 2025-02-14 13:12:12.820
+Cluster 0, Sensor 9: Finished sending messages
+Cluster 0, Sensor 7: Skipped sending packet 89 due to rate 0 at 2025-02-14 13:12:13.118
+Cluster 0, Sensor 2: Energy below threshold (16.000000000000068). Recharging...
+Cluster 0, Sensor 1: Sent packet 63 of size 87.68 KB at 2025-02-14 13:12:11.437
+Cluster 0, Sensor 3: Sent packet 53 of size 89.07 KB at 2025-02-14 13:12:12.465
+Cluster 0, Sensor 4: Skipped sending packet 69 due to rate 0 at 2025-02-14 13:12:13.822
+Cluster 0, Sensor 5: Sent packet 76 of size 88.16 KB at 2025-02-14 13:12:12.385
+Cluster 0, Sensor 6: Skipped sending packet 88 due to rate 0 at 2025-02-14 13:12:14.637
+Cluster 0, Sensor 0: Sent packet 63 of size 88.88 KB at 2025-02-14 13:12:12.674
+Cluster 0, Sensor 7: Skipped sending packet 90 due to rate 0 at 2025-02-14 13:12:15.172
+Cluster 0, Sensor 1: Sent packet 64 of size 88.78 KB at 2025-02-14 13:12:14.534
+Cluster 0, Sensor 3: Sent packet 54 of size 88.18 KB at 2025-02-14 13:12:14.596
+Cluster 0, Sensor 4: Skipped sending packet 70 due to rate 0 at 2025-02-14 13:12:15.876
+Cluster 0 Sensor 6: Usage [1]Cluster 0, Sensor 2: Recharged to full energy (100),Current time: 1739563933.4517457,chargecount1. Resuming operations.
+
+Cluster 0, Sensor 5: Sent packet 77 of size 89.13 KB at 2025-02-14 13:12:15.473
+Cluster 0, Sensor 0: Sent packet 64 of size 88.86 KB at 2025-02-14 13:12:15.784
+Cluster 0, Sensor 7: Skipped sending packet 91 due to rate 0 at 2025-02-14 13:12:17.246
+Cluster 0, Sensor 2: Sent packet 58 of size 86.96 KB at 2025-02-14 13:12:16.495
+Cluster 0, Sensor 1: Sent packet 65 of size 89.11 KB at 2025-02-14 13:12:16.624
+Cluster 0, Sensor 4: Skipped sending packet 71 due to rate 0 at 2025-02-14 13:12:17.953
+Cluster 0 Sensor 7: Usage [1]
+Cluster 0, Sensor 5: Sent packet 78 of size 89.18 KB at 2025-02-14 13:12:17.569
+Cluster 0, Sensor 3: Sent packet 55 of size 88.64 KB at 2025-02-14 13:12:16.688
+Cluster 0, Sensor 6: Sent packet 89 of size 88.91 KB at 2025-02-14 13:12:16.730
+Cluster 0, Sensor 0: Sent packet 65 of size 89.35 KB at 2025-02-14 13:12:17.896
+Cluster 0, Sensor 4: Skipped sending packet 72 due to rate 0 at 2025-02-14 13:12:20.020
+Cluster 0, Sensor 7: Sent packet 92 of size 89.18 KB at 2025-02-14 13:12:19.314
+Cluster 0 Sensor 8: Usage [0]
+Cluster 0, Sensor 2: Sent packet 59 of size 87.76 KB at 2025-02-14 13:12:18.616
+Cluster 0, Sensor 5: Sent packet 79 of size 88.12 KB at 2025-02-14 13:12:19.645
+Cluster 0, Sensor 1: Sent packet 66 of size 89.04 KB at 2025-02-14 13:12:18.737
+Cluster 0, Sensor 3: Sent packet 56 of size 88.97 KB at 2025-02-14 13:12:19.810
+Cluster 0, Sensor 6: Sent packet 90 of size 89.93 KB at 2025-02-14 13:12:19.871
+Cluster 0, Sensor 0: Sent packet 66 of size 90.34 KB at 2025-02-14 13:12:19.984
+Cluster 0, Sensor 4: Skipped sending packet 73 due to rate 0 at 2025-02-14 13:12:22.084
+Cluster 0 Sensor 9: Usage [1]
+Cluster 0, Sensor 7: Sent packet 93 of size 89.41 KB at 2025-02-14 13:12:21.405
+Cluster 0, Sensor 2: Sent packet 60 of size 87.53 KB at 2025-02-14 13:12:21.708
+Cluster 0, Sensor 5: Sent packet 80 of size 88.86 KB at 2025-02-14 13:12:21.765
+Cluster 0, Sensor 4: Skipped sending packet 74 due to rate 0 at 2025-02-14 13:12:24.158
+
+Determining sensor usage:   0%|          | 0/1 [00:00<?, ?step/s]
+Determining sensor usage: 100%|██████████| 1/1 [00:00<00:00, 46.74step/s]
+Cluster 0 Sensor 0: Usage [0]
+Cluster 0, Sensor 1: Sent packet 67 of size 87.86 KB at 2025-02-14 13:12:21.797
+Cluster 0, Sensor 3: Sent packet 57 of size 88.16 KB at 2025-02-14 13:12:22.913
+Cluster 0, Sensor 6: Sent packet 91 of size 91.02 KB at 2025-02-14 13:12:22.995
+Cluster 0, Sensor 0: Sent packet 67 of size 90.85 KB at 2025-02-14 13:12:23.096
+Cluster 0, Sensor 0: Skipped sending packet 68 due to rate 0 at 2025-02-14 13:12:26.194
+Cluster 0, Sensor 4: Skipped sending packet 75 due to rate 0 at 2025-02-14 13:12:26.256
+Cluster 0, Sensor 7: Sent packet 94 of size 90.36 KB at 2025-02-14 13:12:24.529
+Cluster 0, Sensor 2: Sent packet 61 of size 87.65 KB at 2025-02-14 13:12:24.811
+Cluster 0, Sensor 5: Sent packet 81 of size 89.17 KB at 2025-02-14 13:12:24.878
+Cluster 0, Sensor 1: Sent packet 68 of size 88.99 KB at 2025-02-14 13:12:25.894
+Cluster 0, Sensor 3: Sent packet 58 of size 87.50 KB at 2025-02-14 13:12:26.009
+Cluster 0, Sensor 6: Sent packet 92 of size 90.96 KB at 2025-02-14 13:12:26.099
+Cluster 0, Sensor 0: Skipped sending packet 69 due to rate 0 at 2025-02-14 13:12:28.274
+Cluster 0, Sensor 4: Skipped sending packet 76 due to rate 0 at 2025-02-14 13:12:28.315
+Cluster 0, Sensor 7: Sent packet 95 of size 90.99 KB at 2025-02-14 13:12:27.618
+Cluster 0, Sensor 2: Sent packet 62 of size 88.43 KB at 2025-02-14 13:12:27.907
+Cluster 0 Sensor 1: Usage [0]
+Cluster 0, Sensor 5: Sent packet 82 of size 88.74 KB at 2025-02-14 13:12:27.987
+Cluster 0, Sensor 1: Sent packet 69 of size 88.86 KB at 2025-02-14 13:12:28.023
+Cluster 0, Sensor 3: Sent packet 59 of size 88.25 KB at 2025-02-14 13:12:29.096
+Cluster 0, Sensor 0: Skipped sending packet 70 due to rate 0 at 2025-02-14 13:12:30.337
+Cluster 0, Sensor 4: Skipped sending packet 77 due to rate 0 at 2025-02-14 13:12:30.373
+Cluster 0, Sensor 1: Skipped sending packet 70 due to rate 0 at 2025-02-14 13:12:31.139
+Cluster 0, Sensor 6: Sent packet 93 of size 89.61 KB at 2025-02-14 13:12:29.197
+Cluster 0, Sensor 7: Sent packet 96 of size 90.99 KB at 2025-02-14 13:12:29.704
+Cluster 0, Sensor 2: Sent packet 63 of size 88.80 KB at 2025-02-14 13:12:30.991
+Cluster 0, Sensor 0: Skipped sending packet 71 due to rate 0 at 2025-02-14 13:12:32.401
+Cluster 0, Sensor 4: Skipped sending packet 78 due to rate 0 at 2025-02-14 13:12:32.437
+Cluster 0, Sensor 7: Energy below threshold (18.00000000000017). Recharging...
+Cluster 0 Sensor 2: Usage [0]
+Cluster 0, Sensor 2: Skipped sending packet 64 due to rate 0 at 2025-02-14 13:12:33.103
+Cluster 0, Sensor 5: Sent packet 83 of size 88.11 KB at 2025-02-14 13:12:31.093
+Cluster 0, Sensor 1: Skipped sending packet 71 due to rate 0 at 2025-02-14 13:12:33.218
+Cluster 0, Sensor 3: Sent packet 60 of size 87.75 KB at 2025-02-14 13:12:31.195
+Cluster 0, Sensor 6: Sent packet 94 of size 88.58 KB at 2025-02-14 13:12:32.287
+Cluster 0, Sensor 0: Skipped sending packet 72 due to rate 0 at 2025-02-14 13:12:34.477
+Cluster 0, Sensor 4: Skipped sending packet 79 due to rate 0 at 2025-02-14 13:12:34.523
+Cluster 0 Sensor 3: Usage [0]
+Cluster 0, Sensor 2: Skipped sending packet 65 due to rate 0 at 2025-02-14 13:12:35.188
+Cluster 0, Sensor 5: Sent packet 84 of size 89.09 KB at 2025-02-14 13:12:34.180
+Cluster 0, Sensor 1: Skipped sending packet 72 due to rate 0 at 2025-02-14 13:12:35.287
+Cluster 0, Sensor 3: Sent packet 61 of size 87.26 KB at 2025-02-14 13:12:34.311
+Cluster 0, Sensor 6: Sent packet 95 of size 89.11 KB at 2025-02-14 13:12:34.396
+Cluster 0, Sensor 7: Recharged to full energy (100),Current time: 1739563952.7767413,chargecount2. Resuming operations.
+Cluster 0, Sensor 3: Skipped sending packet 62 due to rate 0 at 2025-02-14 13:12:36.408
+Cluster 0, Sensor 0: Skipped sending packet 73 due to rate 0 at 2025-02-14 13:12:36.576
+Cluster 0, Sensor 4: Skipped sending packet 80 due to rate 0 at 2025-02-14 13:12:36.591
+Cluster 0, Sensor 7: Sent packet 97 of size 88.22 KB at 2025-02-14 13:12:35.831
+Cluster 0 Sensor 4: Usage [0]
+Cluster 0, Sensor 2: Skipped sending packet 66 due to rate 0 at 2025-02-14 13:12:37.264
+Cluster 0, Sensor 5: Sent packet 85 of size 88.57 KB at 2025-02-14 13:12:36.280
+Cluster 0, Sensor 1: Skipped sending packet 73 due to rate 0 at 2025-02-14 13:12:37.346
+Cluster 0, Sensor 6: Sent packet 96 of size 88.71 KB at 2025-02-14 13:12:36.508
+Cluster 0, Sensor 3: Skipped sending packet 63 due to rate 0 at 2025-02-14 13:12:38.467
+Cluster 0, Sensor 4: Skipped sending packet 81 due to rate 0 at 2025-02-14 13:12:38.636
+Cluster 0, Sensor 0: Skipped sending packet 74 due to rate 0 at 2025-02-14 13:12:38.682
+Cluster 0, Sensor 7: Sent packet 98 of size 88.54 KB at 2025-02-14 13:12:37.928
+Cluster 0 Sensor 5: Usage [0]
+Cluster 0, Sensor 2: Skipped sending packet 67 due to rate 0 at 2025-02-14 13:12:39.343
+Cluster 0, Sensor 5: Sent packet 86 of size 89.06 KB at 2025-02-14 13:12:38.367
+Cluster 0, Sensor 1: Skipped sending packet 74 due to rate 0 at 2025-02-14 13:12:39.430
+Cluster 0, Sensor 6: Sent packet 97 of size 89.63 KB at 2025-02-14 13:12:38.604
+Cluster 0, Sensor 5: Skipped sending packet 87 due to rate 0 at 2025-02-14 13:12:40.457
+Cluster 0, Sensor 3: Skipped sending packet 64 due to rate 0 at 2025-02-14 13:12:40.530
+Cluster 0, Sensor 4: Skipped sending packet 82 due to rate 0 at 2025-02-14 13:12:40.699
+Cluster 0, Sensor 0: Skipped sending packet 75 due to rate 0 at 2025-02-14 13:12:40.760
+Cluster 0, Sensor 7: Sent packet 99 of size 89.13 KB at 2025-02-14 13:12:40.044
+Cluster 0, Sensor 7: Finished sending messages
+Cluster 0 Sensor 6: Usage [0]
+Cluster 0, Sensor 2: Skipped sending packet 68 due to rate 0 at 2025-02-14 13:12:41.412
+Cluster 0, Sensor 1: Skipped sending packet 75 due to rate 0 at 2025-02-14 13:12:41.514
+Cluster 0, Sensor 6: Sent packet 98 of size 90.77 KB at 2025-02-14 13:12:40.709
+Cluster 0, Sensor 5: Skipped sending packet 88 due to rate 0 at 2025-02-14 13:12:42.513
+Cluster 0, Sensor 3: Skipped sending packet 65 due to rate 0 at 2025-02-14 13:12:42.609
+Cluster 0, Sensor 6: Skipped sending packet 99 due to rate 0 at 2025-02-14 13:12:42.814
+Cluster 0, Sensor 0: Skipped sending packet 76 due to rate 0 at 2025-02-14 13:12:42.824
+Cluster 0, Sensor 6: Finished sending messages
+Cluster 0, Sensor 4: Skipped sending packet 83 due to rate 0 at 2025-02-14 13:12:42.825
+Cluster 0 Sensor 7: Usage [0]
+Cluster 0, Sensor 2: Skipped sending packet 69 due to rate 0 at 2025-02-14 13:12:43.480
+Cluster 0, Sensor 1: Skipped sending packet 76 due to rate 0 at 2025-02-14 13:12:43.588
+Cluster 0, Sensor 5: Skipped sending packet 89 due to rate 0 at 2025-02-14 13:12:44.582
+Cluster 0, Sensor 3: Skipped sending packet 66 due to rate 0 at 2025-02-14 13:12:44.688
+Cluster 0, Sensor 0: Skipped sending packet 77 due to rate 0 at 2025-02-14 13:12:44.909
+Cluster 0, Sensor 4: Skipped sending packet 84 due to rate 0 at 2025-02-14 13:12:44.945
+Cluster 0 Sensor 8: Usage [0]
+Cluster 0, Sensor 2: Skipped sending packet 70 due to rate 0 at 2025-02-14 13:12:45.559
+Cluster 0, Sensor 1: Skipped sending packet 77 due to rate 0 at 2025-02-14 13:12:45.657
+Cluster 0, Sensor 5: Skipped sending packet 90 due to rate 0 at 2025-02-14 13:12:46.641
+Cluster 0, Sensor 3: Skipped sending packet 67 due to rate 0 at 2025-02-14 13:12:46.757
+Cluster 0, Sensor 0: Skipped sending packet 78 due to rate 0 at 2025-02-14 13:12:46.967
+Cluster 0, Sensor 4: Skipped sending packet 85 due to rate 0 at 2025-02-14 13:12:47.003
+Cluster 0 Sensor 9: Usage [0]
+Cluster 0, Sensor 2: Skipped sending packet 71 due to rate 0 at 2025-02-14 13:12:47.627
+Cluster 0, Sensor 1: Skipped sending packet 78 due to rate 0 at 2025-02-14 13:12:47.720
+Cluster 0, Sensor 5: Skipped sending packet 91 due to rate 0 at 2025-02-14 13:12:48.708
+Cluster 0, Sensor 3: Skipped sending packet 68 due to rate 0 at 2025-02-14 13:12:48.820
+Cluster 0, Sensor 0: Skipped sending packet 79 due to rate 0 at 2025-02-14 13:12:49.062
+Cluster 0, Sensor 4: Skipped sending packet 86 due to rate 0 at 2025-02-14 13:12:49.093
+
+Determining sensor usage:   0%|          | 0/1 [00:00<?, ?step/s]
+Determining sensor usage: 100%|██████████| 1/1 [00:00<00:00, 38.03step/s]
+Cluster 0 Sensor 0: Usage [1]
+Cluster 0, Sensor 2: Skipped sending packet 72 due to rate 0 at 2025-02-14 13:12:49.715
+Cluster 0, Sensor 1: Skipped sending packet 79 due to rate 0 at 2025-02-14 13:12:49.789
+Cluster 0, Sensor 5: Skipped sending packet 92 due to rate 0 at 2025-02-14 13:12:50.777
+Cluster 0, Sensor 3: Skipped sending packet 69 due to rate 0 at 2025-02-14 13:12:50.905
+Cluster 0, Sensor 4: Skipped sending packet 87 due to rate 0 at 2025-02-14 13:12:51.162
+Cluster 0 Sensor 1: Usage [1]
+Cluster 0, Sensor 2: Skipped sending packet 73 due to rate 0 at 2025-02-14 13:12:51.802
+Cluster 0, Sensor 0: Sent packet 80 of size 88.89 KB at 2025-02-14 13:12:51.157
+Total rows: 97725Cluster 0 - New unique packets: 1572, Total unique packets: 15574
+ 2025-02-14 13:12:52Cluster 0, Sensor 5: Skipped sending packet 93 due to rate 0 at 2025-02-14 13:12:52.788
+Cluster 0, Sensor 1: Sent packet 80 of size 88.48 KB at 2025-02-14 13:12:51.848
+Cluster 0, Sensor 3: Skipped sending packet 70 due to rate 0 at 2025-02-14 13:12:52.917
+Cluster 0, Sensor 4: Skipped sending packet 88 due to rate 0 at 2025-02-14 13:12:53.175
+Cluster 0 Sensor 2: Usage [1]
+Cluster 0, Sensor 0: Sent packet 81 of size 88.71 KB at 2025-02-14 13:12:53.198
+Cluster 0, Sensor 5: Skipped sending packet 94 due to rate 0 at 2025-02-14 13:12:54.790
+Cluster 0, Sensor 2: Sent packet 74 of size 88.84 KB at 2025-02-14 13:12:53.815
+Cluster 0, Sensor 1: Sent packet 81 of size 88.65 KB at 2025-02-14 13:12:53.872
+Cluster 0, Sensor 3: Skipped sending packet 71 due to rate 0 at 2025-02-14 13:12:54.920
+Cluster 0, Sensor 4: Skipped sending packet 89 due to rate 0 at 2025-02-14 13:12:55.176
+Cluster 0 Sensor 3: Usage [1]
+Cluster 0, Sensor 0: Sent packet 82 of size 89.67 KB at 2025-02-14 13:12:55.224
+Cluster 0, Sensor 5: Skipped sending packet 95 due to rate 0 at 2025-02-14 13:12:56.849
+Cluster 0, Sensor 2: Sent packet 75 of size 88.76 KB at 2025-02-14 13:12:55.896
+Cluster 0, Sensor 1: Sent packet 82 of size 87.77 KB at 2025-02-14 13:12:55.963
+Cluster 0, Sensor 4: Skipped sending packet 90 due to rate 0 at 2025-02-14 13:12:57.239
+Cluster 0 Sensor 4: Usage [0]
+Cluster 0, Sensor 3: Sent packet 72 of size 87.93 KB at 2025-02-14 13:12:56.976
+Cluster 0, Sensor 0: Sent packet 83 of size 90.15 KB at 2025-02-14 13:12:57.337
+Cluster 0, Sensor 5: Skipped sending packet 96 due to rate 0 at 2025-02-14 13:12:58.916
+Cluster 0, Sensor 2: Sent packet 76 of size 88.57 KB at 2025-02-14 13:12:57.977
+Cluster 0, Sensor 1: Sent packet 83 of size 89.03 KB at 2025-02-14 13:12:58.056
+Cluster 0, Sensor 4: Skipped sending packet 91 due to rate 0 at 2025-02-14 13:12:59.323
+Cluster 0 Sensor 5: Usage [1]
+Cluster 0, Sensor 3: Sent packet 73 of size 88.99 KB at 2025-02-14 13:12:59.072
+Cluster 0, Sensor 0: Sent packet 84 of size 88.27 KB at 2025-02-14 13:12:59.435
+Cluster 0, Sensor 2: Sent packet 77 of size 87.94 KB at 2025-02-14 13:13:00.079
+Cluster 0, Sensor 3: Energy below threshold (17.400000000000027). Recharging...
+Cluster 0, Sensor 1: Sent packet 84 of size 89.03 KB at 2025-02-14 13:13:00.168
+Cluster 0, Sensor 4: Skipped sending packet 92 due to rate 0 at 2025-02-14 13:13:01.392
+Cluster 0 Sensor 6: Usage [1]
+Cluster 0, Sensor 5: Sent packet 97 of size 88.58 KB at 2025-02-14 13:13:00.995
+Cluster 0, Sensor 0: Sent packet 85 of size 88.36 KB at 2025-02-14 13:13:01.528
+Cluster 0, Sensor 2: Sent packet 78 of size 88.94 KB at 2025-02-14 13:13:02.180
+Cluster 0, Sensor 1: Sent packet 85 of size 87.71 KB at 2025-02-14 13:13:02.253
+Cluster 0, Sensor 4: Skipped sending packet 93 due to rate 0 at 2025-02-14 13:13:03.476
+Cluster 0 Sensor 7: Usage [1]
+Cluster 0, Sensor 5: Sent packet 98 of size 89.72 KB at 2025-02-14 13:13:03.079
+Cluster 0, Sensor 3: Recharged to full energy (100),Current time: 1739563981.1281636,chargecount2. Resuming operations.
+Cluster 0, Sensor 0: Sent packet 86 of size 88.90 KB at 2025-02-14 13:13:03.641
+Cluster 0, Sensor 3: Sent packet 74 of size 89.18 KB at 2025-02-14 13:13:04.190
+Cluster 0, Sensor 2: Sent packet 79 of size 88.72 KB at 2025-02-14 13:13:04.272
+Cluster 0, Sensor 1: Sent packet 86 of size 86.80 KB at 2025-02-14 13:13:04.345
+Cluster 0, Sensor 4: Skipped sending packet 94 due to rate 0 at 2025-02-14 13:13:05.560
+Cluster 0 Sensor 8: Usage [1]
+Cluster 0, Sensor 5: Sent packet 99 of size 90.38 KB at 2025-02-14 13:13:05.169
+Cluster 0, Sensor 5: Finished sending messages
+Cluster 0, Sensor 0: Sent packet 87 of size 88.15 KB at 2025-02-14 13:13:05.753
+Cluster 0, Sensor 3: Sent packet 75 of size 88.35 KB at 2025-02-14 13:13:06.277
+Cluster 0, Sensor 2: Sent packet 80 of size 87.94 KB at 2025-02-14 13:13:06.369
+Cluster 0, Sensor 1: Sent packet 87 of size 88.09 KB at 2025-02-14 13:13:06.453
+Cluster 0, Sensor 4: Skipped sending packet 95 due to rate 0 at 2025-02-14 13:13:07.639
+Cluster 0 Sensor 9: Usage [1]
+Cluster 0, Sensor 0: Sent packet 88 of size 88.31 KB at 2025-02-14 13:13:07.853
+Cluster 0, Sensor 3: Sent packet 76 of size 87.65 KB at 2025-02-14 13:13:08.383
+Cluster 0, Sensor 2: Sent packet 81 of size 87.09 KB at 2025-02-14 13:13:08.483
+Cluster 0, Sensor 1: Sent packet 88 of size 88.02 KB at 2025-02-14 13:13:08.560
+Cluster 0, Sensor 4: Skipped sending packet 96 due to rate 0 at 2025-02-14 13:13:09.713
+
+Determining sensor usage:   0%|          | 0/1 [00:00<?, ?step/s]
+Determining sensor usage: 100%|██████████| 1/1 [00:00<00:00, 46.92step/s]
+Cluster 0 Sensor 0: Usage [1]
+Cluster 0, Sensor 0: Sent packet 89 of size 91.12 KB at 2025-02-14 13:13:09.955
+Cluster 0, Sensor 3: Sent packet 77 of size 87.77 KB at 2025-02-14 13:13:10.495
+Cluster 0, Sensor 2: Sent packet 82 of size 87.67 KB at 2025-02-14 13:13:10.595
+Cluster 0, Sensor 4: Skipped sending packet 97 due to rate 0 at 2025-02-14 13:13:11.786
+Cluster 0 Sensor 1: Usage [1]
+Cluster 0, Sensor 1: Sent packet 89 of size 89.14 KB at 2025-02-14 13:13:10.657
+Cluster 0, Sensor 0: Sent packet 90 of size 91.26 KB at 2025-02-14 13:13:12.059
+Cluster 0, Sensor 3: Sent packet 78 of size 88.03 KB at 2025-02-14 13:13:12.591
+Cluster 0, Sensor 2: Sent packet 83 of size 87.89 KB at 2025-02-14 13:13:12.682
+Cluster 0, Sensor 4: Skipped sending packet 98 due to rate 0 at 2025-02-14 13:13:13.850
+Cluster 0 Sensor 2: Usage [1]
+Cluster 0, Sensor 1: Sent packet 90 of size 90.41 KB at 2025-02-14 13:13:13.755
+Cluster 0, Sensor 0: Sent packet 91 of size 91.52 KB at 2025-02-14 13:13:14.162
+Cluster 0, Sensor 3: Sent packet 79 of size 87.19 KB at 2025-02-14 13:13:14.692
+Cluster 0, Sensor 2: Sent packet 84 of size 87.54 KB at 2025-02-14 13:13:14.776
+Cluster 0, Sensor 4: Skipped sending packet 99 due to rate 0 at 2025-02-14 13:13:15.918
+Cluster 0, Sensor 4: Finished sending messages
+Cluster 0 Sensor 3: Usage [1]
+Cluster 0, Sensor 1: Sent packet 91 of size 90.70 KB at 2025-02-14 13:13:15.843
+Cluster 0, Sensor 0: Sent packet 92 of size 89.76 KB at 2025-02-14 13:13:16.256
+Cluster 0, Sensor 3: Sent packet 80 of size 88.00 KB at 2025-02-14 13:13:16.788
+Cluster 0, Sensor 2: Sent packet 85 of size 88.36 KB at 2025-02-14 13:13:16.864
+Cluster 0 Sensor 4: Usage [1]
+Cluster 0, Sensor 1: Sent packet 92 of size 90.42 KB at 2025-02-14 13:13:17.960
+Cluster 0, Sensor 0: Sent packet 93 of size 90.12 KB at 2025-02-14 13:13:18.360
+Cluster 0, Sensor 3: Sent packet 81 of size 88.04 KB at 2025-02-14 13:13:18.884
+Cluster 0, Sensor 2: Sent packet 86 of size 88.91 KB at 2025-02-14 13:13:18.947
+Cluster 0, Sensor 1: Energy below threshold (17.00000000000003). Recharging...
+Cluster 0 Sensor 5: Usage [1]
+Cluster 0, Sensor 0: Sent packet 94 of size 90.59 KB at 2025-02-14 13:13:20.452
+Cluster 0, Sensor 3: Sent packet 82 of size 88.03 KB at 2025-02-14 13:13:20.980
+Cluster 0, Sensor 2: Sent packet 87 of size 88.88 KB at 2025-02-14 13:13:21.069
+Cluster 0, Sensor 0: Energy below threshold (16.400000000000034). Recharging...
+Cluster 0 Sensor 6: Usage [1]
+Cluster 0, Sensor 1: Recharged to full energy (100),Current time: 1739564000.0320086,chargecount2. Resuming operations.
+Cluster 0, Sensor 2: Energy below threshold (17.00000000000003). Recharging...
+Cluster 0, Sensor 3: Sent packet 83 of size 87.79 KB at 2025-02-14 13:13:23.066
+Cluster 0, Sensor 1: Sent packet 93 of size 87.97 KB at 2025-02-14 13:13:23.117
+Cluster 0 Sensor 7: Usage [1]
+Cluster 0, Sensor 0: Recharged to full energy (100),Current time: 1739564002.5254154,chargecount2. Resuming operations.
+Cluster 0, Sensor 2: Recharged to full energy (100),Current time: 1739564003.1498234,chargecount2. Resuming operations.
+Cluster 0, Sensor 3: Sent packet 84 of size 89.23 KB at 2025-02-14 13:13:25.177
+Cluster 0, Sensor 1: Sent packet 94 of size 88.92 KB at 2025-02-14 13:13:25.209
+Cluster 0, Sensor 0: Sent packet 95 of size 89.99 KB at 2025-02-14 13:13:25.600
+Cluster 0 Sensor 8: Usage [1]
+Cluster 0, Sensor 2: Sent packet 88 of size 87.22 KB at 2025-02-14 13:13:26.204
+Cluster 0, Sensor 3: Sent packet 85 of size 89.24 KB at 2025-02-14 13:13:27.287
+Cluster 0, Sensor 1: Sent packet 95 of size 89.01 KB at 2025-02-14 13:13:27.323
+Cluster 0, Sensor 0: Sent packet 96 of size 87.86 KB at 2025-02-14 13:13:27.703
+Cluster 0 Sensor 9: Usage [1]
+Cluster 0, Sensor 2: Sent packet 89 of size 87.44 KB at 2025-02-14 13:13:28.299
+Cluster 0, Sensor 3: Sent packet 86 of size 88.52 KB at 2025-02-14 13:13:29.405
+Cluster 0, Sensor 1: Sent packet 96 of size 88.68 KB at 2025-02-14 13:13:29.467
+Cluster 0, Sensor 0: Sent packet 97 of size 88.58 KB at 2025-02-14 13:13:29.805
+
+Determining sensor usage:   0%|          | 0/1 [00:00<?, ?step/s]
+Determining sensor usage: 100%|██████████| 1/1 [00:00<00:00, 38.01step/s]
+Cluster 0 Sensor 0: Usage [0]
+Cluster 0, Sensor 2: Sent packet 90 of size 87.65 KB at 2025-02-14 13:13:30.400
+Cluster 0, Sensor 0: Skipped sending packet 98 due to rate 0 at 2025-02-14 13:13:31.908
+Cluster 0, Sensor 3: Sent packet 87 of size 88.79 KB at 2025-02-14 13:13:31.516
+Cluster 0, Sensor 1: Sent packet 97 of size 88.24 KB at 2025-02-14 13:13:31.568
+Cluster 0 Sensor 1: Usage [0]
+Cluster 0, Sensor 2: Sent packet 91 of size 87.90 KB at 2025-02-14 13:13:32.512
+Cluster 0, Sensor 1: Skipped sending packet 98 due to rate 0 at 2025-02-14 13:13:33.681
+Cluster 0, Sensor 0: Skipped sending packet 99 due to rate 0 at 2025-02-14 13:13:33.987
+Cluster 0, Sensor 0: Finished sending messages
+Cluster 0, Sensor 3: Sent packet 88 of size 89.03 KB at 2025-02-14 13:13:33.619
+Cluster 0 Sensor 2: Usage [0]
+Cluster 0, Sensor 2: Sent packet 92 of size 86.75 KB at 2025-02-14 13:13:34.624
+Cluster 0, Sensor 1: Skipped sending packet 99 due to rate 0 at 2025-02-14 13:13:35.761
+Cluster 0, Sensor 1: Finished sending messages
+Cluster 0, Sensor 2: Skipped sending packet 93 due to rate 0 at 2025-02-14 13:13:36.721
+Cluster 0, Sensor 3: Sent packet 89 of size 89.23 KB at 2025-02-14 13:13:35.725
+Cluster 0 Sensor 3: Usage [0]
+Cluster 0, Sensor 3: Skipped sending packet 90 due to rate 0 at 2025-02-14 13:13:37.832
+Cluster 0, Sensor 2: Skipped sending packet 94 due to rate 0 at 2025-02-14 13:13:38.800
+Cluster 0 Sensor 4: Usage [1]
+Cluster 0, Sensor 3: Skipped sending packet 91 due to rate 0 at 2025-02-14 13:13:39.891
+Cluster 0, Sensor 2: Skipped sending packet 95 due to rate 0 at 2025-02-14 13:13:40.863
+Cluster 0 Sensor 5: Usage [0]
+Cluster 0, Sensor 3: Skipped sending packet 92 due to rate 0 at 2025-02-14 13:13:41.960
+Cluster 0, Sensor 2: Skipped sending packet 96 due to rate 0 at 2025-02-14 13:13:42.942
+Cluster 0 Sensor 6: Usage [0]
+Cluster 0, Sensor 3: Skipped sending packet 93 due to rate 0 at 2025-02-14 13:13:44.028
+Cluster 0, Sensor 2: Skipped sending packet 97 due to rate 0 at 2025-02-14 13:13:45.016
+Cluster 0 Sensor 7: Usage [0]
+Cluster 0, Sensor 3: Skipped sending packet 94 due to rate 0 at 2025-02-14 13:13:46.092
+Cluster 0, Sensor 2: Skipped sending packet 98 due to rate 0 at 2025-02-14 13:13:47.084
+Cluster 0 Sensor 8: Usage [0]
+Cluster 0, Sensor 3: Skipped sending packet 95 due to rate 0 at 2025-02-14 13:13:48.166
+Cluster 0, Sensor 2: Skipped sending packet 99 due to rate 0 at 2025-02-14 13:13:49.148
+Cluster 0, Sensor 2: Finished sending messages
+Cluster 0 Sensor 9: Usage [0]
+Cluster 0, Sensor 3: Skipped sending packet 96 due to rate 0 at 2025-02-14 13:13:50.235
+
+Determining sensor usage:   0%|          | 0/1 [00:00<?, ?step/s]
+Determining sensor usage: 100%|██████████| 1/1 [00:00<00:00, 31.86step/s]
+Cluster 0 Sensor 0: Usage [0]
+Cluster 0, Sensor 3: Skipped sending packet 97 due to rate 0 at 2025-02-14 13:13:52.304
+Cluster 0 Sensor 1: Usage [0]
+Cluster 0, Sensor 3: Skipped sending packet 98 due to rate 0 at 2025-02-14 13:13:54.372
+Cluster 0 Sensor 2: Usage [0]
+Cluster 0, Sensor 3: Skipped sending packet 99 due to rate 0 at 2025-02-14 13:13:56.446
+Cluster 0, Sensor 3: Finished sending messages
+*** Error occurred during communication: 
+*** Running CLI
+*** Starting CLI:
+stopping ch0 
+mininet-wifi> Cluster 0 Sensor 3: Usage [0]
+Cluster 0 Sensor 4: Usage [0]
+Cluster 0 Sensor 5: Usage [1]
+Total rows: 148219Cluster 0 - New unique packets: 1786, Total unique packets: 17360
+ 2025-02-14 13:14:03Cluster 0 Sensor 6: Usage [0]
+Cluster 0 Sensor 7: Usage [0]
+Cluster 0 Sensor 8: Usage [0]
+Cluster 0 Sensor 9: Usage [1]
+
+Determining sensor usage:   0%|          | 0/1 [00:00<?, ?step/s]
+Determining sensor usage: 100%|██████████| 1/1 [00:00<00:00, 31.78step/s]
+Cluster 0 Sensor 0: Usage [1]
+Cluster 0 Sensor 1: Usage [1]
+Cluster 0 Sensor 2: Usage [1]
+Cluster 0 Sensor 3: Usage [1]
+Cluster 0 Sensor 4: Usage [1]
+Cluster 0 Sensor 5: Usage [1]
+Cluster 0 Sensor 6: Usage [1]
+Cluster 0 Sensor 7: Usage [1]
+Cluster 0 Sensor 8: Usage [1]
+Cluster 0 Sensor 9: Usage [0]
+
+Determining sensor usage:   0%|          | 0/1 [00:00<?, ?step/s]
+Determining sensor usage: 100%|██████████| 1/1 [00:00<00:00, 37.97step/s]
+Cluster 0 Sensor 0: Usage [0]
+Cluster 0 Sensor 1: Usage [0]
+Cluster 0 Sensor 2: Usage [0]
+Cluster 0 Sensor 3: Usage [0]
+Cluster 0 Sensor 4: Usage [0]
+Cluster 0 Sensor 5: Usage [0]
+Cluster 0 Sensor 6: Usage [0]
+Cluster 0 Sensor 7: Usage [0]
+Cluster 0 Sensor 8: Usage [0]
+Cluster 0 Sensor 9: Usage [1]
+
+Determining sensor usage:   0%|          | 0/1 [00:00<?, ?step/s]
+Determining sensor usage: 100%|██████████| 1/1 [00:00<00:00, 38.18step/s]
+Cluster 0 Sensor 0: Usage [0]
+Cluster 0 Sensor 1: Usage [1]
+Cluster 0 Sensor 2: Usage [0]
+Cluster 0 Sensor 3: Usage [0]
+Cluster 0 Sensor 4: Usage [0]
+Cluster 0 Sensor 5: Usage [1]
+Cluster 0 Sensor 6: Usage [0]
+Cluster 0 Sensor 7: Usage [0]
+Cluster 0 Sensor 8: Usage [0]
+Cluster 0 Sensor 9: Usage [0]
+
+Determining sensor usage:   0%|          | 0/1 [00:00<?, ?step/s]
+Determining sensor usage: 100%|██████████| 1/1 [00:00<00:00, 38.03step/s]
+Cluster 0 Sensor 0: Usage [0]
+Cluster 0 Sensor 1: Usage [1]
+Cluster 0 Sensor 2: Usage [0]
+Cluster 0 Sensor 3: Usage [0]
+Cluster 0 Sensor 4: Usage [0]
+Cluster 0 Sensor 5: Usage [0]
+Cluster 0 Sensor 6: Usage [0]
+Cluster 0 Sensor 7: Usage [0]
+Cluster 0 Sensor 8: Usage [0]
+Cluster 0 Sensor 9: Usage [0]
+
+Determining sensor usage:   0%|          | 0/1 [00:00<?, ?step/s]
+Determining sensor usage: 100%|██████████| 1/1 [00:00<00:00, 37.93step/s]
+Cluster 0 Sensor 0: Usage [0]
+Cluster 0 Sensor 1: Usage [0]
+Cluster 0 Sensor 2: Usage [1]
+Cluster 0 Sensor 3: Usage [0]
+Cluster 0 Sensor 4: Usage [0]
+Cluster 0 Sensor 5: Usage [0]
+Cluster 0 Sensor 6: Usage [0]
+Cluster 0 Sensor 7: Usage [0]
+Cluster 0 Sensor 8: Usage [0]
+Total rows: 215117Cluster 0 - New unique packets: 1039, Total unique packets: 18399
+ 2025-02-14 13:15:54Cluster 0 Sensor 9: Usage [0]
+
+Determining sensor usage:   0%|          | 0/1 [00:00<?, ?step/s]
+Determining sensor usage: 100%|██████████| 1/1 [00:00<00:00, 2195.97step/s]
+Cluster 0 Sensor 0: Usage [0]
+Cluster 0 Sensor 1: Usage [0]
+Cluster 0 Sensor 2: Usage [0]
+Cluster 0 Sensor 3: Usage [0]
+Cluster 0 Sensor 4: Usage [0]
+Cluster 0 Sensor 5: Usage [0]
+Cluster 0 Sensor 6: Usage [0]
+Cluster 0 Sensor 7: Usage [0]
+Cluster 0 Sensor 8: Usage [0]
+Cluster 0 Sensor 9: Usage [1]
+
+Determining sensor usage:   0%|          | 0/1 [00:00<?, ?step/s]
+Determining sensor usage: 100%|██████████| 1/1 [00:00<00:00, 31.84step/s]
+Cluster 0 Sensor 0: Usage [0]
+Cluster 0 Sensor 1: Usage [0]
+Cluster 0 Sensor 2: Usage [0]
+Cluster 0 Sensor 3: Usage [0]
+Cluster 0 Sensor 4: Usage [0]
+Cluster 0 Sensor 5: Usage [0]
+Cluster 0 Sensor 6: Usage [0]
+Cluster 0 Sensor 7: Usage [0]
+Cluster 0 Sensor 8: Usage [0]
+Cluster 0 Sensor 9: Usage [0]
+
+Determining sensor usage:   0%|          | 0/1 [00:00<?, ?step/s]
+Determining sensor usage: 100%|██████████| 1/1 [00:00<00:00, 37.96step/s]
+Cluster 0 Sensor 0: Usage [0]
+Cluster 0 Sensor 1: Usage [1]
+Cluster 0 Sensor 2: Usage [0]
+Cluster 0 Sensor 3: Usage [0]
+Cluster 0 Sensor 4: Usage [0]
+Cluster 0 Sensor 5: Usage [0]
+Cluster 0 Sensor 6: Usage [0]
+Cluster 0 Sensor 7: Usage [0]
+Cluster 0 Sensor 8: Usage [1]
+Cluster 0 Sensor 9: Usage [0]
+
+Determining sensor usage:   0%|          | 0/1 [00:00<?, ?step/s]
+Determining sensor usage: 100%|██████████| 1/1 [00:00<00:00, 47.36step/s]
+Cluster 0 Sensor 0: Usage [1]
+Cluster 0 Sensor 1: Usage [1]
+Cluster 0 Sensor 2: Usage [1]
+Cluster 0 Sensor 3: Usage [1]
+Cluster 0 Sensor 4: Usage [1]
+Cluster 0 Sensor 5: Usage [1]
+Cluster 0 Sensor 6: Usage [1]
+Cluster 0 Sensor 7: Usage [1]
+Cluster 0 Sensor 8: Usage [1]
+Cluster 0 Sensor 9: Usage [1]
+
+Determining sensor usage:   0%|          | 0/1 [00:00<?, ?step/s]
+Determining sensor usage: 100%|██████████| 1/1 [00:00<00:00, 38.01step/s]
+Cluster 0 Sensor 0: Usage [0]
+Cluster 0 Sensor 1: Usage [1]
+Cluster 0 Sensor 2: Usage [0]
+Cluster 0 Sensor 3: Usage [1]
+Cluster 0 Sensor 4: Usage [0]
+Cluster 0 Sensor 5: Usage [0]
+Cluster 0 Sensor 6: Usage [0]
+Cluster 0 Sensor 7: Usage [0]
+Cluster 0 Sensor 8: Usage [0]
+Cluster 0 Sensor 9: Usage [0]
+
+Determining sensor usage:   0%|          | 0/1 [00:00<?, ?step/s]
+Determining sensor usage: 100%|██████████| 1/1 [00:00<00:00, 47.39step/s]
+Cluster 0 Sensor 0: Usage [1]
+Cluster 0 Sensor 1: Usage [1]
+Cluster 0 Sensor 2: Usage [1]
+Total rows: 215117Cluster 0 - New unique packets: 0, Total unique packets: 18399
+ 2025-02-14 13:17:44Cluster 0 Sensor 3: Usage [1]
+Cluster 0 Sensor 4: Usage [1]
+Cluster 0 Sensor 5: Usage [1]
+Cluster 0 Sensor 6: Usage [1]
+Cluster 0 Sensor 7: Usage [1]
+Cluster 0 Sensor 8: Usage [0]
+Cluster 0 Sensor 9: Usage [1]
+
+Determining sensor usage:   0%|          | 0/1 [00:00<?, ?step/s]
+Determining sensor usage: 100%|██████████| 1/1 [00:00<00:00, 31.89step/s]
+Cluster 0 Sensor 0: Usage [0]
+Cluster 0 Sensor 1: Usage [0]
+Cluster 0 Sensor 2: Usage [0]
+Cluster 0 Sensor 3: Usage [0]
+Cluster 0 Sensor 4: Usage [0]
+Cluster 0 Sensor 5: Usage [0]
+Cluster 0 Sensor 6: Usage [0]
+Cluster 0 Sensor 7: Usage [0]
+Cluster 0 Sensor 8: Usage [0]
+Cluster 0 Sensor 9: Usage [0]
+
+Determining sensor usage:   0%|          | 0/1 [00:00<?, ?step/s]
+Determining sensor usage: 100%|██████████| 1/1 [00:00<00:00, 31.80step/s]
+Cluster 0 Sensor 0: Usage [0]
+Cluster 0 Sensor 1: Usage [0]
+Cluster 0 Sensor 2: Usage [1]
+Cluster 0 Sensor 3: Usage [0]
+Cluster 0 Sensor 4: Usage [0]
+Cluster 0 Sensor 5: Usage [0]
+Cluster 0 Sensor 6: Usage [1]
+Cluster 0 Sensor 7: Usage [0]
+Cluster 0 Sensor 8: Usage [0]
+Cluster 0 Sensor 9: Usage [0]
+
+Determining sensor usage:   0%|          | 0/1 [00:00<?, ?step/s]
+Determining sensor usage: 100%|██████████| 1/1 [00:00<00:00, 46.84step/s]
+Cluster 0 Sensor 0: Usage [0]
+Cluster 0 Sensor 1: Usage [0]
+Cluster 0 Sensor 2: Usage [0]
+Cluster 0 Sensor 3: Usage [0]
+Cluster 0 Sensor 4: Usage [0]
+Cluster 0 Sensor 5: Usage [1]
+Cluster 0 Sensor 6: Usage [0]
+Cluster 0 Sensor 7: Usage [0]
+Cluster 0 Sensor 8: Usage [0]
+Cluster 0 Sensor 9: Usage [0]
+
+Determining sensor usage:   0%|          | 0/1 [00:00<?, ?step/s]
+Determining sensor usage: 100%|██████████| 1/1 [00:00<00:00, 37.83step/s]
+Cluster 0 Sensor 0: Usage [1]
+Cluster 0 Sensor 1: Usage [1]
+Cluster 0 Sensor 2: Usage [1]
+Cluster 0 Sensor 3: Usage [1]
+Cluster 0 Sensor 4: Usage [1]
+Cluster 0 Sensor 5: Usage [1]
+Cluster 0 Sensor 6: Usage [1]
+Cluster 0 Sensor 7: Usage [1]
+Cluster 0 Sensor 8: Usage [1]
+Cluster 0 Sensor 9: Usage [1]
+
+Determining sensor usage:   0%|          | 0/1 [00:00<?, ?step/s]
+Determining sensor usage: 100%|██████████| 1/1 [00:00<00:00, 21.62step/s]
+Cluster 0 Sensor 0: Usage [0]
+Cluster 0 Sensor 1: Usage [0]
+Cluster 0 Sensor 2: Usage [0]
+Cluster 0 Sensor 3: Usage [0]
+Cluster 0 Sensor 4: Usage [0]
+Cluster 0 Sensor 5: Usage [0]
+Total rows: 215117Cluster 0 - New unique packets: 0, Total unique packets: 18399
+ 2025-02-14 13:19:35Cluster 0 Sensor 6: Usage [0]
+Cluster 0 Sensor 7: Usage [0]
+Cluster 0 Sensor 8: Usage [0]
+Cluster 0 Sensor 9: Usage [0]
+
+Determining sensor usage:   0%|          | 0/1 [00:00<?, ?step/s]
+Determining sensor usage: 100%|██████████| 1/1 [00:00<00:00, 31.92step/s]
+Cluster 0 Sensor 0: Usage [1]
+Cluster 0 Sensor 1: Usage [1]
+Cluster 0 Sensor 2: Usage [1]
+Cluster 0 Sensor 3: Usage [1]
+Cluster 0 Sensor 4: Usage [1]
+Cluster 0 Sensor 5: Usage [1]
+Cluster 0 Sensor 6: Usage [1]
+Cluster 0 Sensor 7: Usage [1]
+Cluster 0 Sensor 8: Usage [1]
+Cluster 0 Sensor 9: Usage [1]
+
+Determining sensor usage:   0%|          | 0/1 [00:00<?, ?step/s]
+Determining sensor usage: 100%|██████████| 1/1 [00:00<00:00, 31.85step/s]
+Cluster 0 Sensor 0: Usage [0]
+Cluster 0 Sensor 1: Usage [0]
+Cluster 0 Sensor 2: Usage [0]
+Cluster 0 Sensor 3: Usage [0]
+Cluster 0 Sensor 4: Usage [0]
+Cluster 0 Sensor 5: Usage [0]
+Cluster 0 Sensor 6: Usage [0]
+Cluster 0 Sensor 7: Usage [0]
+Cluster 0 Sensor 8: Usage [0]
+Cluster 0 Sensor 9: Usage [0]
+
+Determining sensor usage:   0%|          | 0/1 [00:00<?, ?step/s]
+Determining sensor usage: 100%|██████████| 1/1 [00:00<00:00, 23.98step/s]
+Cluster 0 Sensor 0: Usage [0]
+Cluster 0 Sensor 1: Usage [1]
+Cluster 0 Sensor 2: Usage [0]
+Cluster 0 Sensor 3: Usage [0]
+Cluster 0 Sensor 4: Usage [0]
+Cluster 0 Sensor 5: Usage [0]
+Cluster 0 Sensor 6: Usage [0]
+Cluster 0 Sensor 7: Usage [1]
+Cluster 0 Sensor 8: Usage [0]
+Cluster 0 Sensor 9: Usage [0]
+
+Determining sensor usage:   0%|          | 0/1 [00:00<?, ?step/s]
+Determining sensor usage: 100%|██████████| 1/1 [00:00<00:00, 31.87step/s]
+Cluster 0 Sensor 0: Usage [1]
+Cluster 0 Sensor 1: Usage [1]
+Cluster 0 Sensor 2: Usage [0]
+Cluster 0 Sensor 3: Usage [0]
+Cluster 0 Sensor 4: Usage [1]
+Cluster 0 Sensor 5: Usage [1]
+Cluster 0 Sensor 6: Usage [1]
+Cluster 0 Sensor 7: Usage [1]
+Cluster 0 Sensor 8: Usage [1]
+Cluster 0 Sensor 9: Usage [1]
+
+Determining sensor usage:   0%|          | 0/1 [00:00<?, ?step/s]
+Determining sensor usage: 100%|██████████| 1/1 [00:00<00:00, 38.10step/s]
+Cluster 0 Sensor 0: Usage [1]
+Cluster 0 Sensor 1: Usage [1]
+Cluster 0 Sensor 2: Usage [1]
+Cluster 0 Sensor 3: Usage [1]
+Cluster 0 Sensor 4: Usage [1]
+Cluster 0 Sensor 5: Usage [1]
+Cluster 0 Sensor 6: Usage [1]
+Cluster 0 Sensor 7: Usage [1]
+Cluster 0 Sensor 8: Usage [1]
+Cluster 0 Sensor 9: Usage [1]
+Total rows: 215117Cluster 0 - New unique packets: 0, Total unique packets: 18399
+ 2025-02-14 13:21:26
+Determining sensor usage:   0%|          | 0/1 [00:00<?, ?step/s]
+Determining sensor usage: 100%|██████████| 1/1 [00:00<00:00, 1921.35step/s]
+Cluster 0 Sensor 0: Usage [1]
+Cluster 0 Sensor 1: Usage [0]
+Cluster 0 Sensor 2: Usage [1]
+Cluster 0 Sensor 3: Usage [1]
+Cluster 0 Sensor 4: Usage [1]
+Cluster 0 Sensor 5: Usage [1]
+Cluster 0 Sensor 6: Usage [1]
+Cluster 0 Sensor 7: Usage [0]
+Cluster 0 Sensor 8: Usage [1]
+Cluster 0 Sensor 9: Usage [0]
+
+Determining sensor usage:   0%|          | 0/1 [00:00<?, ?step/s]
+Determining sensor usage: 100%|██████████| 1/1 [00:00<00:00, 31.82step/s]
+Cluster 0 Sensor 0: Usage [0]
+Cluster 0 Sensor 1: Usage [1]
+Cluster 0 Sensor 2: Usage [1]
+Cluster 0 Sensor 3: Usage [1]
+Cluster 0 Sensor 4: Usage [1]
+Cluster 0 Sensor 5: Usage [1]
+Cluster 0 Sensor 6: Usage [1]
+Cluster 0 Sensor 7: Usage [1]
+Cluster 0 Sensor 8: Usage [1]
+Cluster 0 Sensor 9: Usage [1]
+
+Determining sensor usage:   0%|          | 0/1 [00:00<?, ?step/s]
+Determining sensor usage: 100%|██████████| 1/1 [00:00<00:00, 31.96step/s]
+Cluster 0 Sensor 0: Usage [0]
+Cluster 0 Sensor 1: Usage [0]
+Cluster 0 Sensor 2: Usage [0]
+Cluster 0 Sensor 3: Usage [0]
+Cluster 0 Sensor 4: Usage [0]
+Cluster 0 Sensor 5: Usage [0]
+Cluster 0 Sensor 6: Usage [0]
+Cluster 0 Sensor 7: Usage [0]
+Cluster 0 Sensor 8: Usage [1]
+Cluster 0 Sensor 9: Usage [1]
+
+Determining sensor usage:   0%|          | 0/1 [00:00<?, ?step/s]
+Determining sensor usage: 100%|██████████| 1/1 [00:00<00:00, 27.65step/s]
+Cluster 0 Sensor 0: Usage [1]
+Cluster 0 Sensor 1: Usage [1]
+Cluster 0 Sensor 2: Usage [0]
+Cluster 0 Sensor 3: Usage [1]
+Cluster 0 Sensor 4: Usage [1]
+Cluster 0 Sensor 5: Usage [1]
+Cluster 0 Sensor 6: Usage [1]
+Cluster 0 Sensor 7: Usage [1]
+Cluster 0 Sensor 8: Usage [1]
+Cluster 0 Sensor 9: Usage [1]
+
+Determining sensor usage:   0%|          | 0/1 [00:00<?, ?step/s]
+Determining sensor usage: 100%|██████████| 1/1 [00:00<00:00, 37.97step/s]
+Cluster 0 Sensor 0: Usage [0]
+Cluster 0 Sensor 1: Usage [0]
+Cluster 0 Sensor 2: Usage [0]
+Cluster 0 Sensor 3: Usage [0]
+Cluster 0 Sensor 4: Usage [0]
+Cluster 0 Sensor 5: Usage [0]
+Cluster 0 Sensor 6: Usage [0]
+Cluster 0 Sensor 7: Usage [0]
+Cluster 0 Sensor 8: Usage [0]
+Cluster 0 Sensor 9: Usage [0]
+
+Determining sensor usage:   0%|          | 0/1 [00:00<?, ?step/s]
+Determining sensor usage: 100%|██████████| 1/1 [00:00<00:00, 46.98step/s]
+Cluster 0 Sensor 0: Usage [0]
+Cluster 0 Sensor 1: Usage [1]
+Cluster 0 Sensor 2: Usage [1]
+Total rows: 215117Cluster 0 - New unique packets: 0, Total unique packets: 18399
+ 2025-02-14 13:23:16Cluster 0 Sensor 3: Usage [0]
+Cluster 0 Sensor 4: Usage [1]
+Cluster 0 Sensor 5: Usage [1]
+Cluster 0 Sensor 6: Usage [1]
+Cluster 0 Sensor 7: Usage [1]
+Cluster 0 Sensor 8: Usage [1]
+Cluster 0 Sensor 9: Usage [1]
+
+Determining sensor usage:   0%|          | 0/1 [00:00<?, ?step/s]
+Determining sensor usage: 100%|██████████| 1/1 [00:00<00:00, 47.05step/s]
+Cluster 0 Sensor 0: Usage [0]
+Cluster 0 Sensor 1: Usage [0]
+Cluster 0 Sensor 2: Usage [0]
+Cluster 0 Sensor 3: Usage [0]
+Cluster 0 Sensor 4: Usage [0]
+Cluster 0 Sensor 5: Usage [0]
+Cluster 0 Sensor 6: Usage [0]
+Cluster 0 Sensor 7: Usage [0]
+Cluster 0 Sensor 8: Usage [0]
+Cluster 0 Sensor 9: Usage [0]
+
+Determining sensor usage:   0%|          | 0/1 [00:00<?, ?step/s]
+Determining sensor usage: 100%|██████████| 1/1 [00:00<00:00, 37.97step/s]
+Cluster 0 Sensor 0: Usage [0]
+Cluster 0 Sensor 1: Usage [0]
+Cluster 0 Sensor 2: Usage [0]
+Cluster 0 Sensor 3: Usage [0]
+Cluster 0 Sensor 4: Usage [0]
+Cluster 0 Sensor 5: Usage [0]
+Cluster 0 Sensor 6: Usage [0]
+Cluster 0 Sensor 7: Usage [0]
+Cluster 0 Sensor 8: Usage [0]
+Cluster 0 Sensor 9: Usage [0]
+
+Determining sensor usage:   0%|          | 0/1 [00:00<?, ?step/s]
+Determining sensor usage: 100%|██████████| 1/1 [00:00<00:00, 38.04step/s]
+Cluster 0 Sensor 0: Usage [0]
+Cluster 0 Sensor 1: Usage [0]
+Cluster 0 Sensor 2: Usage [0]
+Cluster 0 Sensor 3: Usage [0]
+Cluster 0 Sensor 4: Usage [0]
+Cluster 0 Sensor 5: Usage [0]
+Cluster 0 Sensor 6: Usage [0]
+Cluster 0 Sensor 7: Usage [0]
+Cluster 0 Sensor 8: Usage [0]
+Cluster 0 Sensor 9: Usage [0]
+
+Determining sensor usage:   0%|          | 0/1 [00:00<?, ?step/s]
+Determining sensor usage: 100%|██████████| 1/1 [00:00<00:00, 47.27step/s]
+Cluster 0 Sensor 0: Usage [1]
+Cluster 0 Sensor 1: Usage [0]
+Cluster 0 Sensor 2: Usage [0]
+Cluster 0 Sensor 3: Usage [0]
+Cluster 0 Sensor 4: Usage [0]
+Cluster 0 Sensor 5: Usage [1]
+Cluster 0 Sensor 6: Usage [0]
+Cluster 0 Sensor 7: Usage [0]
+Cluster 0 Sensor 8: Usage [0]
+Cluster 0 Sensor 9: Usage [0]
+
+Determining sensor usage:   0%|          | 0/1 [00:00<?, ?step/s]
+Determining sensor usage: 100%|██████████| 1/1 [00:00<00:00, 38.20step/s]
+Cluster 0 Sensor 0: Usage [1]
+Cluster 0 Sensor 1: Usage [1]
+Cluster 0 Sensor 2: Usage [1]
+Cluster 0 Sensor 3: Usage [0]
+Cluster 0 Sensor 4: Usage [1]
+Cluster 0 Sensor 5: Usage [1]
+Total rows: 215117Cluster 0 - New unique packets: 0, Total unique packets: 18399
+ 2025-02-14 13:25:07Cluster 0 Sensor 6: Usage [1]
+Cluster 0 Sensor 7: Usage [1]
+Cluster 0 Sensor 8: Usage [1]
+Cluster 0 Sensor 9: Usage [1]
+
+Determining sensor usage:   0%|          | 0/1 [00:00<?, ?step/s]
+Determining sensor usage: 100%|██████████| 1/1 [00:00<00:00, 47.14step/s]
+Cluster 0 Sensor 0: Usage [1]
+Cluster 0 Sensor 1: Usage [1]
+Cluster 0 Sensor 2: Usage [1]
+Cluster 0 Sensor 3: Usage [1]
+
+Interrupt
+stopping ch0 
+Cluster 0 Sensor 4: Usage [1]
+
+Interrupt
+stopping ch0 
+
+Interrupt
+mininet-wifi> 
+Interrupt
+mininet-wifi> Cluster 0 Sensor 5: Usage [0]
+
+Interrupt
+mininet-wifi> Cluster 0 Sensor 6: Usage [1]
+*** Stopping network
+*** Stopping 1 controllers
+c0 
+*** Stopping 11 links
+...........
+*** Stopping switches/access points
+Cluster 0 Sensor 7: Usage [1]
+ap0 
+*** Stopping nodes
+c0s0 c0s1 c0s2 c0s3 c0s4 c0s5 c0s6 c0s7 c0s8 c0s9 ch0 
+Exception in thread Thread-13 (train_and_run_agent):
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.10/threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "/mydata/mydata/RL_agent/multi_cluster_combine.py", line 264, in train_and_run_agent
+    rl_agent_process(env, sensors, cluster_head, cluster_id)
+  File "/mydata/mydata/RL_agent/multi_cluster_combine.py", line 289, in rl_agent_process
+    cluster_head.cmd(f'echo "{rate}" | nc -q 1 -u {sensor_ip} 6001')
+  File "/usr/local/lib/python3.10/dist-packages/mininet/node.py", line 387, in cmd
+    return self.waitOutput( verbose )
+  File "/usr/local/lib/python3.10/dist-packages/mininet/node.py", line 374, in waitOutput
+    data = self.monitor( findPid=findPid )
+  File "/usr/local/lib/python3.10/dist-packages/mininet/node.py", line 341, in monitor
+    data = self.read( 1024 )
+  File "/usr/local/lib/python3.10/dist-packages/mininet/node.py", line 249, in read
+    data = os.read( self.stdout.fileno(), size - count )
+OSError: [Errno 5] Input/output error

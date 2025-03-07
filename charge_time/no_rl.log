@@ -1,0 +1,1164 @@
+2025-02-14 02:18:05.117957: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:477] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1739524685.138065 2928186 cuda_dnn.cc:8310] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1739524685.144368 2928186 cuda_blas.cc:1418] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-02-14 02:18:05.165260: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Created rate files for 10 sensors in 1 clusters in /mydata/mydata/RL_agent/output_multi_cluster
+start time:  1739524691.9815652
+*** Creating nodes
+*** Adding Controller
+*** Configuring wifi nodes
+*** Connecting to wmediumd server /var/run/wmediumd.sock
+*** Creating links
+*** Starting network
+*** Starting controller(s)
+c0 
+*** Starting L2 nodes
+ap0 ...
+*** Setting up communication flow
+*** Starting receivers
+Cluster 0 Receiver: Started listening on port 5001 for sensor 0
+Cluster 0 Receiver: Started listening on port 5002 for sensor 1
+Cluster 0 Receiver: Started listening on port 5003 for sensor 2
+Cluster 0 Receiver: Started listening on port 5004 for sensor 3
+Cluster 0 Receiver: Started listening on port 5005 for sensor 4
+Cluster 0 Receiver: Started listening on port 5006 for sensor 5
+Cluster 0 Receiver: Started listening on port 5007 for sensor 6
+Cluster 0 Receiver: Started listening on port 5008 for sensor 7
+Cluster 0 Receiver: Started listening on port 5009 for sensor 8
+Cluster 0 Receiver: Started listening on port 5010 for sensor 9
+Cluster 0 Receiver: Started tcpdump capture on ports 5001-5010
+*** Starting senders
+Cluster 0, Sensor 0: chunk size 2765
+Cluster 0, Sensor 1: chunk size 2679
+Cluster 0, Sensor 2: chunk size 2765
+Cluster 0, Sensor 3: chunk size 2592
+Cluster 0, Sensor 4: chunk size 2592
+Cluster 0, Sensor 5: chunk size 2592
+Cluster 0, Sensor 6: chunk size 2592
+Cluster 0, Sensor 7: chunk size 2592
+Cluster 0, Sensor 8: chunk size 2592
+Cluster 0, Sensor 9: chunk size 2592
+Waiting for initial data before starting RL agents
+Sufficient data received. Starting RL agents.
+*** Starting RL agents
+Cluster 0, Sensor 0: Sent packet 0 of size 86.96 KB at 2025-02-14 02:18:21.162
+Cluster 0, Sensor 2: Sent packet 0 of size 87.00 KB at 2025-02-14 02:18:21.173
+Cluster 0, Sensor 5: Sent packet 0 of size 88.19 KB at 2025-02-14 02:18:21.218
+Cluster 0, Sensor 8: Sent packet 0 of size 87.07 KB at 2025-02-14 02:18:21.278
+Cluster 0, Sensor 7: Sent packet 0 of size 88.16 KB at 2025-02-14 02:18:21.285
+Cluster 0, Sensor 9: Sent packet 0 of size 87.07 KB at 2025-02-14 02:18:21.393
+Cluster 0, Sensor 4: Sent packet 0 of size 90.10 KB at 2025-02-14 02:18:21.179
+Cluster 0, Sensor 3: Sent packet 0 of size 88.04 KB at 2025-02-14 02:18:21.176
+Cluster 0, Sensor 1: Sent packet 0 of size 87.03 KB at 2025-02-14 02:18:21.165
+Cluster 0, Sensor 6: Sent packet 0 of size 88.17 KB at 2025-02-14 02:18:21.236
+Cluster 0, Sensor 0: Sent packet 1 of size 87.83 KB at 2025-02-14 02:18:25.247
+Cluster 0, Sensor 2: Sent packet 1 of size 87.91 KB at 2025-02-14 02:18:25.463
+Cluster 0, Sensor 5: Sent packet 1 of size 89.19 KB at 2025-02-14 02:18:25.462
+Cluster 0, Sensor 8: Sent packet 1 of size 87.92 KB at 2025-02-14 02:18:25.519
+Cluster 0, Sensor 7: Sent packet 1 of size 89.20 KB at 2025-02-14 02:18:25.524
+Cluster 0, Sensor 9: Sent packet 1 of size 88.07 KB at 2025-02-14 02:18:25.631
+Cluster 0, Sensor 3: Sent packet 1 of size 89.05 KB at 2025-02-14 02:18:26.305
+Cluster 0, Sensor 6: Sent packet 1 of size 89.23 KB at 2025-02-14 02:18:26.352
+Cluster 0, Sensor 1: Sent packet 1 of size 87.93 KB at 2025-02-14 02:18:26.358
+Cluster 0, Sensor 4: Sent packet 1 of size 91.09 KB at 2025-02-14 02:18:26.387
+Cluster 0, Sensor 0: Sent packet 2 of size 87.72 KB at 2025-02-14 02:18:27.349
+Cluster 0, Sensor 5: Sent packet 2 of size 89.15 KB at 2025-02-14 02:18:27.546
+Cluster 0, Sensor 2: Sent packet 2 of size 87.99 KB at 2025-02-14 02:18:27.588
+Cluster 0, Sensor 8: Sent packet 2 of size 88.20 KB at 2025-02-14 02:18:27.609
+Cluster 0, Sensor 7: Sent packet 2 of size 89.22 KB at 2025-02-14 02:18:27.647
+Cluster 0, Sensor 9: Sent packet 2 of size 88.16 KB at 2025-02-14 02:18:27.774
+Cluster 0, Sensor 3: Sent packet 2 of size 89.19 KB at 2025-02-14 02:18:28.355
+Cluster 0, Sensor 6: Sent packet 2 of size 89.15 KB at 2025-02-14 02:18:28.397
+Cluster 0, Sensor 4: Sent packet 2 of size 90.70 KB at 2025-02-14 02:18:28.432
+Cluster 0, Sensor 1: Sent packet 2 of size 88.04 KB at 2025-02-14 02:18:28.448
+Cluster 0, Sensor 0: Sent packet 3 of size 87.80 KB at 2025-02-14 02:18:29.427
+Cluster 0, Sensor 5: Sent packet 3 of size 88.04 KB at 2025-02-14 02:18:29.630
+Cluster 0, Sensor 2: Sent packet 3 of size 87.82 KB at 2025-02-14 02:18:29.650
+Cluster 0, Sensor 8: Sent packet 3 of size 87.83 KB at 2025-02-14 02:18:29.731
+Cluster 0, Sensor 7: Sent packet 3 of size 89.07 KB at 2025-02-14 02:18:29.800
+Cluster 0, Sensor 9: Sent packet 3 of size 87.88 KB at 2025-02-14 02:18:29.850
+Cluster 0, Sensor 3: Sent packet 3 of size 88.58 KB at 2025-02-14 02:18:30.406
+Cluster 0, Sensor 6: Sent packet 3 of size 88.27 KB at 2025-02-14 02:18:30.478
+Cluster 0, Sensor 4: Sent packet 3 of size 89.79 KB at 2025-02-14 02:18:30.517
+Cluster 0, Sensor 1: Sent packet 3 of size 87.86 KB at 2025-02-14 02:18:30.549
+Cluster 0, Sensor 0: Sent packet 4 of size 87.96 KB at 2025-02-14 02:18:31.481
+Cluster 0, Sensor 5: Sent packet 4 of size 87.42 KB at 2025-02-14 02:18:31.687
+Cluster 0, Sensor 2: Sent packet 4 of size 87.99 KB at 2025-02-14 02:18:31.726
+Cluster 0, Sensor 8: Sent packet 4 of size 88.54 KB at 2025-02-14 02:18:31.804
+Cluster 0, Sensor 7: Sent packet 4 of size 90.07 KB at 2025-02-14 02:18:31.864
+Cluster 0, Sensor 9: Sent packet 4 of size 88.44 KB at 2025-02-14 02:18:31.909
+Cluster 0, Sensor 3: Sent packet 4 of size 88.60 KB at 2025-02-14 02:18:32.479
+Cluster 0, Sensor 6: Sent packet 4 of size 86.92 KB at 2025-02-14 02:18:32.560
+Cluster 0, Sensor 1: Sent packet 4 of size 88.20 KB at 2025-02-14 02:18:32.612
+Cluster 0, Sensor 4: Sent packet 4 of size 88.63 KB at 2025-02-14 02:18:32.615
+Cluster 0, Sensor 0: Sent packet 5 of size 88.84 KB at 2025-02-14 02:18:33.590
+Cluster 0, Sensor 5: Sent packet 5 of size 88.17 KB at 2025-02-14 02:18:33.807
+Cluster 0, Sensor 2: Sent packet 5 of size 88.62 KB at 2025-02-14 02:18:33.808
+Cluster 0, Sensor 8: Sent packet 5 of size 88.70 KB at 2025-02-14 02:18:33.902
+Cluster 0, Sensor 7: Sent packet 5 of size 90.09 KB at 2025-02-14 02:18:33.970
+Cluster 0, Sensor 9: Sent packet 5 of size 89.02 KB at 2025-02-14 02:18:34.048
+Cluster 0, Sensor 3: Sent packet 5 of size 89.17 KB at 2025-02-14 02:18:34.562
+Cluster 0, Sensor 6: Sent packet 5 of size 88.13 KB at 2025-02-14 02:18:34.665
+Cluster 0, Sensor 1: Sent packet 5 of size 89.07 KB at 2025-02-14 02:18:34.707
+Cluster 0, Sensor 4: Sent packet 5 of size 89.17 KB at 2025-02-14 02:18:34.705
+Cluster 0, Sensor 0: Sent packet 6 of size 88.75 KB at 2025-02-14 02:18:35.724
+Cluster 0, Sensor 5: Sent packet 6 of size 87.90 KB at 2025-02-14 02:18:36.019
+Cluster 0, Sensor 2: Sent packet 6 of size 88.83 KB at 2025-02-14 02:18:35.953
+Cluster 0, Sensor 8: Sent packet 6 of size 89.15 KB at 2025-02-14 02:18:36.036
+Cluster 0, Sensor 9: Sent packet 6 of size 89.07 KB at 2025-02-14 02:18:36.185
+Cluster 0, Sensor 7: Sent packet 6 of size 89.59 KB at 2025-02-14 02:18:36.160
+Cluster 0, Sensor 3: Sent packet 6 of size 88.96 KB at 2025-02-14 02:18:36.674
+Cluster 0, Sensor 6: Sent packet 6 of size 87.91 KB at 2025-02-14 02:18:36.764
+Cluster 0, Sensor 1: Sent packet 6 of size 88.94 KB at 2025-02-14 02:18:36.808
+Cluster 0, Sensor 4: Sent packet 6 of size 89.18 KB at 2025-02-14 02:18:36.854
+Cluster 0, Sensor 0: Sent packet 7 of size 88.29 KB at 2025-02-14 02:18:37.919
+Cluster 0, Sensor 5: Sent packet 7 of size 87.08 KB at 2025-02-14 02:18:38.126
+Cluster 0, Sensor 8: Sent packet 7 of size 87.33 KB at 2025-02-14 02:18:38.194
+Cluster 0, Sensor 2: Sent packet 7 of size 88.24 KB at 2025-02-14 02:18:38.160
+Cluster 0, Sensor 9: Sent packet 7 of size 88.23 KB at 2025-02-14 02:18:38.410
+Cluster 0, Sensor 7: Sent packet 7 of size 88.49 KB at 2025-02-14 02:18:38.350
+Cluster 0, Sensor 1: Sent packet 7 of size 88.44 KB at 2025-02-14 02:18:38.935
+Cluster 0, Sensor 3: Sent packet 7 of size 87.56 KB at 2025-02-14 02:18:38.843
+Cluster 0, Sensor 4: Sent packet 7 of size 89.22 KB at 2025-02-14 02:18:39.145
+Cluster 0, Sensor 6: Sent packet 7 of size 87.12 KB at 2025-02-14 02:18:38.824
+Cluster 0, Sensor 0: Sent packet 8 of size 88.25 KB at 2025-02-14 02:18:40.106
+Cluster 0, Sensor 5: Sent packet 8 of size 87.94 KB at 2025-02-14 02:18:40.414
+Cluster 0, Sensor 8: Sent packet 8 of size 88.04 KB at 2025-02-14 02:18:40.525
+Cluster 0, Sensor 2: Sent packet 8 of size 87.97 KB at 2025-02-14 02:18:40.653
+Cluster 0, Sensor 9: Sent packet 8 of size 88.95 KB at 2025-02-14 02:18:40.764
+Cluster 0, Sensor 7: Sent packet 8 of size 89.00 KB at 2025-02-14 02:18:40.849
+Cluster 0, Sensor 1: Sent packet 8 of size 88.63 KB at 2025-02-14 02:18:41.106
+Cluster 0, Sensor 3: Sent packet 8 of size 88.01 KB at 2025-02-14 02:18:41.191
+Cluster 0, Sensor 4: Sent packet 8 of size 90.73 KB at 2025-02-14 02:18:41.383
+Cluster 0, Sensor 6: Sent packet 8 of size 87.98 KB at 2025-02-14 02:18:41.382
+Cluster 0, Sensor 0: Sent packet 9 of size 88.87 KB at 2025-02-14 02:18:42.590
+Cluster 0, Sensor 5: Sent packet 9 of size 88.16 KB at 2025-02-14 02:18:42.922
+Cluster 0, Sensor 8: Sent packet 9 of size 88.09 KB at 2025-02-14 02:18:43.059
+Cluster 0, Sensor 9: Sent packet 9 of size 89.14 KB at 2025-02-14 02:18:43.146
+Cluster 0, Sensor 3: Sent packet 9 of size 88.19 KB at 2025-02-14 02:18:43.342
+Cluster 0, Sensor 2: Sent packet 9 of size 88.98 KB at 2025-02-14 02:18:43.113
+Cluster 0, Sensor 7: Sent packet 9 of size 89.19 KB at 2025-02-14 02:18:43.147
+Cluster 0, Sensor 1: Sent packet 9 of size 88.97 KB at 2025-02-14 02:18:43.335
+Cluster 0, Sensor 4: Sent packet 9 of size 90.55 KB at 2025-02-14 02:18:43.825
+Cluster 0, Sensor 6: Sent packet 9 of size 88.01 KB at 2025-02-14 02:18:44.071
+Cluster 0, Sensor 0: Sent packet 10 of size 88.88 KB at 2025-02-14 02:18:44.789
+Cluster 0, Sensor 8: Sent packet 10 of size 87.97 KB at 2025-02-14 02:18:45.243
+Cluster 0, Sensor 5: Sent packet 10 of size 88.01 KB at 2025-02-14 02:18:45.151
+Cluster 0, Sensor 2: Sent packet 10 of size 88.87 KB at 2025-02-14 02:18:45.521
+Cluster 0, Sensor 3: Sent packet 10 of size 87.63 KB at 2025-02-14 02:18:45.509
+Cluster 0, Sensor 1: Sent packet 10 of size 89.09 KB at 2025-02-14 02:18:45.602
+Cluster 0, Sensor 9: Sent packet 10 of size 88.74 KB at 2025-02-14 02:18:45.416
+Cluster 0, Sensor 7: Sent packet 10 of size 88.84 KB at 2025-02-14 02:18:45.685
+Cluster 0, Sensor 4: Sent packet 10 of size 89.60 KB at 2025-02-14 02:18:45.899
+Cluster 0, Sensor 6: Sent packet 10 of size 88.07 KB at 2025-02-14 02:18:46.229
+Cluster 0, Sensor 0: Sent packet 11 of size 88.05 KB at 2025-02-14 02:18:47.148
+Cluster 0, Sensor 5: Sent packet 11 of size 87.89 KB at 2025-02-14 02:18:47.531
+Cluster 0, Sensor 2: Sent packet 11 of size 87.95 KB at 2025-02-14 02:18:47.782
+Cluster 0, Sensor 7: Sent packet 11 of size 89.04 KB at 2025-02-14 02:18:48.048
+Cluster 0, Sensor 3: Sent packet 11 of size 87.29 KB at 2025-02-14 02:18:47.954
+Cluster 0, Sensor 9: Sent packet 11 of size 88.25 KB at 2025-02-14 02:18:48.130
+Cluster 0, Sensor 4: Sent packet 11 of size 88.34 KB at 2025-02-14 02:18:48.157
+Cluster 0, Sensor 1: Sent packet 11 of size 87.96 KB at 2025-02-14 02:18:48.133
+Cluster 0, Sensor 6: Sent packet 11 of size 88.43 KB at 2025-02-14 02:18:48.453
+Cluster 0, Sensor 0: Sent packet 12 of size 88.33 KB at 2025-02-14 02:18:49.440
+Cluster 0, Sensor 5: Sent packet 12 of size 89.18 KB at 2025-02-14 02:18:50.105
+Cluster 0, Sensor 2: Sent packet 12 of size 88.17 KB at 2025-02-14 02:18:50.329
+Cluster 0, Sensor 7: Sent packet 12 of size 89.87 KB at 2025-02-14 02:18:50.397
+Cluster 0, Sensor 4: Sent packet 12 of size 89.13 KB at 2025-02-14 02:18:50.518
+Cluster 0, Sensor 3: Sent packet 12 of size 88.05 KB at 2025-02-14 02:18:50.559
+Cluster 0, Sensor 1: Sent packet 12 of size 88.85 KB at 2025-02-14 02:18:50.553
+Cluster 0, Sensor 9: Sent packet 12 of size 89.02 KB at 2025-02-14 02:18:50.509
+Cluster 0, Sensor 6: Sent packet 12 of size 89.21 KB at 2025-02-14 02:18:50.679
+Cluster 0, Sensor 0: Sent packet 13 of size 88.89 KB at 2025-02-14 02:18:51.817
+Cluster 0, Sensor 5: Sent packet 13 of size 89.22 KB at 2025-02-14 02:18:52.288
+Cluster 0, Sensor 2: Sent packet 13 of size 88.91 KB at 2025-02-14 02:18:52.428
+Cluster 0, Sensor 7: Sent packet 13 of size 90.30 KB at 2025-02-14 02:18:52.536
+Cluster 0, Sensor 4: Sent packet 13 of size 89.15 KB at 2025-02-14 02:18:52.647
+Cluster 0, Sensor 8: Sent packet 11 of size 88.11 KB at 2025-02-14 02:18:47.420
+Cluster 0, Sensor 1: Sent packet 13 of size 88.78 KB at 2025-02-14 02:18:52.761
+Cluster 0, Sensor 3: Sent packet 13 of size 88.10 KB at 2025-02-14 02:18:52.730
+Cluster 0, Sensor 9: Sent packet 13 of size 88.90 KB at 2025-02-14 02:18:52.818
+Cluster 0, Sensor 6: Sent packet 13 of size 89.17 KB at 2025-02-14 02:18:52.852
+Cluster 0, Sensor 0: Sent packet 14 of size 88.37 KB at 2025-02-14 02:18:53.956
+Cluster 0, Sensor 5: Sent packet 14 of size 88.32 KB at 2025-02-14 02:18:54.457
+Cluster 0, Sensor 2: Sent packet 14 of size 88.78 KB at 2025-02-14 02:18:54.585
+Cluster 0, Sensor 8: Sent packet 12 of size 89.24 KB at 2025-02-14 02:18:54.742
+Cluster 0, Sensor 4: Sent packet 14 of size 88.48 KB at 2025-02-14 02:18:54.714
+Cluster 0, Sensor 7: Sent packet 14 of size 90.50 KB at 2025-02-14 02:18:54.851
+Cluster 0, Sensor 1: Sent packet 14 of size 88.63 KB at 2025-02-14 02:18:54.857
+Cluster 0, Sensor 3: Sent packet 14 of size 88.04 KB at 2025-02-14 02:18:54.978
+Cluster 0, Sensor 6: Sent packet 14 of size 88.48 KB at 2025-02-14 02:18:55.078
+Cluster 0, Sensor 9: Sent packet 14 of size 87.79 KB at 2025-02-14 02:18:55.012
+Total rows: 76113Cluster 0 - New unique packets: 13888, Total unique packets: 13888
+ 2025-02-14 02:18:56Cluster 0, Sensor 0: Sent packet 15 of size 89.18 KB at 2025-02-14 02:18:56.128
+Cluster 0, Sensor 5: Sent packet 15 of size 88.70 KB at 2025-02-14 02:18:56.653
+Cluster 0, Sensor 4: Sent packet 15 of size 88.74 KB at 2025-02-14 02:18:56.886
+Cluster 0, Sensor 8: Sent packet 13 of size 89.00 KB at 2025-02-14 02:18:56.860
+Cluster 0, Sensor 1: Sent packet 15 of size 87.01 KB at 2025-02-14 02:18:56.983
+Cluster 0, Sensor 2: Sent packet 15 of size 87.30 KB at 2025-02-14 02:18:56.859
+Cluster 0, Sensor 3: Sent packet 15 of size 88.82 KB at 2025-02-14 02:18:57.115
+Cluster 0, Sensor 9: Sent packet 15 of size 87.59 KB at 2025-02-14 02:18:57.261
+Cluster 0, Sensor 6: Sent packet 15 of size 88.51 KB at 2025-02-14 02:18:57.188
+Cluster 0, Sensor 7: Sent packet 15 of size 90.61 KB at 2025-02-14 02:18:56.949
+Cluster 0, Sensor 0: Sent packet 16 of size 90.15 KB at 2025-02-14 02:18:58.448
+Cluster 0, Sensor 5: Sent packet 16 of size 88.96 KB at 2025-02-14 02:18:58.968
+Cluster 0, Sensor 4: Sent packet 16 of size 89.09 KB at 2025-02-14 02:18:59.108
+Cluster 0, Sensor 8: Sent packet 14 of size 88.50 KB at 2025-02-14 02:18:59.196
+Cluster 0, Sensor 1: Sent packet 16 of size 88.03 KB at 2025-02-14 02:18:59.282
+Cluster 0, Sensor 2: Sent packet 16 of size 87.39 KB at 2025-02-14 02:18:59.313
+Cluster 0, Sensor 3: Sent packet 16 of size 89.02 KB at 2025-02-14 02:18:59.328
+Cluster 0, Sensor 9: Sent packet 16 of size 88.21 KB at 2025-02-14 02:18:59.385
+Cluster 0, Sensor 6: Sent packet 16 of size 88.79 KB at 2025-02-14 02:18:59.430
+Cluster 0, Sensor 7: Sent packet 16 of size 91.06 KB at 2025-02-14 02:18:59.529
+Cluster 0, Sensor 0: Sent packet 17 of size 90.62 KB at 2025-02-14 02:19:00.534
+Cluster 0, Sensor 5: Sent packet 17 of size 89.00 KB at 2025-02-14 02:19:01.057
+Cluster 0, Sensor 4: Sent packet 17 of size 88.96 KB at 2025-02-14 02:19:01.268
+Cluster 0, Sensor 1: Sent packet 17 of size 87.96 KB at 2025-02-14 02:19:01.441
+Cluster 0, Sensor 8: Sent packet 15 of size 88.61 KB at 2025-02-14 02:19:01.383
+Cluster 0, Sensor 2: Sent packet 17 of size 87.47 KB at 2025-02-14 02:19:01.478
+Cluster 0, Sensor 9: Sent packet 17 of size 87.84 KB at 2025-02-14 02:19:01.607
+Cluster 0, Sensor 6: Sent packet 17 of size 89.18 KB at 2025-02-14 02:19:01.612
+Cluster 0, Sensor 3: Sent packet 17 of size 89.12 KB at 2025-02-14 02:19:01.547
+Cluster 0, Sensor 7: Sent packet 17 of size 91.00 KB at 2025-02-14 02:19:01.926
+Cluster 0, Sensor 0: Sent packet 18 of size 90.62 KB at 2025-02-14 02:19:02.773
+Cluster 0, Sensor 5: Sent packet 18 of size 88.02 KB at 2025-02-14 02:19:03.224
+Cluster 0, Sensor 4: Sent packet 18 of size 90.33 KB at 2025-02-14 02:19:03.397
+Cluster 0, Sensor 8: Sent packet 16 of size 89.00 KB at 2025-02-14 02:19:03.658
+Cluster 0, Sensor 1: Sent packet 18 of size 87.32 KB at 2025-02-14 02:19:03.624
+Cluster 0, Sensor 2: Sent packet 18 of size 87.69 KB at 2025-02-14 02:19:03.794
+Cluster 0, Sensor 9: Sent packet 18 of size 88.00 KB at 2025-02-14 02:19:03.830
+Cluster 0, Sensor 6: Sent packet 18 of size 87.80 KB at 2025-02-14 02:19:03.883
+Cluster 0, Sensor 3: Sent packet 18 of size 87.11 KB at 2025-02-14 02:19:03.871
+Cluster 0, Sensor 7: Sent packet 18 of size 88.11 KB at 2025-02-14 02:19:04.125
+Cluster 0, Sensor 0: Sent packet 19 of size 90.06 KB at 2025-02-14 02:19:04.962
+Cluster 0, Sensor 5: Sent packet 19 of size 89.15 KB at 2025-02-14 02:19:05.406
+Cluster 0, Sensor 1: Sent packet 19 of size 87.21 KB at 2025-02-14 02:19:05.808
+Cluster 0, Sensor 4: Sent packet 19 of size 93.42 KB at 2025-02-14 02:19:05.534
+Cluster 0, Sensor 8: Sent packet 17 of size 88.85 KB at 2025-02-14 02:19:05.895
+Cluster 0, Sensor 7: Sent packet 19 of size 89.15 KB at 2025-02-14 02:19:06.217
+Cluster 0, Sensor 3: Sent packet 19 of size 88.05 KB at 2025-02-14 02:19:06.133
+Cluster 0, Sensor 6: Sent packet 19 of size 88.50 KB at 2025-02-14 02:19:06.134
+Cluster 0, Sensor 2: Sent packet 19 of size 86.92 KB at 2025-02-14 02:19:05.987
+Cluster 0, Sensor 9: Sent packet 19 of size 89.08 KB at 2025-02-14 02:19:06.081
+Cluster 0, Sensor 0: Sent packet 20 of size 90.63 KB at 2025-02-14 02:19:07.102
+Cluster 0, Sensor 5: Sent packet 20 of size 88.96 KB at 2025-02-14 02:19:07.686
+Cluster 0, Sensor 4: Sent packet 20 of size 92.49 KB at 2025-02-14 02:19:07.909
+Cluster 0, Sensor 1: Sent packet 20 of size 87.92 KB at 2025-02-14 02:19:07.998
+Cluster 0, Sensor 8: Sent packet 18 of size 88.14 KB at 2025-02-14 02:19:08.008
+Cluster 0, Sensor 7: Sent packet 20 of size 89.17 KB at 2025-02-14 02:19:08.311
+Cluster 0, Sensor 0: Energy below threshold (16.0). Recharging...
+Cluster 0, Sensor 9: Sent packet 20 of size 89.01 KB at 2025-02-14 02:19:08.475
+Cluster 0, Sensor 6: Sent packet 20 of size 87.81 KB at 2025-02-14 02:19:08.452
+Cluster 0, Sensor 3: Sent packet 20 of size 87.75 KB at 2025-02-14 02:19:08.453
+Cluster 0, Sensor 2: Sent packet 20 of size 87.71 KB at 2025-02-14 02:19:08.472
+Cluster 0, Sensor 5: Energy below threshold (16.0). Recharging...
+Cluster 0, Sensor 4: Energy below threshold (16.0). Recharging...
+Cluster 0, Sensor 1: Energy below threshold (16.0). Recharging...
+Cluster 0, Sensor 7: Energy below threshold (16.0). Recharging...
+Cluster 0, Sensor 3: Energy below threshold (16.0). Recharging...
+Cluster 0, Sensor 9: Energy below threshold (16.0). Recharging...
+Cluster 0, Sensor 6: Energy below threshold (16.0). Recharging...
+Cluster 0, Sensor 2: Energy below threshold (16.0). Recharging...
+Cluster 0, Sensor 8: Sent packet 19 of size 89.22 KB at 2025-02-14 02:19:10.278
+Cluster 0, Sensor 0: Recharged to full energy (100),Current time: 1739524749.4962735,chargecount1. Resuming operations.
+Cluster 0, Sensor 5: Recharged to full energy (100),Current time: 1739524749.9105425,chargecount1. Resuming operations.
+Cluster 0, Sensor 4: Recharged to full energy (100),Current time: 1739524750.0295668,chargecount1. Resuming operations.
+Cluster 0, Sensor 1: Recharged to full energy (100),Current time: 1739524750.2118723,chargecount1. Resuming operations.
+Cluster 0, Sensor 7: Recharged to full energy (100),Current time: 1739524750.4640853,chargecount1. Resuming operations.
+Cluster 0, Sensor 3: Recharged to full energy (100),Current time: 1739524750.5746465,chargecount1. Resuming operations.
+Cluster 0, Sensor 9: Recharged to full energy (100),Current time: 1739524750.574824,chargecount1. Resuming operations.
+Cluster 0, Sensor 2: Recharged to full energy (100),Current time: 1739524750.669844,chargecount1. Resuming operations.
+Cluster 0, Sensor 6: Recharged to full energy (100),Current time: 1739524750.6042244,chargecount1. Resuming operations.
+Cluster 0, Sensor 0: Sent packet 21 of size 91.40 KB at 2025-02-14 02:19:12.533
+Cluster 0, Sensor 8: Sent packet 20 of size 88.66 KB at 2025-02-14 02:19:12.502
+Cluster 0, Sensor 8: Energy below threshold (16.0). Recharging...
+Cluster 0, Sensor 8: Recharged to full energy (100),Current time: 1739524754.8337526,chargecount1. Resuming operations.
+Cluster 0, Sensor 1: Sent packet 21 of size 87.92 KB at 2025-02-14 02:19:13.220
+Cluster 0, Sensor 4: Sent packet 21 of size 91.35 KB at 2025-02-14 02:19:13.085
+Cluster 0, Sensor 2: Sent packet 21 of size 87.61 KB at 2025-02-14 02:19:13.708
+Cluster 0, Sensor 9: Sent packet 21 of size 88.02 KB at 2025-02-14 02:19:13.664
+Cluster 0, Sensor 6: Sent packet 21 of size 88.21 KB at 2025-02-14 02:19:13.710
+Cluster 0, Sensor 5: Sent packet 21 of size 88.29 KB at 2025-02-14 02:19:12.999
+Cluster 0, Sensor 3: Sent packet 21 of size 88.16 KB at 2025-02-14 02:19:13.614
+Cluster 0, Sensor 8: Sent packet 21 of size 88.26 KB at 2025-02-14 02:19:17.877
+Cluster 0, Sensor 7: Sent packet 21 of size 89.56 KB at 2025-02-14 02:19:13.498
+Cluster 0, Sensor 4: Sent packet 22 of size 90.43 KB at 2025-02-14 02:19:29.548
+Cluster 0, Sensor 0: Sent packet 22 of size 90.59 KB at 2025-02-14 02:19:14.817
+Cluster 0, Sensor 2: Sent packet 22 of size 87.99 KB at 2025-02-14 02:19:29.983
+Cluster 0, Sensor 9: Sent packet 22 of size 87.36 KB at 2025-02-14 02:19:30.039
+Cluster 0, Sensor 5: Sent packet 22 of size 87.10 KB at 2025-02-14 02:19:30.155
+Cluster 0, Sensor 6: Sent packet 22 of size 87.58 KB at 2025-02-14 02:19:30.170
+Cluster 0, Sensor 3: Sent packet 22 of size 88.67 KB at 2025-02-14 02:19:30.896
+Cluster 0, Sensor 8: Sent packet 22 of size 87.56 KB at 2025-02-14 02:19:33.974
+Cluster 0, Sensor 1: Sent packet 22 of size 87.91 KB at 2025-02-14 02:19:29.473
+Total rows: 136733Cluster 0 - New unique packets: 1129, Total unique packets: 15017
+ 2025-02-14 02:20:00Cluster 0, Sensor 4: Sent packet 23 of size 88.94 KB at 2025-02-14 02:19:45.638
+Cluster 0, Sensor 0: Sent packet 23 of size 86.35 KB at 2025-02-14 02:19:45.919
+Cluster 0, Sensor 2: Sent packet 23 of size 87.66 KB at 2025-02-14 02:19:46.083
+Cluster 0, Sensor 9: Sent packet 23 of size 87.95 KB at 2025-02-14 02:19:46.124
+Cluster 0, Sensor 5: Sent packet 23 of size 88.12 KB at 2025-02-14 02:19:46.248
+Cluster 0, Sensor 6: Sent packet 23 of size 87.99 KB at 2025-02-14 02:19:46.289
+Cluster 0, Sensor 3: Sent packet 23 of size 89.15 KB at 2025-02-14 02:19:46.992
+Cluster 0, Sensor 8: Sent packet 23 of size 88.07 KB at 2025-02-14 02:19:50.089
+Cluster 0, Sensor 7: Sent packet 22 of size 90.30 KB at 2025-02-14 02:19:44.766
+Cluster 0, Sensor 1: Sent packet 23 of size 88.71 KB at 2025-02-14 02:20:00.531
+Cluster 0, Sensor 0: Sent packet 24 of size 87.77 KB at 2025-02-14 02:20:01.940
+Cluster 0, Sensor 2: Sent packet 24 of size 88.53 KB at 2025-02-14 02:20:02.101
+Cluster 0, Sensor 9: Sent packet 24 of size 87.96 KB at 2025-02-14 02:20:02.142
+Cluster 0, Sensor 5: Sent packet 24 of size 87.99 KB at 2025-02-14 02:20:02.266
+Cluster 0, Sensor 6: Sent packet 24 of size 88.16 KB at 2025-02-14 02:20:02.308
+Cluster 0, Sensor 3: Sent packet 24 of size 88.90 KB at 2025-02-14 02:20:03.016
+Cluster 0, Sensor 8: Sent packet 24 of size 88.22 KB at 2025-02-14 02:20:06.184
+Cluster 0, Sensor 7: Sent packet 23 of size 91.31 KB at 2025-02-14 02:20:15.874
+Cluster 0, Sensor 1: Sent packet 24 of size 88.78 KB at 2025-02-14 02:20:17.610
+Cluster 0, Sensor 4: Sent packet 24 of size 88.14 KB at 2025-02-14 02:20:01.658
+Cluster 0, Sensor 2: Sent packet 25 of size 88.98 KB at 2025-02-14 02:20:18.181
+Cluster 0, Sensor 9: Sent packet 25 of size 87.24 KB at 2025-02-14 02:20:18.217
+Cluster 0, Sensor 5: Sent packet 25 of size 88.04 KB at 2025-02-14 02:20:18.357
+Cluster 0, Sensor 6: Sent packet 25 of size 87.18 KB at 2025-02-14 02:20:18.423
+Cluster 0, Sensor 7: Sent packet 24 of size 91.42 KB at 2025-02-14 02:20:31.981
+Cluster 0, Sensor 0: Sent packet 25 of size 88.21 KB at 2025-02-14 02:20:18.025
+Cluster 0, Sensor 8: Sent packet 25 of size 88.03 KB at 2025-02-14 02:20:22.280
+Cluster 0, Sensor 1: Sent packet 25 of size 89.07 KB at 2025-02-14 02:20:33.726
+Cluster 0, Sensor 4: Sent packet 25 of size 87.97 KB at 2025-02-14 02:20:33.762
+Cluster 0, Sensor 3: Sent packet 25 of size 88.26 KB at 2025-02-14 02:20:19.117
+Cluster 0, Sensor 9: Sent packet 26 of size 87.96 KB at 2025-02-14 02:20:34.307
+Cluster 0, Sensor 5: Sent packet 26 of size 88.72 KB at 2025-02-14 02:20:34.467
+Cluster 0, Sensor 6: Sent packet 26 of size 87.71 KB at 2025-02-14 02:20:34.492
+Cluster 0, Sensor 7: Sent packet 25 of size 89.36 KB at 2025-02-14 02:20:35.052
+Cluster 0, Sensor 0: Sent packet 26 of size 88.70 KB at 2025-02-14 02:20:36.115
+Cluster 0, Sensor 8: Sent packet 26 of size 88.93 KB at 2025-02-14 02:20:38.370
+Cluster 0, Sensor 2: Sent packet 26 of size 88.72 KB at 2025-02-14 02:20:34.297
+Cluster 0, Sensor 4: Sent packet 26 of size 88.89 KB at 2025-02-14 02:20:49.848
+Cluster 0, Sensor 3: Sent packet 26 of size 88.95 KB at 2025-02-14 02:20:50.198
+Cluster 0, Sensor 9: Sent packet 27 of size 87.86 KB at 2025-02-14 02:20:50.408
+Cluster 0, Sensor 5: Sent packet 27 of size 89.04 KB at 2025-02-14 02:20:50.541
+Cluster 0, Sensor 6: Sent packet 27 of size 88.08 KB at 2025-02-14 02:20:50.593
+Cluster 0, Sensor 7: Sent packet 26 of size 90.86 KB at 2025-02-14 02:20:51.153
+Cluster 0, Sensor 0: Sent packet 27 of size 88.03 KB at 2025-02-14 02:20:52.236
+Cluster 0, Sensor 8: Sent packet 27 of size 88.96 KB at 2025-02-14 02:20:54.471
+Total rows: 154922Cluster 0 - New unique packets: 1948, Total unique packets: 16965
+ 2025-02-14 02:21:10Cluster 0, Sensor 1: Sent packet 26 of size 87.78 KB at 2025-02-14 02:20:49.816
+Cluster 0, Sensor 4: Sent packet 27 of size 89.07 KB at 2025-02-14 02:21:05.948
+Cluster 0, Sensor 3: Sent packet 27 of size 89.00 KB at 2025-02-14 02:21:06.274
+Cluster 0, Sensor 2: Sent packet 27 of size 87.87 KB at 2025-02-14 02:21:05.390
+Cluster 0, Sensor 5: Sent packet 28 of size 88.36 KB at 2025-02-14 02:21:06.627
+Cluster 0, Sensor 6: Sent packet 28 of size 88.10 KB at 2025-02-14 02:21:06.699
+Cluster 0, Sensor 7: Sent packet 27 of size 91.01 KB at 2025-02-14 02:21:07.254
+Cluster 0, Sensor 0: Sent packet 28 of size 88.95 KB at 2025-02-14 02:21:08.332
+Cluster 0, Sensor 8: Sent packet 28 of size 88.56 KB at 2025-02-14 02:21:10.567
+Cluster 0, Sensor 1: Sent packet 27 of size 88.98 KB at 2025-02-14 02:21:20.919
+Cluster 0, Sensor 4: Sent packet 28 of size 88.96 KB at 2025-02-14 02:21:22.043
+Cluster 0, Sensor 3: Sent packet 28 of size 88.87 KB at 2025-02-14 02:21:22.375
+Cluster 0, Sensor 9: Sent packet 28 of size 88.00 KB at 2025-02-14 02:21:06.497
+Cluster 0, Sensor 2: Sent packet 28 of size 88.95 KB at 2025-02-14 02:21:22.498
+Cluster 0, Sensor 6: Sent packet 29 of size 88.40 KB at 2025-02-14 02:21:22.793
+Cluster 0, Sensor 7: Sent packet 28 of size 90.49 KB at 2025-02-14 02:21:23.350
+Cluster 0, Sensor 0: Sent packet 29 of size 88.70 KB at 2025-02-14 02:21:24.424
+Cluster 0, Sensor 8: Sent packet 29 of size 87.39 KB at 2025-02-14 02:21:26.663
+Cluster 0, Sensor 1: Sent packet 28 of size 88.79 KB at 2025-02-14 02:21:37.020
+Cluster 0, Sensor 4: Sent packet 29 of size 90.17 KB at 2025-02-14 02:21:38.141
+Cluster 0, Sensor 3: Sent packet 29 of size 88.16 KB at 2025-02-14 02:21:38.475
+Cluster 0, Sensor 2: Sent packet 29 of size 88.95 KB at 2025-02-14 02:21:38.585
+Cluster 0, Sensor 9: Sent packet 29 of size 88.29 KB at 2025-02-14 02:21:38.615
+Cluster 0, Sensor 5: Sent packet 29 of size 88.33 KB at 2025-02-14 02:21:22.713
+Cluster 0, Sensor 7: Sent packet 29 of size 90.01 KB at 2025-02-14 02:21:39.441
+Cluster 0, Sensor 0: Sent packet 30 of size 88.54 KB at 2025-02-14 02:21:40.519
+Cluster 0, Sensor 8: Sent packet 30 of size 88.07 KB at 2025-02-14 02:21:42.764
+Cluster 0, Sensor 1: Sent packet 29 of size 88.40 KB at 2025-02-14 02:21:53.126
+Cluster 0, Sensor 3: Sent packet 30 of size 89.00 KB at 2025-02-14 02:21:54.560
+Cluster 0, Sensor 2: Sent packet 30 of size 88.58 KB at 2025-02-14 02:21:54.686
+Cluster 0, Sensor 9: Sent packet 30 of size 89.05 KB at 2025-02-14 02:21:54.728
+Cluster 0, Sensor 5: Sent packet 30 of size 89.09 KB at 2025-02-14 02:21:54.807
+Cluster 0, Sensor 6: Sent packet 30 of size 88.94 KB at 2025-02-14 02:21:38.884
+Cluster 0, Sensor 7: Sent packet 30 of size 91.05 KB at 2025-02-14 02:21:55.563
+Cluster 0, Sensor 4: Sent packet 30 of size 91.04 KB at 2025-02-14 02:21:54.221
+Cluster 0, Sensor 1: Sent packet 30 of size 87.24 KB at 2025-02-14 02:22:09.238
+Cluster 0, Sensor 8: Sent packet 31 of size 89.38 KB at 2025-02-14 02:21:58.849
+Total rows: 156499Cluster 0 - New unique packets: 140, Total unique packets: 17105
+ 2025-02-14 02:22:22Cluster 0, Sensor 3: Sent packet 31 of size 89.03 KB at 2025-02-14 02:22:10.648
+Cluster 0, Sensor 2: Sent packet 31 of size 88.07 KB at 2025-02-14 02:22:10.783
+Cluster 0, Sensor 9: Sent packet 31 of size 89.05 KB at 2025-02-14 02:22:10.825
+Cluster 0, Sensor 5: Sent packet 31 of size 88.66 KB at 2025-02-14 02:22:10.900
+Cluster 0, Sensor 6: Sent packet 31 of size 89.17 KB at 2025-02-14 02:22:11.000
+Cluster 0, Sensor 0: Sent packet 31 of size 88.13 KB at 2025-02-14 02:21:56.605
+Cluster 0, Sensor 4: Sent packet 31 of size 91.06 KB at 2025-02-14 02:22:12.324
+Cluster 0, Sensor 1: Sent packet 31 of size 87.87 KB at 2025-02-14 02:22:13.330
+Cluster 0, Sensor 7: Sent packet 31 of size 90.93 KB at 2025-02-14 02:22:11.649
+Cluster 0, Sensor 0: Sent packet 32 of size 88.80 KB at 2025-02-14 02:22:27.704
+Cluster 0, Sensor 8: Sent packet 32 of size 87.79 KB at 2025-02-14 02:22:14.955
+Cluster 0, Sensor 2: Sent packet 32 of size 88.75 KB at 2025-02-14 02:22:26.868
+Cluster 0, Sensor 9: Sent packet 32 of size 88.46 KB at 2025-02-14 02:22:26.937
+Cluster 0, Sensor 5: Sent packet 32 of size 87.86 KB at 2025-02-14 02:22:26.988
+Cluster 0, Sensor 6: Sent packet 32 of size 86.72 KB at 2025-02-14 02:22:27.081
+Cluster 0, Sensor 4: Sent packet 32 of size 88.65 KB at 2025-02-14 02:22:28.420
+Cluster 0, Sensor 3: Sent packet 32 of size 87.62 KB at 2025-02-14 02:22:26.739
+Cluster 0, Sensor 7: Sent packet 32 of size 89.20 KB at 2025-02-14 02:22:29.740
+Cluster 0, Sensor 0: Sent packet 33 of size 88.84 KB at 2025-02-14 02:22:30.803
+Cluster 0, Sensor 8: Sent packet 33 of size 87.83 KB at 2025-02-14 02:22:31.071
+Cluster 0, Sensor 1: Sent packet 32 of size 88.00 KB at 2025-02-14 02:22:29.436
+Cluster 0, Sensor 4: Sent packet 33 of size 87.40 KB at 2025-02-14 02:22:45.528
+Cluster 0, Sensor 2: Sent packet 33 of size 88.85 KB at 2025-02-14 02:22:42.968
+Cluster 0, Sensor 9: Sent packet 33 of size 88.70 KB at 2025-02-14 02:22:43.049
+Cluster 0, Sensor 5: Sent packet 33 of size 87.54 KB at 2025-02-14 02:22:43.080
+Cluster 0, Sensor 6: Sent packet 33 of size 86.80 KB at 2025-02-14 02:22:43.160
+Cluster 0, Sensor 7: Sent packet 33 of size 88.79 KB at 2025-02-14 02:22:45.873
+Cluster 0, Sensor 3: Sent packet 33 of size 87.68 KB at 2025-02-14 02:22:45.826
+Cluster 0, Sensor 8: Sent packet 34 of size 88.18 KB at 2025-02-14 02:22:47.171
+Cluster 0, Sensor 1: Sent packet 33 of size 87.95 KB at 2025-02-14 02:22:47.536
+Cluster 0, Sensor 4: Sent packet 34 of size 88.20 KB at 2025-02-14 02:22:48.630
+Cluster 0, Sensor 0: Sent packet 34 of size 88.86 KB at 2025-02-14 02:22:46.884
+Cluster 0, Sensor 3: Sent packet 34 of size 87.65 KB at 2025-02-14 02:23:02.928
+Cluster 0, Sensor 2: Sent packet 34 of size 87.83 KB at 2025-02-14 02:22:59.064
+Cluster 0, Sensor 9: Sent packet 34 of size 88.79 KB at 2025-02-14 02:22:59.179
+Cluster 0, Sensor 5: Sent packet 34 of size 88.21 KB at 2025-02-14 02:22:59.195
+Cluster 0, Sensor 6: Sent packet 34 of size 87.14 KB at 2025-02-14 02:22:59.256
+Cluster 0, Sensor 1: Sent packet 34 of size 88.49 KB at 2025-02-14 02:23:03.632
+Cluster 0, Sensor 8: Sent packet 35 of size 87.56 KB at 2025-02-14 02:23:03.272
+Cluster 0, Sensor 4: Sent packet 35 of size 88.16 KB at 2025-02-14 02:23:04.739
+Cluster 0, Sensor 7: Sent packet 34 of size 89.20 KB at 2025-02-14 02:23:01.948
+Cluster 0, Sensor 3: Sent packet 35 of size 88.17 KB at 2025-02-14 02:23:06.011
+Cluster 0, Sensor 2: Sent packet 35 of size 87.20 KB at 2025-02-14 02:23:15.160
+Cluster 0, Sensor 9: Sent packet 35 of size 89.03 KB at 2025-02-14 02:23:15.286
+Cluster 0, Sensor 5: Sent packet 35 of size 88.23 KB at 2025-02-14 02:23:15.295
+Cluster 0, Sensor 6: Sent packet 35 of size 87.09 KB at 2025-02-14 02:23:15.341
+Cluster 0, Sensor 1: Sent packet 35 of size 89.03 KB at 2025-02-14 02:23:19.723
+Total rows: 159796Cluster 0 - New unique packets: 130, Total unique packets: 17235
+ 2025-02-14 02:23:35Cluster 0, Sensor 4: Sent packet 36 of size 92.20 KB at 2025-02-14 02:23:20.836
+Cluster 0, Sensor 0: Sent packet 35 of size 90.42 KB at 2025-02-14 02:23:04.953
+Cluster 0, Sensor 3: Sent packet 36 of size 87.96 KB at 2025-02-14 02:23:22.108
+Cluster 0, Sensor 2: Sent packet 36 of size 87.57 KB at 2025-02-14 02:23:31.260
+Cluster 0, Sensor 9: Sent packet 36 of size 88.03 KB at 2025-02-14 02:23:31.364
+Cluster 0, Sensor 5: Sent packet 36 of size 86.94 KB at 2025-02-14 02:23:31.375
+Cluster 0, Sensor 6: Sent packet 36 of size 88.13 KB at 2025-02-14 02:23:31.444
+Cluster 0, Sensor 8: Sent packet 36 of size 87.49 KB at 2025-02-14 02:23:20.342
+Cluster 0, Sensor 1: Sent packet 36 of size 88.78 KB at 2025-02-14 02:23:35.758
+Cluster 0, Sensor 7: Sent packet 35 of size 89.15 KB at 2025-02-14 02:23:21.030
+Cluster 0, Sensor 4: Sent packet 37 of size 92.36 KB at 2025-02-14 02:23:36.857
+Cluster 0, Sensor 0: Sent packet 36 of size 90.17 KB at 2025-02-14 02:23:36.979
+Cluster 0, Sensor 2: Sent packet 37 of size 87.90 KB at 2025-02-14 02:23:47.355
+Cluster 0, Sensor 3: Sent packet 37 of size 88.94 KB at 2025-02-14 02:23:38.126
+Cluster 0, Sensor 8: Sent packet 37 of size 89.22 KB at 2025-02-14 02:23:51.445
+Cluster 0, Sensor 1: Sent packet 37 of size 85.86 KB at 2025-02-14 02:23:51.874
+Cluster 0, Sensor 4: Sent packet 38 of size 92.32 KB at 2025-02-14 02:23:52.963
+Cluster 0, Sensor 9: Sent packet 37 of size 89.11 KB at 2025-02-14 02:23:47.455
+Cluster 0, Sensor 5: Sent packet 37 of size 88.02 KB at 2025-02-14 02:23:47.466
+Cluster 0, Sensor 6: Sent packet 37 of size 89.20 KB at 2025-02-14 02:23:47.545
+Cluster 0, Sensor 0: Sent packet 37 of size 88.25 KB at 2025-02-14 02:23:53.066
+Cluster 0, Sensor 2: Sent packet 38 of size 87.12 KB at 2025-02-14 02:23:53.449
+Cluster 0, Sensor 3: Sent packet 38 of size 89.12 KB at 2025-02-14 02:23:54.232
+Cluster 0, Sensor 8: Sent packet 38 of size 89.20 KB at 2025-02-14 02:23:54.565
+Cluster 0, Sensor 7: Sent packet 36 of size 90.02 KB at 2025-02-14 02:23:52.134
+Cluster 0, Sensor 1: Sent packet 38 of size 86.84 KB at 2025-02-14 02:23:55.985
+Cluster 0, Sensor 4: Sent packet 39 of size 90.26 KB at 2025-02-14 02:23:57.063
+Cluster 0, Sensor 0: Sent packet 38 of size 88.11 KB at 2025-02-14 02:24:09.168
+Cluster 0, Sensor 7: Sent packet 37 of size 91.09 KB at 2025-02-14 02:24:11.216
+Cluster 0, Sensor 9: Sent packet 38 of size 89.04 KB at 2025-02-14 02:24:03.532
+Cluster 0, Sensor 5: Sent packet 38 of size 88.39 KB at 2025-02-14 02:24:03.562
+Cluster 0, Sensor 6: Sent packet 38 of size 89.14 KB at 2025-02-14 02:24:03.636
+Cluster 0, Sensor 3: Sent packet 39 of size 88.15 KB at 2025-02-14 02:24:10.332
+Cluster 0, Sensor 8: Sent packet 39 of size 88.17 KB at 2025-02-14 02:24:10.657
+Cluster 0, Sensor 1: Sent packet 39 of size 86.96 KB at 2025-02-14 02:24:12.061
+Cluster 0, Sensor 2: Sent packet 39 of size 87.46 KB at 2025-02-14 02:24:09.534
+Cluster 0, Sensor 4: Sent packet 40 of size 88.58 KB at 2025-02-14 02:24:13.172
+Cluster 0, Sensor 0: Sent packet 39 of size 89.96 KB at 2025-02-14 02:24:13.257
+Cluster 0, Sensor 7: Sent packet 38 of size 90.96 KB at 2025-02-14 02:24:14.299
+Cluster 0, Sensor 9: Sent packet 39 of size 88.21 KB at 2025-02-14 02:24:19.622
+Cluster 0, Sensor 5: Sent packet 39 of size 88.63 KB at 2025-02-14 02:24:19.638
+Cluster 0, Sensor 6: Sent packet 39 of size 88.68 KB at 2025-02-14 02:24:19.732
+Cluster 0, Sensor 3: Sent packet 40 of size 87.54 KB at 2025-02-14 02:24:26.432
+Cluster 0, Sensor 8: Sent packet 40 of size 88.53 KB at 2025-02-14 02:24:26.763
+Cluster 0, Sensor 1: Sent packet 40 of size 87.01 KB at 2025-02-14 02:24:28.162
+Cluster 0, Sensor 2: Sent packet 40 of size 87.55 KB at 2025-02-14 02:24:28.636
+Cluster 0, Sensor 4: Sent packet 41 of size 89.22 KB at 2025-02-14 02:24:29.268
+Cluster 0, Sensor 0: Sent packet 40 of size 90.62 KB at 2025-02-14 02:24:29.333
+Cluster 0, Sensor 6: Sent packet 40 of size 88.61 KB at 2025-02-14 02:24:35.807
+Cluster 0, Sensor 4: Energy below threshold (16). Recharging...
+Cluster 0, Sensor 7: Sent packet 39 of size 89.82 KB at 2025-02-14 02:24:30.380
+Cluster 0, Sensor 8: Sent packet 41 of size 88.97 KB at 2025-02-14 02:24:43.861
+Cluster 0, Sensor 8: Energy below threshold (16). Recharging...
+Cluster 0, Sensor 4: Recharged to full energy (100),Current time: 1739525085.3395493,chargecount2. Resuming operations.
+Total rows: 162473Cluster 0 - New unique packets: 173, Total unique packets: 17408
+ 2025-02-14 02:24:49Cluster 0, Sensor 8: Recharged to full energy (100),Current time: 1739525086.95268,chargecount2. Resuming operations.
+Cluster 0, Sensor 9: Sent packet 40 of size 87.48 KB at 2025-02-14 02:24:35.710
+Cluster 0, Sensor 5: Sent packet 40 of size 88.28 KB at 2025-02-14 02:24:35.736
+Cluster 0, Sensor 3: Sent packet 41 of size 87.92 KB at 2025-02-14 02:24:42.537
+Cluster 0, Sensor 3: Energy below threshold (16). Recharging...
+Cluster 0, Sensor 2: Sent packet 41 of size 87.78 KB at 2025-02-14 02:24:44.737
+Cluster 0, Sensor 1: Sent packet 41 of size 88.02 KB at 2025-02-14 02:24:44.247
+Cluster 0, Sensor 2: Energy below threshold (16). Recharging...
+Cluster 0, Sensor 6: Sent packet 41 of size 88.44 KB at 2025-02-14 02:24:45.895
+Cluster 0, Sensor 1: Energy below threshold (16). Recharging...
+Cluster 0, Sensor 3: Recharged to full energy (100),Current time: 1739525098.6014695,chargecount2. Resuming operations.
+Cluster 0, Sensor 6: Energy below threshold (16). Recharging...
+Cluster 0, Sensor 0: Sent packet 41 of size 90.63 KB at 2025-02-14 02:24:45.444
+Cluster 0, Sensor 4: Sent packet 42 of size 89.22 KB at 2025-02-14 02:24:48.404
+Cluster 0, Sensor 7: Sent packet 40 of size 88.60 KB at 2025-02-14 02:24:46.456
+Cluster 0, Sensor 0: Energy below threshold (16). Recharging...
+Cluster 0, Sensor 2: Recharged to full energy (100),Current time: 1739525100.8080144,chargecount2. Resuming operations.
+Cluster 0, Sensor 1: Recharged to full energy (100),Current time: 1739525101.3142378,chargecount2. Resuming operations.
+Cluster 0, Sensor 3: Sent packet 42 of size 88.17 KB at 2025-02-14 02:25:01.671
+Cluster 0, Sensor 6: Recharged to full energy (100),Current time: 1739525101.9614503,chargecount2. Resuming operations.
+Cluster 0, Sensor 2: Sent packet 42 of size 87.65 KB at 2025-02-14 02:25:03.867
+Cluster 0, Sensor 0: Recharged to full energy (100),Current time: 1739525103.518141,chargecount2. Resuming operations.
+Cluster 0, Sensor 9: Sent packet 41 of size 88.10 KB at 2025-02-14 02:24:51.731
+Cluster 0, Sensor 5: Sent packet 41 of size 89.09 KB at 2025-02-14 02:24:51.756
+Cluster 0, Sensor 8: Sent packet 42 of size 89.00 KB at 2025-02-14 02:24:49.966
+Cluster 0, Sensor 9: Energy below threshold (16). Recharging...
+Cluster 0, Sensor 5: Energy below threshold (16). Recharging...
+Cluster 0, Sensor 6: Sent packet 42 of size 88.30 KB at 2025-02-14 02:25:05.000
+Cluster 0, Sensor 9: Recharged to full energy (100),Current time: 1739525107.7925363,chargecount2. Resuming operations.
+Cluster 0, Sensor 5: Recharged to full energy (100),Current time: 1739525107.8234038,chargecount2. Resuming operations.
+Cluster 0, Sensor 4: Sent packet 43 of size 88.26 KB at 2025-02-14 02:25:04.496
+Cluster 0, Sensor 7: Sent packet 41 of size 89.15 KB at 2025-02-14 02:25:04.547
+Cluster 0, Sensor 7: Energy below threshold (16). Recharging...
+Cluster 0, Sensor 3: Sent packet 43 of size 88.00 KB at 2025-02-14 02:25:05.764
+Cluster 0, Sensor 0: Sent packet 42 of size 88.52 KB at 2025-02-14 02:25:06.582
+Cluster 0, Sensor 2: Sent packet 43 of size 88.70 KB at 2025-02-14 02:25:06.959
+Cluster 0, Sensor 1: Sent packet 42 of size 88.94 KB at 2025-02-14 02:25:04.378
+Cluster 0, Sensor 8: Sent packet 43 of size 88.17 KB at 2025-02-14 02:25:08.071
+Cluster 0, Sensor 7: Recharged to full energy (100),Current time: 1739525120.624131,chargecount2. Resuming operations.
+Cluster 0, Sensor 6: Sent packet 43 of size 87.48 KB at 2025-02-14 02:25:09.066
+Cluster 0, Sensor 9: Sent packet 42 of size 87.85 KB at 2025-02-14 02:25:10.852
+Cluster 0, Sensor 5: Sent packet 42 of size 89.20 KB at 2025-02-14 02:25:10.898
+Cluster 0, Sensor 4: Sent packet 44 of size 88.96 KB at 2025-02-14 02:25:20.608
+Cluster 0, Sensor 3: Sent packet 44 of size 88.66 KB at 2025-02-14 02:25:21.859
+Cluster 0, Sensor 0: Sent packet 43 of size 88.63 KB at 2025-02-14 02:25:22.684
+Cluster 0, Sensor 2: Sent packet 44 of size 88.79 KB at 2025-02-14 02:25:23.056
+Cluster 0, Sensor 1: Sent packet 43 of size 88.99 KB at 2025-02-14 02:25:23.456
+Cluster 0, Sensor 8: Sent packet 44 of size 88.99 KB at 2025-02-14 02:25:24.178
+Cluster 0, Sensor 6: Sent packet 44 of size 87.88 KB at 2025-02-14 02:25:25.147
+Cluster 0, Sensor 9: Sent packet 43 of size 88.03 KB at 2025-02-14 02:25:26.964
+Cluster 0, Sensor 5: Sent packet 43 of size 88.32 KB at 2025-02-14 02:25:27.005
+Cluster 0, Sensor 4: Sent packet 45 of size 89.10 KB at 2025-02-14 02:25:36.715
+Cluster 0, Sensor 7: Sent packet 42 of size 88.76 KB at 2025-02-14 02:25:23.671
+Cluster 0, Sensor 2: Sent packet 45 of size 88.99 KB at 2025-02-14 02:25:39.152
+Cluster 0, Sensor 1: Sent packet 44 of size 88.66 KB at 2025-02-14 02:25:39.553
+Cluster 0, Sensor 8: Sent packet 45 of size 89.02 KB at 2025-02-14 02:25:40.286
+Cluster 0, Sensor 6: Sent packet 45 of size 87.97 KB at 2025-02-14 02:25:41.232
+Cluster 0, Sensor 9: Sent packet 44 of size 88.97 KB at 2025-02-14 02:25:43.060
+Cluster 0, Sensor 5: Sent packet 44 of size 89.00 KB at 2025-02-14 02:25:43.127
+Cluster 0, Sensor 3: Sent packet 45 of size 89.02 KB at 2025-02-14 02:25:37.966
+Total rows: 167964Cluster 0 - New unique packets: 256, Total unique packets: 17664
+ 2025-02-14 02:26:08Cluster 0, Sensor 7: Sent packet 43 of size 91.97 KB at 2025-02-14 02:25:54.764
+Cluster 0, Sensor 0: Sent packet 44 of size 88.81 KB at 2025-02-14 02:25:38.775
+Cluster 0, Sensor 2: Sent packet 46 of size 85.42 KB at 2025-02-14 02:25:55.248
+Cluster 0, Sensor 1: Sent packet 45 of size 88.42 KB at 2025-02-14 02:25:55.644
+Cluster 0, Sensor 4: Sent packet 46 of size 88.96 KB at 2025-02-14 02:25:53.796
+Cluster 0, Sensor 8: Sent packet 46 of size 88.70 KB at 2025-02-14 02:25:56.389
+Cluster 0, Sensor 3: Sent packet 46 of size 88.30 KB at 2025-02-14 02:26:09.009
+Cluster 0, Sensor 2: Sent packet 47 of size 86.47 KB at 2025-02-14 02:26:11.334
+Cluster 0, Sensor 9: Sent packet 45 of size 88.79 KB at 2025-02-14 02:25:59.156
+Cluster 0, Sensor 5: Sent packet 45 of size 89.16 KB at 2025-02-14 02:25:59.218
+Cluster 0, Sensor 6: Sent packet 46 of size 88.10 KB at 2025-02-14 02:25:57.338
+Cluster 0, Sensor 7: Sent packet 44 of size 93.56 KB at 2025-02-14 02:26:10.783
+Cluster 0, Sensor 0: Sent packet 45 of size 88.89 KB at 2025-02-14 02:26:10.802
+Cluster 0, Sensor 1: Sent packet 46 of size 88.47 KB at 2025-02-14 02:26:11.706
+Cluster 0, Sensor 4: Sent packet 47 of size 90.28 KB at 2025-02-14 02:26:11.885
+Cluster 0, Sensor 3: Sent packet 47 of size 85.96 KB at 2025-02-14 02:26:13.103
+Cluster 0, Sensor 8: Sent packet 47 of size 87.20 KB at 2025-02-14 02:26:12.495
+Cluster 0, Sensor 2: Sent packet 48 of size 86.81 KB at 2025-02-14 02:26:14.435
+Cluster 0, Sensor 9: Sent packet 46 of size 88.52 KB at 2025-02-14 02:26:15.243
+Cluster 0, Sensor 5: Sent packet 46 of size 88.86 KB at 2025-02-14 02:26:15.310
+Cluster 0, Sensor 6: Sent packet 47 of size 88.39 KB at 2025-02-14 02:26:15.426
+Cluster 0, Sensor 0: Sent packet 46 of size 84.83 KB at 2025-02-14 02:26:26.877
+Cluster 0, Sensor 7: Sent packet 45 of size 93.82 KB at 2025-02-14 02:26:26.892
+Cluster 0, Sensor 4: Sent packet 48 of size 91.11 KB at 2025-02-14 02:26:27.966
+Cluster 0, Sensor 1: Sent packet 47 of size 88.63 KB at 2025-02-14 02:26:27.802
+Cluster 0, Sensor 3: Sent packet 48 of size 86.94 KB at 2025-02-14 02:26:29.204
+Cluster 0, Sensor 8: Sent packet 48 of size 88.08 KB at 2025-02-14 02:26:29.598
+Cluster 0, Sensor 2: Sent packet 49 of size 86.78 KB at 2025-02-14 02:26:30.531
+Cluster 0, Sensor 9: Sent packet 47 of size 87.24 KB at 2025-02-14 02:26:31.344
+Cluster 0, Sensor 5: Sent packet 47 of size 88.35 KB at 2025-02-14 02:26:31.417
+Cluster 0, Sensor 6: Sent packet 48 of size 89.14 KB at 2025-02-14 02:26:31.512
+Cluster 0, Sensor 7: Sent packet 46 of size 92.37 KB at 2025-02-14 02:26:42.983
+Cluster 0, Sensor 0: Sent packet 47 of size 88.00 KB at 2025-02-14 02:26:42.957
+Cluster 0, Sensor 1: Sent packet 48 of size 87.66 KB at 2025-02-14 02:26:44.910
+Cluster 0, Sensor 3: Sent packet 49 of size 87.08 KB at 2025-02-14 02:26:45.289
+Cluster 0, Sensor 8: Sent packet 49 of size 87.57 KB at 2025-02-14 02:26:45.685
+Cluster 0, Sensor 2: Sent packet 50 of size 87.83 KB at 2025-02-14 02:26:46.612
+Cluster 0, Sensor 9: Sent packet 48 of size 88.05 KB at 2025-02-14 02:26:47.440
+Cluster 0, Sensor 5: Sent packet 48 of size 88.95 KB at 2025-02-14 02:26:47.502
+Cluster 0, Sensor 6: Sent packet 49 of size 89.14 KB at 2025-02-14 02:26:47.603
+Cluster 0, Sensor 4: Sent packet 49 of size 91.05 KB at 2025-02-14 02:26:44.056
+Cluster 0, Sensor 0: Sent packet 48 of size 88.26 KB at 2025-02-14 02:27:00.048
+Cluster 0, Sensor 1: Sent packet 49 of size 87.46 KB at 2025-02-14 02:27:01.017
+Cluster 0, Sensor 7: Sent packet 47 of size 88.40 KB at 2025-02-14 02:26:59.074
+Cluster 0, Sensor 3: Sent packet 50 of size 87.64 KB at 2025-02-14 02:27:01.369
+Cluster 0, Sensor 8: Sent packet 50 of size 87.54 KB at 2025-02-14 02:27:01.772
+Cluster 0, Sensor 2: Sent packet 51 of size 88.92 KB at 2025-02-14 02:27:02.702
+Cluster 0, Sensor 9: Sent packet 49 of size 88.08 KB at 2025-02-14 02:27:03.537
+Cluster 0, Sensor 5: Sent packet 49 of size 89.00 KB at 2025-02-14 02:27:03.574
+Cluster 0, Sensor 6: Sent packet 50 of size 87.85 KB at 2025-02-14 02:27:03.710
+Total rows: 171730Cluster 0 - New unique packets: 211, Total unique packets: 17875
+ 2025-02-14 02:27:28Cluster 0, Sensor 4: Sent packet 50 of size 90.26 KB at 2025-02-14 02:27:15.157
+Cluster 0, Sensor 1: Sent packet 50 of size 88.00 KB at 2025-02-14 02:27:17.103
+Cluster 0, Sensor 0: Sent packet 49 of size 88.16 KB at 2025-02-14 02:27:16.144
+Cluster 0, Sensor 3: Sent packet 51 of size 88.72 KB at 2025-02-14 02:27:17.470
+Cluster 0, Sensor 8: Sent packet 51 of size 87.06 KB at 2025-02-14 02:27:17.864
+Cluster 0, Sensor 2: Sent packet 52 of size 88.91 KB at 2025-02-14 02:27:18.804
+Cluster 0, Sensor 9: Sent packet 50 of size 88.03 KB at 2025-02-14 02:27:19.629
+Cluster 0, Sensor 5: Sent packet 50 of size 87.88 KB at 2025-02-14 02:27:19.716
+Cluster 0, Sensor 6: Sent packet 51 of size 87.74 KB at 2025-02-14 02:27:19.807
+Cluster 0, Sensor 4: Sent packet 51 of size 90.64 KB at 2025-02-14 02:27:31.178
+Cluster 0, Sensor 7: Sent packet 48 of size 89.23 KB at 2025-02-14 02:27:17.160
+Cluster 0, Sensor 0: Sent packet 50 of size 87.92 KB at 2025-02-14 02:27:33.261
+Cluster 0, Sensor 3: Sent packet 52 of size 89.02 KB at 2025-02-14 02:27:33.562
+Cluster 0, Sensor 8: Sent packet 52 of size 87.84 KB at 2025-02-14 02:27:33.954
+Cluster 0, Sensor 2: Sent packet 53 of size 88.53 KB at 2025-02-14 02:27:34.910
+Cluster 0, Sensor 9: Sent packet 51 of size 88.67 KB at 2025-02-14 02:27:35.720
+Cluster 0, Sensor 5: Sent packet 51 of size 87.57 KB at 2025-02-14 02:27:35.794
+Cluster 0, Sensor 6: Sent packet 52 of size 88.04 KB at 2025-02-14 02:27:35.904
+Cluster 0, Sensor 4: Sent packet 52 of size 91.46 KB at 2025-02-14 02:27:47.260
+Cluster 0, Sensor 1: Sent packet 51 of size 87.96 KB at 2025-02-14 02:27:33.199
+Cluster 0, Sensor 0: Sent packet 51 of size 88.99 KB at 2025-02-14 02:27:49.352
+Cluster 0, Sensor 3: Sent packet 53 of size 89.07 KB at 2025-02-14 02:27:49.663
+Cluster 0, Sensor 8: Sent packet 53 of size 88.09 KB at 2025-02-14 02:27:50.040
+Cluster 0, Sensor 2: Sent packet 54 of size 88.13 KB at 2025-02-14 02:27:51.012
+Cluster 0, Sensor 9: Sent packet 52 of size 88.72 KB at 2025-02-14 02:27:51.816
+Cluster 0, Sensor 5: Sent packet 52 of size 88.15 KB at 2025-02-14 02:27:51.880
+Cluster 0, Sensor 6: Sent packet 53 of size 88.13 KB at 2025-02-14 02:27:52.010
+Cluster 0, Sensor 4: Sent packet 53 of size 89.95 KB at 2025-02-14 02:28:03.352
+Cluster 0, Sensor 7: Sent packet 49 of size 89.15 KB at 2025-02-14 02:27:49.278
+Cluster 0, Sensor 0: Sent packet 52 of size 88.97 KB at 2025-02-14 02:28:05.436
+Cluster 0, Sensor 3: Sent packet 54 of size 88.18 KB at 2025-02-14 02:28:05.755
+Cluster 0, Sensor 8: Sent packet 54 of size 88.07 KB at 2025-02-14 02:28:06.136
+Cluster 0, Sensor 2: Sent packet 55 of size 88.83 KB at 2025-02-14 02:28:07.114
+Cluster 0, Sensor 9: Sent packet 53 of size 89.02 KB at 2025-02-14 02:28:07.908
+Cluster 0, Sensor 5: Sent packet 53 of size 88.10 KB at 2025-02-14 02:28:07.971
+Cluster 0, Sensor 6: Sent packet 54 of size 88.05 KB at 2025-02-14 02:28:08.096
+Cluster 0, Sensor 4: Sent packet 54 of size 88.12 KB at 2025-02-14 02:28:19.459
+Cluster 0, Sensor 1: Sent packet 52 of size 87.92 KB at 2025-02-14 02:28:05.297
+Cluster 0, Sensor 0: Sent packet 53 of size 88.63 KB at 2025-02-14 02:28:21.526
+Cluster 0, Sensor 3: Sent packet 55 of size 88.64 KB at 2025-02-14 02:28:21.856
+Cluster 0, Sensor 8: Sent packet 55 of size 89.13 KB at 2025-02-14 02:28:22.237
+Cluster 0, Sensor 2: Sent packet 56 of size 88.93 KB at 2025-02-14 02:28:23.211
+Cluster 0, Sensor 9: Sent packet 54 of size 87.99 KB at 2025-02-14 02:28:24.000
+Cluster 0, Sensor 5: Sent packet 54 of size 87.02 KB at 2025-02-14 02:28:24.068
+Cluster 0, Sensor 6: Sent packet 55 of size 89.03 KB at 2025-02-14 02:28:24.208
+Total rows: 173547Cluster 0 - New unique packets: 132, Total unique packets: 18007
+ 2025-02-14 02:28:50Cluster 0, Sensor 4: Sent packet 55 of size 89.17 KB at 2025-02-14 02:28:35.582
+Cluster 0, Sensor 7: Sent packet 50 of size 87.89 KB at 2025-02-14 02:28:21.388
+Cluster 0, Sensor 0: Sent packet 54 of size 88.18 KB at 2025-02-14 02:28:37.612
+Cluster 0, Sensor 3: Sent packet 56 of size 88.97 KB at 2025-02-14 02:28:37.946
+Cluster 0, Sensor 8: Sent packet 56 of size 89.00 KB at 2025-02-14 02:28:38.349
+Cluster 0, Sensor 2: Sent packet 57 of size 87.92 KB at 2025-02-14 02:28:39.308
+Cluster 0, Sensor 9: Sent packet 55 of size 89.06 KB at 2025-02-14 02:28:40.096
+Cluster 0, Sensor 5: Sent packet 55 of size 87.95 KB at 2025-02-14 02:28:40.138
+Cluster 0, Sensor 6: Sent packet 56 of size 88.78 KB at 2025-02-14 02:28:40.305
+Cluster 0, Sensor 4: Sent packet 56 of size 88.97 KB at 2025-02-14 02:28:51.603
+Cluster 0, Sensor 1: Sent packet 53 of size 88.96 KB at 2025-02-14 02:28:37.400
+Cluster 0, Sensor 0: Sent packet 55 of size 88.93 KB at 2025-02-14 02:28:53.683
+Cluster 0, Sensor 3: Sent packet 57 of size 88.16 KB at 2025-02-14 02:28:54.027
+Cluster 0, Sensor 8: Sent packet 57 of size 88.47 KB at 2025-02-14 02:28:54.427
+Cluster 0, Sensor 2: Sent packet 58 of size 86.96 KB at 2025-02-14 02:28:55.395
+Cluster 0, Sensor 9: Sent packet 56 of size 89.19 KB at 2025-02-14 02:28:56.193
+Cluster 0, Sensor 5: Sent packet 56 of size 87.99 KB at 2025-02-14 02:28:56.255
+Cluster 0, Sensor 6: Sent packet 57 of size 88.68 KB at 2025-02-14 02:28:56.406
+Cluster 0, Sensor 4: Sent packet 57 of size 89.12 KB at 2025-02-14 02:29:07.711
+Cluster 0, Sensor 7: Sent packet 51 of size 87.74 KB at 2025-02-14 02:28:53.414
+Cluster 0, Sensor 0: Sent packet 56 of size 88.82 KB at 2025-02-14 02:29:09.780
+Cluster 0, Sensor 3: Sent packet 58 of size 87.50 KB at 2025-02-14 02:29:10.118
+Cluster 0, Sensor 8: Sent packet 58 of size 88.68 KB at 2025-02-14 02:29:10.517
+Cluster 0, Sensor 2: Sent packet 59 of size 87.76 KB at 2025-02-14 02:29:11.492
+Cluster 0, Sensor 9: Sent packet 57 of size 87.44 KB at 2025-02-14 02:29:12.286
+Cluster 0, Sensor 5: Sent packet 57 of size 88.08 KB at 2025-02-14 02:29:12.326
+Cluster 0, Sensor 6: Sent packet 58 of size 88.52 KB at 2025-02-14 02:29:12.508
+Cluster 0, Sensor 4: Sent packet 58 of size 90.07 KB at 2025-02-14 02:29:23.803
+Cluster 0, Sensor 1: Sent packet 54 of size 88.71 KB at 2025-02-14 02:29:09.490
+Cluster 0, Sensor 0: Sent packet 57 of size 89.04 KB at 2025-02-14 02:29:25.872
+Cluster 0, Sensor 3: Sent packet 59 of size 88.25 KB at 2025-02-14 02:29:26.208
+Cluster 0, Sensor 8: Sent packet 59 of size 89.25 KB at 2025-02-14 02:29:26.608
+Cluster 0, Sensor 2: Sent packet 60 of size 87.53 KB at 2025-02-14 02:29:27.583
+Cluster 0, Sensor 9: Sent packet 58 of size 86.25 KB at 2025-02-14 02:29:28.393
+Cluster 0, Sensor 5: Sent packet 58 of size 88.59 KB at 2025-02-14 02:29:28.444
+Cluster 0, Sensor 6: Sent packet 59 of size 89.20 KB at 2025-02-14 02:29:28.610
+Cluster 0, Sensor 4: Sent packet 59 of size 91.21 KB at 2025-02-14 02:29:39.900
+Cluster 0, Sensor 7: Sent packet 52 of size 88.13 KB at 2025-02-14 02:29:25.507
+Cluster 0, Sensor 0: Sent packet 58 of size 89.92 KB at 2025-02-14 02:29:41.964
+Cluster 0, Sensor 3: Sent packet 60 of size 87.75 KB at 2025-02-14 02:29:42.308
+Cluster 0, Sensor 8: Sent packet 60 of size 89.02 KB at 2025-02-14 02:29:42.700
+Cluster 0, Sensor 2: Sent packet 61 of size 87.65 KB at 2025-02-14 02:29:43.679
+Cluster 0, Sensor 9: Sent packet 59 of size 86.96 KB at 2025-02-14 02:29:44.484
+Cluster 0, Sensor 5: Sent packet 59 of size 89.02 KB at 2025-02-14 02:29:44.556
+Cluster 0, Sensor 6: Sent packet 60 of size 89.18 KB at 2025-02-14 02:29:44.696
+Cluster 0, Sensor 4: Sent packet 60 of size 91.98 KB at 2025-02-14 02:29:56.003
+Cluster 0, Sensor 1: Sent packet 55 of size 88.40 KB at 2025-02-14 02:29:41.604
+Cluster 0, Sensor 7: Sent packet 53 of size 87.99 KB at 2025-02-14 02:29:57.608
+Cluster 0, Sensor 3: Sent packet 61 of size 87.26 KB at 2025-02-14 02:29:58.404
+Cluster 0, Sensor 8: Sent packet 61 of size 88.24 KB at 2025-02-14 02:29:58.802
+Total rows: 176008Cluster 0 - New unique packets: 38, Total unique packets: 18045
+ 2025-02-14 02:30:14Cluster 0, Sensor 2: Sent packet 62 of size 88.43 KB at 2025-02-14 02:29:59.767
+Cluster 0, Sensor 9: Sent packet 60 of size 87.07 KB at 2025-02-14 02:30:00.596
+Cluster 0, Sensor 5: Sent packet 60 of size 89.13 KB at 2025-02-14 02:30:00.668
+Cluster 0, Sensor 2: Energy below threshold (16). Recharging...
+Cluster 0, Sensor 6: Sent packet 61 of size 88.31 KB at 2025-02-14 02:30:00.788
+Cluster 0, Sensor 2: Recharged to full energy (100),Current time: 1739525415.7889183,chargecount3. Resuming operations.
+Cluster 0, Sensor 4: Sent packet 61 of size 88.75 KB at 2025-02-14 02:30:12.085
+Cluster 0, Sensor 0: Sent packet 59 of size 90.54 KB at 2025-02-14 02:29:58.071
+Cluster 0, Sensor 1: Sent packet 56 of size 87.21 KB at 2025-02-14 02:30:13.689
+Cluster 0, Sensor 7: Sent packet 54 of size 89.93 KB at 2025-02-14 02:30:13.725
+Cluster 0, Sensor 3: Sent packet 62 of size 87.85 KB at 2025-02-14 02:30:14.444
+Cluster 0, Sensor 8: Sent packet 62 of size 89.02 KB at 2025-02-14 02:30:14.849
+Cluster 0, Sensor 3: Energy below threshold (16). Recharging...
+Cluster 0, Sensor 8: Energy below threshold (16). Recharging...
+Cluster 0, Sensor 9: Sent packet 61 of size 86.90 KB at 2025-02-14 02:30:16.616
+Cluster 0, Sensor 5: Sent packet 61 of size 87.47 KB at 2025-02-14 02:30:16.689
+Cluster 0, Sensor 6: Sent packet 62 of size 88.98 KB at 2025-02-14 02:30:16.807
+Cluster 0, Sensor 6: Energy below threshold (16). Recharging...
+Cluster 0, Sensor 3: Recharged to full energy (100),Current time: 1739525430.521078,chargecount3. Resuming operations.
+Cluster 0, Sensor 2: Sent packet 63 of size 88.80 KB at 2025-02-14 02:30:18.838
+Cluster 0, Sensor 8: Recharged to full energy (100),Current time: 1739525430.9319801,chargecount3. Resuming operations.
+Cluster 0, Sensor 6: Recharged to full energy (100),Current time: 1739525432.8737419,chargecount3. Resuming operations.
+Cluster 0, Sensor 4: Sent packet 62 of size 88.96 KB at 2025-02-14 02:30:28.172
+Cluster 0, Sensor 4: Energy below threshold (16). Recharging...
+Cluster 0, Sensor 1: Sent packet 57 of size 87.87 KB at 2025-02-14 02:30:29.801
+Cluster 0, Sensor 7: Sent packet 55 of size 90.67 KB at 2025-02-14 02:30:29.843
+Cluster 0, Sensor 4: Recharged to full energy (100),Current time: 1739525444.248736,chargecount3. Resuming operations.
+Cluster 0, Sensor 9: Sent packet 62 of size 87.85 KB at 2025-02-14 02:30:32.712
+Cluster 0, Sensor 5: Sent packet 62 of size 87.70 KB at 2025-02-14 02:30:32.791
+Cluster 0, Sensor 3: Sent packet 63 of size 88.18 KB at 2025-02-14 02:30:33.570
+Cluster 0, Sensor 9: Energy below threshold (16). Recharging...
+Cluster 0, Sensor 5: Energy below threshold (16). Recharging...
+Cluster 0, Sensor 8: Sent packet 63 of size 89.22 KB at 2025-02-14 02:30:33.981
+Cluster 0, Sensor 6: Sent packet 63 of size 88.95 KB at 2025-02-14 02:30:35.938
+Cluster 0, Sensor 9: Recharged to full energy (100),Current time: 1739525448.772876,chargecount3. Resuming operations.
+Cluster 0, Sensor 5: Recharged to full energy (100),Current time: 1739525448.8576043,chargecount3. Resuming operations.
+Cluster 0, Sensor 2: Sent packet 64 of size 88.81 KB at 2025-02-14 02:30:34.951
+Cluster 0, Sensor 0: Sent packet 60 of size 90.65 KB at 2025-02-14 02:30:29.172
+Cluster 0, Sensor 1: Sent packet 58 of size 87.98 KB at 2025-02-14 02:30:45.908
+Cluster 0, Sensor 7: Sent packet 56 of size 91.00 KB at 2025-02-14 02:30:45.959
+Cluster 0, Sensor 4: Sent packet 63 of size 89.20 KB at 2025-02-14 02:30:47.308
+Cluster 0, Sensor 3: Sent packet 64 of size 87.92 KB at 2025-02-14 02:30:49.646
+Cluster 0, Sensor 8: Sent packet 64 of size 88.70 KB at 2025-02-14 02:30:50.079
+Cluster 0, Sensor 9: Sent packet 63 of size 88.04 KB at 2025-02-14 02:30:51.827
+Cluster 0, Sensor 5: Sent packet 63 of size 88.09 KB at 2025-02-14 02:30:51.917
+Cluster 0, Sensor 6: Sent packet 64 of size 88.65 KB at 2025-02-14 02:30:52.029
+Cluster 0, Sensor 0: Sent packet 61 of size 89.04 KB at 2025-02-14 02:31:00.284
+Cluster 0, Sensor 1: Sent packet 59 of size 87.02 KB at 2025-02-14 02:31:02.015
+Cluster 0, Sensor 7: Sent packet 57 of size 89.73 KB at 2025-02-14 02:31:02.056
+Cluster 0, Sensor 2: Sent packet 65 of size 87.24 KB at 2025-02-14 02:30:54.061
+Cluster 0, Sensor 0: Sent packet 62 of size 88.41 KB at 2025-02-14 02:31:16.367
+Cluster 0, Sensor 0: Energy below threshold (16). Recharging...
+Cluster 0, Sensor 3: Sent packet 65 of size 88.02 KB at 2025-02-14 02:31:05.743
+Cluster 0, Sensor 8: Sent packet 65 of size 87.27 KB at 2025-02-14 02:31:06.171
+Cluster 0, Sensor 0: Recharged to full energy (100),Current time: 1739525479.4452374,chargecount3. Resuming operations.
+Cluster 0, Sensor 9: Sent packet 64 of size 87.94 KB at 2025-02-14 02:31:07.908
+Cluster 0, Sensor 5: Sent packet 64 of size 87.91 KB at 2025-02-14 02:31:08.019
+Cluster 0, Sensor 6: Sent packet 65 of size 87.38 KB at 2025-02-14 02:31:08.116
+Cluster 0, Sensor 1: Sent packet 60 of size 87.47 KB at 2025-02-14 02:31:18.086
+Cluster 0, Sensor 7: Sent packet 58 of size 88.52 KB at 2025-02-14 02:31:18.197
+Cluster 0, Sensor 4: Sent packet 64 of size 89.35 KB at 2025-02-14 02:31:03.389
+Cluster 0, Sensor 2: Sent packet 66 of size 87.22 KB at 2025-02-14 02:31:18.165
+Cluster 0, Sensor 7: Sent packet 59 of size 88.86 KB at 2025-02-14 02:31:34.287
+Cluster 0, Sensor 8: Sent packet 66 of size 88.18 KB at 2025-02-14 02:31:22.244
+Cluster 0, Sensor 4: Sent packet 65 of size 90.90 KB at 2025-02-14 02:31:34.496
+Total rows: 177573Cluster 0 - New unique packets: 27, Total unique packets: 18072
+ 2025-02-14 02:31:38Cluster 0, Sensor 9: Sent packet 65 of size 88.27 KB at 2025-02-14 02:31:24.006
+Cluster 0, Sensor 5: Sent packet 65 of size 88.04 KB at 2025-02-14 02:31:24.132
+Cluster 0, Sensor 6: Sent packet 66 of size 87.90 KB at 2025-02-14 02:31:24.206
+Cluster 0, Sensor 1: Sent packet 61 of size 87.94 KB at 2025-02-14 02:31:34.172
+Cluster 0, Sensor 2: Sent packet 67 of size 87.90 KB at 2025-02-14 02:31:36.266
+Cluster 0, Sensor 3: Sent packet 66 of size 89.07 KB at 2025-02-14 02:31:21.834
+Cluster 0, Sensor 7: Sent packet 60 of size 89.10 KB at 2025-02-14 02:31:37.379
+Cluster 0, Sensor 0: Sent packet 63 of size 88.88 KB at 2025-02-14 02:31:22.504
+Cluster 0, Sensor 8: Sent packet 67 of size 88.16 KB at 2025-02-14 02:31:38.284
+Cluster 0, Sensor 4: Sent packet 66 of size 90.90 KB at 2025-02-14 02:31:38.539
+Cluster 0, Sensor 9: Sent packet 66 of size 89.21 KB at 2025-02-14 02:31:40.027
+Cluster 0, Sensor 5: Sent packet 66 of size 89.09 KB at 2025-02-14 02:31:40.153
+Cluster 0, Sensor 6: Sent packet 67 of size 88.19 KB at 2025-02-14 02:31:40.227
+Cluster 0, Sensor 1: Sent packet 62 of size 87.43 KB at 2025-02-14 02:31:50.253
+Cluster 0, Sensor 1: Energy below threshold (16). Recharging...
+Cluster 0, Sensor 2: Sent packet 68 of size 87.55 KB at 2025-02-14 02:31:52.368
+Cluster 0, Sensor 7: Sent packet 61 of size 88.32 KB at 2025-02-14 02:31:53.484
+Cluster 0, Sensor 0: Sent packet 64 of size 88.86 KB at 2025-02-14 02:31:53.601
+Cluster 0, Sensor 3: Sent packet 67 of size 89.08 KB at 2025-02-14 02:31:52.930
+Cluster 0, Sensor 1: Recharged to full energy (100),Current time: 1739525526.3194335,chargecount3. Resuming operations.
+Cluster 0, Sensor 4: Sent packet 67 of size 90.98 KB at 2025-02-14 02:31:54.628
+Cluster 0, Sensor 9: Sent packet 67 of size 88.95 KB at 2025-02-14 02:31:56.119
+Cluster 0, Sensor 5: Sent packet 67 of size 89.17 KB at 2025-02-14 02:31:56.240
+Cluster 0, Sensor 6: Sent packet 68 of size 88.13 KB at 2025-02-14 02:31:56.335
+Cluster 0, Sensor 2: Sent packet 69 of size 87.78 KB at 2025-02-14 02:32:08.469
+Cluster 0, Sensor 1: Sent packet 63 of size 87.68 KB at 2025-02-14 02:32:09.383
+Cluster 0, Sensor 7: Sent packet 62 of size 89.02 KB at 2025-02-14 02:32:09.575
+Cluster 0, Sensor 0: Sent packet 65 of size 89.35 KB at 2025-02-14 02:32:09.703
+Cluster 0, Sensor 3: Sent packet 68 of size 88.46 KB at 2025-02-14 02:32:10.020
+Cluster 0, Sensor 8: Sent packet 68 of size 88.02 KB at 2025-02-14 02:31:54.376
+Cluster 0, Sensor 7: Energy below threshold (16). Recharging...
+Cluster 0, Sensor 4: Sent packet 68 of size 90.37 KB at 2025-02-14 02:32:10.720
+Cluster 0, Sensor 9: Sent packet 68 of size 87.66 KB at 2025-02-14 02:32:12.216
+Cluster 0, Sensor 5: Sent packet 68 of size 88.09 KB at 2025-02-14 02:32:12.344
+Cluster 0, Sensor 6: Sent packet 69 of size 88.72 KB at 2025-02-14 02:32:12.428
+Cluster 0, Sensor 7: Recharged to full energy (100),Current time: 1739525545.6422882,chargecount3. Resuming operations.
+Cluster 0, Sensor 2: Sent packet 70 of size 88.80 KB at 2025-02-14 02:32:24.566
+Cluster 0, Sensor 0: Sent packet 66 of size 90.34 KB at 2025-02-14 02:32:25.795
+Cluster 0, Sensor 3: Sent packet 69 of size 88.77 KB at 2025-02-14 02:32:26.122
+Cluster 0, Sensor 1: Sent packet 64 of size 88.78 KB at 2025-02-14 02:32:25.470
+Cluster 0, Sensor 4: Sent packet 69 of size 90.18 KB at 2025-02-14 02:32:26.832
+Cluster 0, Sensor 9: Sent packet 69 of size 87.58 KB at 2025-02-14 02:32:28.323
+Cluster 0, Sensor 5: Sent packet 69 of size 88.36 KB at 2025-02-14 02:32:28.436
+Cluster 0, Sensor 6: Sent packet 70 of size 89.21 KB at 2025-02-14 02:32:28.516
+Cluster 0, Sensor 7: Sent packet 63 of size 89.15 KB at 2025-02-14 02:32:28.696
+Cluster 0, Sensor 2: Sent packet 71 of size 88.92 KB at 2025-02-14 02:32:40.664
+Cluster 0, Sensor 0: Sent packet 67 of size 90.85 KB at 2025-02-14 02:32:41.893
+Cluster 0, Sensor 3: Sent packet 70 of size 88.97 KB at 2025-02-14 02:32:42.234
+Cluster 0, Sensor 8: Sent packet 69 of size 88.82 KB at 2025-02-14 02:32:26.480
+Cluster 0, Sensor 4: Sent packet 70 of size 91.01 KB at 2025-02-14 02:32:42.945
+Cluster 0, Sensor 9: Sent packet 70 of size 88.10 KB at 2025-02-14 02:32:44.420
+Cluster 0, Sensor 5: Sent packet 70 of size 89.10 KB at 2025-02-14 02:32:44.554
+Cluster 0, Sensor 6: Sent packet 71 of size 88.89 KB at 2025-02-14 02:32:44.601
+Cluster 0, Sensor 7: Sent packet 64 of size 89.25 KB at 2025-02-14 02:32:44.794
+Total rows: 180433Cluster 0 - New unique packets: 91, Total unique packets: 18163
+ 2025-02-14 02:33:04Cluster 0, Sensor 2: Sent packet 72 of size 88.57 KB at 2025-02-14 02:32:56.762
+Cluster 0, Sensor 0: Sent packet 68 of size 89.87 KB at 2025-02-14 02:32:57.975
+Cluster 0, Sensor 3: Sent packet 71 of size 89.29 KB at 2025-02-14 02:32:58.331
+Cluster 0, Sensor 8: Sent packet 70 of size 88.73 KB at 2025-02-14 02:32:58.570
+Cluster 0, Sensor 1: Sent packet 65 of size 89.11 KB at 2025-02-14 02:32:42.576
+Cluster 0, Sensor 2: Sent packet 73 of size 87.67 KB at 2025-02-14 02:33:12.870
+Cluster 0, Sensor 9: Sent packet 71 of size 88.03 KB at 2025-02-14 02:33:00.522
+Cluster 0, Sensor 5: Sent packet 71 of size 89.18 KB at 2025-02-14 02:33:00.647
+Cluster 0, Sensor 6: Sent packet 72 of size 86.80 KB at 2025-02-14 02:33:00.698
+Cluster 0, Sensor 7: Sent packet 65 of size 90.24 KB at 2025-02-14 02:33:00.886
+Cluster 0, Sensor 4: Sent packet 71 of size 91.04 KB at 2025-02-14 02:32:59.043
+Cluster 0, Sensor 0: Sent packet 69 of size 88.03 KB at 2025-02-14 02:33:14.088
+Cluster 0, Sensor 3: Sent packet 72 of size 87.93 KB at 2025-02-14 02:33:14.423
+Cluster 0, Sensor 1: Sent packet 66 of size 89.04 KB at 2025-02-14 02:33:14.683
+Cluster 0, Sensor 8: Sent packet 71 of size 88.84 KB at 2025-02-14 02:33:14.699
+Cluster 0, Sensor 2: Sent packet 74 of size 88.84 KB at 2025-02-14 02:33:15.957
+Cluster 0, Sensor 9: Sent packet 72 of size 87.92 KB at 2025-02-14 02:33:16.614
+Cluster 0, Sensor 6: Sent packet 73 of size 88.14 KB at 2025-02-14 02:33:16.791
+Cluster 0, Sensor 7: Sent packet 66 of size 90.89 KB at 2025-02-14 02:33:16.984
+Cluster 0, Sensor 4: Sent packet 72 of size 88.06 KB at 2025-02-14 02:33:17.136
+Cluster 0, Sensor 0: Sent packet 70 of size 88.73 KB at 2025-02-14 02:33:18.183
+Cluster 0, Sensor 3: Sent packet 73 of size 88.99 KB at 2025-02-14 02:33:30.529
+Cluster 0, Sensor 1: Sent packet 67 of size 87.86 KB at 2025-02-14 02:33:30.771
+Cluster 0, Sensor 8: Sent packet 72 of size 88.13 KB at 2025-02-14 02:33:30.782
+Cluster 0, Sensor 5: Sent packet 72 of size 85.46 KB at 2025-02-14 02:33:16.750
+Cluster 0, Sensor 2: Sent packet 75 of size 88.76 KB at 2025-02-14 02:33:32.076
+Cluster 0, Sensor 9: Sent packet 73 of size 88.90 KB at 2025-02-14 02:33:32.716
+Cluster 0, Sensor 6: Sent packet 74 of size 87.95 KB at 2025-02-14 02:33:32.888
+Cluster 0, Sensor 7: Sent packet 67 of size 91.05 KB at 2025-02-14 02:33:33.067
+Cluster 0, Sensor 4: Sent packet 73 of size 89.01 KB at 2025-02-14 02:33:33.249
+Cluster 0, Sensor 0: Sent packet 71 of size 88.92 KB at 2025-02-14 02:33:34.281
+Cluster 0, Sensor 3: Sent packet 74 of size 89.18 KB at 2025-02-14 02:33:46.616
+Cluster 0, Sensor 1: Sent packet 68 of size 88.99 KB at 2025-02-14 02:33:46.859
+Cluster 0, Sensor 5: Sent packet 73 of size 87.07 KB at 2025-02-14 02:33:47.853
+Cluster 0, Sensor 2: Sent packet 76 of size 88.57 KB at 2025-02-14 02:33:48.183
+Cluster 0, Sensor 9: Sent packet 74 of size 89.04 KB at 2025-02-14 02:33:48.831
+Cluster 0, Sensor 8: Sent packet 73 of size 89.06 KB at 2025-02-14 02:33:46.896
+Cluster 0, Sensor 6: Sent packet 75 of size 87.68 KB at 2025-02-14 02:33:48.980
+Cluster 0, Sensor 7: Sent packet 68 of size 90.96 KB at 2025-02-14 02:33:49.175
+Cluster 0, Sensor 4: Sent packet 74 of size 89.27 KB at 2025-02-14 02:33:49.336
+Cluster 0, Sensor 1: Sent packet 69 of size 88.86 KB at 2025-02-14 02:34:02.946
+Cluster 0, Sensor 0: Sent packet 72 of size 88.85 KB at 2025-02-14 02:33:50.399
+Cluster 0, Sensor 5: Sent packet 74 of size 87.07 KB at 2025-02-14 02:34:03.962
+Cluster 0, Sensor 8: Sent packet 74 of size 89.11 KB at 2025-02-14 02:34:04.987
+Cluster 0, Sensor 1: Sent packet 70 of size 88.28 KB at 2025-02-14 02:34:06.064
+Cluster 0, Sensor 5: Sent packet 75 of size 87.35 KB at 2025-02-14 02:34:07.070
+Cluster 0, Sensor 8: Sent packet 75 of size 88.51 KB at 2025-02-14 02:34:08.082
+Cluster 0, Sensor 1: Sent packet 71 of size 87.31 KB at 2025-02-14 02:34:09.137
+Cluster 0, Sensor 5: Sent packet 76 of size 88.16 KB at 2025-02-14 02:34:10.149
+Cluster 0, Sensor 8: Sent packet 76 of size 88.54 KB at 2025-02-14 02:34:11.175
+Cluster 0, Sensor 1: Sent packet 72 of size 87.87 KB at 2025-02-14 02:34:12.226
+Cluster 0, Sensor 5: Sent packet 77 of size 89.13 KB at 2025-02-14 02:34:13.248
+Cluster 0, Sensor 8: Sent packet 77 of size 89.12 KB at 2025-02-14 02:34:14.280
+Cluster 0, Sensor 1: Sent packet 73 of size 88.00 KB at 2025-02-14 02:34:15.326
+Cluster 0, Sensor 3: Sent packet 75 of size 88.35 KB at 2025-02-14 02:34:02.708
+Cluster 0, Sensor 5: Sent packet 78 of size 89.18 KB at 2025-02-14 02:34:16.343
+Cluster 0, Sensor 2: Sent packet 77 of size 87.94 KB at 2025-02-14 02:34:04.297
+Cluster 0, Sensor 8: Sent packet 78 of size 88.83 KB at 2025-02-14 02:34:17.364
+Cluster 0, Sensor 9: Sent packet 75 of size 88.64 KB at 2025-02-14 02:34:04.930
+Cluster 0, Sensor 6: Sent packet 76 of size 87.60 KB at 2025-02-14 02:34:05.072
+Cluster 0, Sensor 7: Sent packet 69 of size 88.92 KB at 2025-02-14 02:34:05.257
+Cluster 0, Sensor 1: Sent packet 74 of size 87.51 KB at 2025-02-14 02:34:18.415
+Cluster 0, Sensor 5: Sent packet 79 of size 88.12 KB at 2025-02-14 02:34:19.422
+Cluster 0, Sensor 0: Sent packet 73 of size 87.77 KB at 2025-02-14 02:34:06.480
+Cluster 0, Sensor 4: Sent packet 75 of size 88.89 KB at 2025-02-14 02:34:05.443
+Cluster 0, Sensor 8: Sent packet 79 of size 85.80 KB at 2025-02-14 02:34:20.482
+Cluster 0, Sensor 5: Sent packet 80 of size 88.86 KB at 2025-02-14 02:34:22.500
+Total rows: 182171Cluster 0 - New unique packets: 80, Total unique packets: 18243
+ 2025-02-14 02:34:31Cluster 0, Sensor 3: Sent packet 76 of size 87.65 KB at 2025-02-14 02:34:18.790
+Cluster 0, Sensor 2: Sent packet 78 of size 88.94 KB at 2025-02-14 02:34:20.399
+Cluster 0, Sensor 9: Sent packet 76 of size 88.40 KB at 2025-02-14 02:34:21.028
+Cluster 0, Sensor 6: Sent packet 77 of size 87.85 KB at 2025-02-14 02:34:21.168
+Cluster 0, Sensor 7: Sent packet 70 of size 88.04 KB at 2025-02-14 02:34:21.344
+Cluster 0, Sensor 0: Sent packet 74 of size 88.86 KB at 2025-02-14 02:34:22.569
+Cluster 0, Sensor 4: Sent packet 76 of size 89.31 KB at 2025-02-14 02:34:23.532
+Cluster 0, Sensor 1: Sent packet 75 of size 88.44 KB at 2025-02-14 02:34:21.525
+Cluster 0, Sensor 5: Sent packet 81 of size 89.17 KB at 2025-02-14 02:34:25.586
+Cluster 0, Sensor 3: Sent packet 77 of size 87.77 KB at 2025-02-14 02:34:34.810
+Cluster 0, Sensor 2: Sent packet 79 of size 88.72 KB at 2025-02-14 02:34:36.493
+Cluster 0, Sensor 9: Sent packet 77 of size 88.96 KB at 2025-02-14 02:34:37.116
+Cluster 0, Sensor 6: Sent packet 78 of size 88.18 KB at 2025-02-14 02:34:37.249
+Cluster 0, Sensor 7: Sent packet 71 of size 88.13 KB at 2025-02-14 02:34:37.440
+Cluster 0, Sensor 0: Sent packet 75 of size 88.85 KB at 2025-02-14 02:34:38.672
+Cluster 0, Sensor 8: Sent packet 80 of size 87.02 KB at 2025-02-14 02:34:24.559
+Cluster 0, Sensor 1: Sent packet 76 of size 88.70 KB at 2025-02-14 02:34:40.624
+Cluster 0, Sensor 5: Sent packet 82 of size 88.74 KB at 2025-02-14 02:34:41.713
+Cluster 0, Sensor 2: Sent packet 80 of size 87.94 KB at 2025-02-14 02:34:52.606
+Cluster 0, Sensor 9: Sent packet 78 of size 89.00 KB at 2025-02-14 02:34:53.220
+Cluster 0, Sensor 6: Sent packet 79 of size 88.05 KB at 2025-02-14 02:34:53.351
+Cluster 0, Sensor 7: Sent packet 72 of size 88.04 KB at 2025-02-14 02:34:53.536
+Cluster 0, Sensor 3: Sent packet 78 of size 88.03 KB at 2025-02-14 02:34:50.912
+Cluster 0, Sensor 4: Sent packet 77 of size 90.10 KB at 2025-02-14 02:34:39.628
+Cluster 0, Sensor 0: Sent packet 76 of size 88.62 KB at 2025-02-14 02:34:54.770
+Cluster 0, Sensor 8: Sent packet 81 of size 87.22 KB at 2025-02-14 02:34:55.677
+Cluster 0, Sensor 1: Sent packet 77 of size 88.96 KB at 2025-02-14 02:34:56.771
+Cluster 0, Sensor 5: Sent packet 83 of size 88.11 KB at 2025-02-14 02:34:57.803
+Cluster 0, Sensor 5: Energy below threshold (16). Recharging...
+Cluster 0, Sensor 5: Recharged to full energy (100),Current time: 1739525713.8894925,chargecount4. Resuming operations.
+Cluster 0, Sensor 9: Sent packet 79 of size 88.20 KB at 2025-02-14 02:35:09.307
+Cluster 0, Sensor 7: Sent packet 73 of size 88.72 KB at 2025-02-14 02:35:09.628
+Cluster 0, Sensor 2: Sent packet 81 of size 87.09 KB at 2025-02-14 02:35:08.693
+Cluster 0, Sensor 4: Sent packet 78 of size 90.60 KB at 2025-02-14 02:35:10.750
+Cluster 0, Sensor 0: Sent packet 77 of size 88.14 KB at 2025-02-14 02:35:10.857
+Cluster 0, Sensor 8: Sent packet 82 of size 87.11 KB at 2025-02-14 02:35:11.751
+Cluster 0, Sensor 1: Sent packet 78 of size 88.06 KB at 2025-02-14 02:35:12.878
+Cluster 0, Sensor 5: Sent packet 84 of size 89.09 KB at 2025-02-14 02:35:16.954
+Cluster 0, Sensor 6: Sent packet 80 of size 89.00 KB at 2025-02-14 02:35:09.449
+Cluster 0, Sensor 9: Sent packet 80 of size 88.94 KB at 2025-02-14 02:35:25.411
+Cluster 0, Sensor 7: Sent packet 74 of size 88.92 KB at 2025-02-14 02:35:25.731
+Cluster 0, Sensor 2: Sent packet 82 of size 87.67 KB at 2025-02-14 02:35:25.811
+Cluster 0, Sensor 3: Sent packet 79 of size 87.19 KB at 2025-02-14 02:35:10.017
+Cluster 0, Sensor 4: Sent packet 79 of size 88.67 KB at 2025-02-14 02:35:26.848
+Cluster 0, Sensor 0: Sent packet 78 of size 88.94 KB at 2025-02-14 02:35:26.949
+Cluster 0, Sensor 5: Sent packet 85 of size 88.57 KB at 2025-02-14 02:35:33.052
+Cluster 0, Sensor 8: Sent packet 83 of size 88.48 KB at 2025-02-14 02:35:27.848
+Cluster 0, Sensor 8: Energy below threshold (16). Recharging...
+Cluster 0, Sensor 1: Sent packet 79 of size 88.58 KB at 2025-02-14 02:35:28.950
+Cluster 0, Sensor 8: Recharged to full energy (100),Current time: 1739525743.915363,chargecount4. Resuming operations.
+Cluster 0, Sensor 6: Sent packet 81 of size 89.15 KB at 2025-02-14 02:35:40.546
+Cluster 0, Sensor 9: Sent packet 81 of size 89.13 KB at 2025-02-14 02:35:41.509
+Cluster 0, Sensor 7: Sent packet 75 of size 89.44 KB at 2025-02-14 02:35:41.818
+Cluster 0, Sensor 2: Sent packet 83 of size 87.89 KB at 2025-02-14 02:35:41.876
+Cluster 0, Sensor 3: Sent packet 80 of size 88.00 KB at 2025-02-14 02:35:42.123
+Cluster 0, Sensor 2: Energy below threshold (16). Recharging...
+Cluster 0, Sensor 4: Sent packet 80 of size 88.89 KB at 2025-02-14 02:35:42.944
+Cluster 0, Sensor 0: Sent packet 79 of size 88.55 KB at 2025-02-14 02:35:43.041
+Cluster 0, Sensor 5: Sent packet 86 of size 89.06 KB at 2025-02-14 02:35:43.154
+Cluster 0, Sensor 1: Sent packet 80 of size 88.48 KB at 2025-02-14 02:35:45.049
+Cluster 0, Sensor 2: Recharged to full energy (100),Current time: 1739525757.9475455,chargecount4. Resuming operations.
+Cluster 0, Sensor 8: Sent packet 84 of size 89.22 KB at 2025-02-14 02:35:46.969
+Total rows: 192599Cluster 0 - New unique packets: 250, Total unique packets: 18493
+ 2025-02-14 02:36:06Cluster 0, Sensor 6: Sent packet 82 of size 88.70 KB at 2025-02-14 02:35:56.644
+Cluster 0, Sensor 7: Sent packet 76 of size 92.30 KB at 2025-02-14 02:35:57.899
+Cluster 0, Sensor 3: Sent packet 81 of size 88.04 KB at 2025-02-14 02:35:58.240
+Cluster 0, Sensor 9: Sent packet 82 of size 88.52 KB at 2025-02-14 02:35:57.612
+Cluster 0, Sensor 4: Sent packet 81 of size 89.10 KB at 2025-02-14 02:35:59.037
+Cluster 0, Sensor 0: Sent packet 80 of size 88.89 KB at 2025-02-14 02:35:59.126
+Cluster 0, Sensor 5: Sent packet 87 of size 90.86 KB at 2025-02-14 02:35:59.241
+Cluster 0, Sensor 6: Sent packet 83 of size 87.80 KB at 2025-02-14 02:36:12.733
+Cluster 0, Sensor 6: Energy below threshold (16). Recharging...
+Cluster 0, Sensor 7: Sent packet 77 of size 94.25 KB at 2025-02-14 02:36:13.996
+Cluster 0, Sensor 1: Sent packet 81 of size 88.65 KB at 2025-02-14 02:36:01.157
+Cluster 0, Sensor 8: Sent packet 85 of size 89.22 KB at 2025-02-14 02:36:03.078
+Cluster 0, Sensor 6: Recharged to full energy (100),Current time: 1739525775.7947423,chargecount4. Resuming operations.
+Cluster 0, Sensor 3: Sent packet 82 of size 88.03 KB at 2025-02-14 02:36:14.332
+Cluster 0, Sensor 9: Sent packet 83 of size 87.20 KB at 2025-02-14 02:36:14.693
+Cluster 0, Sensor 4: Sent packet 82 of size 88.79 KB at 2025-02-14 02:36:15.124
+Cluster 0, Sensor 5: Sent packet 88 of size 90.97 KB at 2025-02-14 02:36:15.334
+Cluster 0, Sensor 9: Energy below threshold (16). Recharging...
+Cluster 0, Sensor 2: Sent packet 84 of size 87.54 KB at 2025-02-14 02:36:01.007
+Cluster 0, Sensor 7: Sent packet 78 of size 93.42 KB at 2025-02-14 02:36:17.078
+Cluster 0, Sensor 1: Sent packet 82 of size 87.77 KB at 2025-02-14 02:36:17.249
+Cluster 0, Sensor 9: Recharged to full energy (100),Current time: 1739525790.7609384,chargecount4. Resuming operations.
+Cluster 0, Sensor 6: Sent packet 84 of size 88.90 KB at 2025-02-14 02:36:18.844
+Cluster 0, Sensor 8: Sent packet 86 of size 88.27 KB at 2025-02-14 02:36:19.178
+Cluster 0, Sensor 0: Sent packet 81 of size 88.71 KB at 2025-02-14 02:36:15.229
+Cluster 0, Sensor 4: Sent packet 83 of size 88.39 KB at 2025-02-14 02:36:31.216
+Cluster 0, Sensor 5: Sent packet 89 of size 91.06 KB at 2025-02-14 02:36:31.418
+Cluster 0, Sensor 2: Sent packet 85 of size 88.36 KB at 2025-02-14 02:36:32.093
+Cluster 0, Sensor 4: Energy below threshold (16). Recharging...
+Cluster 0, Sensor 7: Sent packet 79 of size 89.18 KB at 2025-02-14 02:36:33.162
+Cluster 0, Sensor 1: Sent packet 83 of size 89.03 KB at 2025-02-14 02:36:33.357
+Cluster 0, Sensor 9: Sent packet 84 of size 87.98 KB at 2025-02-14 02:36:33.820
+Cluster 0, Sensor 1: Energy below threshold (16). Recharging...
+Cluster 0, Sensor 6: Sent packet 85 of size 89.16 KB at 2025-02-14 02:36:34.946
+Cluster 0, Sensor 4: Recharged to full energy (100),Current time: 1739525807.2832203,chargecount4. Resuming operations.
+Cluster 0, Sensor 8: Sent packet 87 of size 88.77 KB at 2025-02-14 02:36:35.281
+Cluster 0, Sensor 1: Recharged to full energy (100),Current time: 1739525809.424479,chargecount4. Resuming operations.
+Cluster 0, Sensor 3: Sent packet 83 of size 87.79 KB at 2025-02-14 02:36:30.439
+Cluster 0, Sensor 3: Energy below threshold (16). Recharging...
+Cluster 0, Sensor 0: Sent packet 82 of size 89.67 KB at 2025-02-14 02:36:46.325
+Cluster 0, Sensor 5: Sent packet 90 of size 87.97 KB at 2025-02-14 02:36:47.510
+Cluster 0, Sensor 3: Recharged to full energy (100),Current time: 1739525821.524801,chargecount4. Resuming operations.
+Cluster 0, Sensor 9: Sent packet 85 of size 88.09 KB at 2025-02-14 02:36:49.912
+Cluster 0, Sensor 2: Sent packet 86 of size 88.91 KB at 2025-02-14 02:36:48.213
+Cluster 0, Sensor 6: Sent packet 86 of size 88.34 KB at 2025-02-14 02:36:51.040
+Cluster 0, Sensor 7: Sent packet 80 of size 88.69 KB at 2025-02-14 02:36:49.245
+Cluster 0, Sensor 8: Sent packet 88 of size 89.01 KB at 2025-02-14 02:36:51.390
+Cluster 0, Sensor 1: Sent packet 84 of size 89.03 KB at 2025-02-14 02:36:52.494
+Cluster 0, Sensor 0: Sent packet 83 of size 90.15 KB at 2025-02-14 02:37:03.436
+Cluster 0, Sensor 0: Energy below threshold (16). Recharging...
+Cluster 0, Sensor 3: Sent packet 84 of size 89.23 KB at 2025-02-14 02:37:04.589
+Cluster 0, Sensor 5: Sent packet 91 of size 89.04 KB at 2025-02-14 02:37:04.655
+Cluster 0, Sensor 4: Sent packet 84 of size 89.10 KB at 2025-02-14 02:36:50.343
+Cluster 0, Sensor 9: Sent packet 86 of size 87.81 KB at 2025-02-14 02:37:05.999
+Cluster 0, Sensor 2: Sent packet 87 of size 88.88 KB at 2025-02-14 02:37:06.316
+Cluster 0, Sensor 6: Sent packet 87 of size 88.62 KB at 2025-02-14 02:37:07.132
+Cluster 0, Sensor 7: Sent packet 81 of size 89.16 KB at 2025-02-14 02:37:07.353
+Cluster 0, Sensor 8: Sent packet 89 of size 89.29 KB at 2025-02-14 02:37:07.483
+Cluster 0, Sensor 0: Recharged to full energy (100),Current time: 1739525839.5101256,chargecount4. Resuming operations.
+Cluster 0, Sensor 1: Sent packet 85 of size 87.71 KB at 2025-02-14 02:37:08.594
+Cluster 0, Sensor 3: Sent packet 85 of size 89.24 KB at 2025-02-14 02:37:20.697
+Cluster 0, Sensor 4: Sent packet 85 of size 88.92 KB at 2025-02-14 02:37:21.450
+Cluster 0, Sensor 9: Sent packet 87 of size 88.56 KB at 2025-02-14 02:37:22.091
+Cluster 0, Sensor 2: Sent packet 88 of size 87.22 KB at 2025-02-14 02:37:22.420
+Cluster 0, Sensor 0: Sent packet 84 of size 88.27 KB at 2025-02-14 02:37:22.579
+Cluster 0, Sensor 5: Sent packet 92 of size 88.87 KB at 2025-02-14 02:37:20.764
+Cluster 0, Sensor 6: Sent packet 88 of size 89.13 KB at 2025-02-14 02:37:23.236
+Cluster 0, Sensor 7: Sent packet 82 of size 89.22 KB at 2025-02-14 02:37:23.437
+Cluster 0, Sensor 8: Sent packet 90 of size 87.15 KB at 2025-02-14 02:37:23.566
+Cluster 0, Sensor 3: Sent packet 86 of size 88.52 KB at 2025-02-14 02:37:36.806
+Cluster 0, Sensor 1: Sent packet 86 of size 86.80 KB at 2025-02-14 02:37:24.686
+Total rows: 193323Cluster 0 - New unique packets: 12, Total unique packets: 18505
+ 2025-02-14 02:37:41Cluster 0, Sensor 4: Sent packet 86 of size 89.10 KB at 2025-02-14 02:37:37.559
+Cluster 0, Sensor 9: Sent packet 88 of size 88.91 KB at 2025-02-14 02:37:38.173
+Cluster 0, Sensor 0: Sent packet 85 of size 88.36 KB at 2025-02-14 02:37:38.671
+Cluster 0, Sensor 5: Sent packet 93 of size 88.13 KB at 2025-02-14 02:37:38.878
+Cluster 0, Sensor 6: Sent packet 89 of size 88.91 KB at 2025-02-14 02:37:39.330
+Cluster 0, Sensor 7: Sent packet 83 of size 90.27 KB at 2025-02-14 02:37:39.529
+Cluster 0, Sensor 8: Sent packet 91 of size 88.09 KB at 2025-02-14 02:37:39.649
+Cluster 0, Sensor 3: Sent packet 87 of size 88.79 KB at 2025-02-14 02:37:39.900
+Cluster 0, Sensor 7: Energy below threshold (16). Recharging...
+Cluster 0, Sensor 1: Sent packet 87 of size 88.09 KB at 2025-02-14 02:37:40.772
+Cluster 0, Sensor 7: Recharged to full energy (100),Current time: 1739525875.6115823,chargecount4. Resuming operations.
+Cluster 0, Sensor 2: Sent packet 89 of size 87.44 KB at 2025-02-14 02:37:38.528
+Cluster 0, Sensor 9: Sent packet 89 of size 89.23 KB at 2025-02-14 02:37:54.267
+Cluster 0, Sensor 0: Sent packet 86 of size 88.90 KB at 2025-02-14 02:37:54.778
+Cluster 0, Sensor 5: Sent packet 94 of size 88.03 KB at 2025-02-14 02:37:54.957
+Cluster 0, Sensor 6: Sent packet 90 of size 89.93 KB at 2025-02-14 02:37:55.423
+Cluster 0, Sensor 8: Sent packet 92 of size 88.11 KB at 2025-02-14 02:37:55.758
+Cluster 0, Sensor 3: Sent packet 88 of size 89.03 KB at 2025-02-14 02:37:56.020
+Cluster 0, Sensor 1: Sent packet 88 of size 88.02 KB at 2025-02-14 02:37:56.850
+Cluster 0, Sensor 7: Sent packet 84 of size 90.63 KB at 2025-02-14 02:37:58.660
+Cluster 0, Sensor 4: Sent packet 87 of size 89.19 KB at 2025-02-14 02:37:53.673
+Cluster 0, Sensor 9: Sent packet 90 of size 91.90 KB at 2025-02-14 02:38:10.365
+Cluster 0, Sensor 2: Sent packet 90 of size 87.65 KB at 2025-02-14 02:38:09.641
+Cluster 0, Sensor 5: Sent packet 95 of size 89.17 KB at 2025-02-14 02:38:11.055
+Cluster 0, Sensor 6: Sent packet 91 of size 91.02 KB at 2025-02-14 02:38:11.522
+Cluster 0, Sensor 4: Sent packet 88 of size 89.69 KB at 2025-02-14 02:38:24.754
+Cluster 0, Sensor 3: Sent packet 89 of size 89.23 KB at 2025-02-14 02:38:12.112
+Cluster 0, Sensor 1: Sent packet 89 of size 89.14 KB at 2025-02-14 02:38:12.957
+Cluster 0, Sensor 7: Sent packet 85 of size 91.11 KB at 2025-02-14 02:38:14.753
+Cluster 0, Sensor 0: Sent packet 87 of size 88.15 KB at 2025-02-14 02:38:10.886
+Cluster 0, Sensor 2: Sent packet 91 of size 87.90 KB at 2025-02-14 02:38:26.732
+Cluster 0, Sensor 8: Sent packet 93 of size 88.00 KB at 2025-02-14 02:38:11.846
+Cluster 0, Sensor 5: Sent packet 96 of size 89.14 KB at 2025-02-14 02:38:27.158
+Cluster 0, Sensor 6: Sent packet 92 of size 90.96 KB at 2025-02-14 02:38:27.632
+Cluster 0, Sensor 4: Sent packet 89 of size 89.86 KB at 2025-02-14 02:38:27.844
+Cluster 0, Sensor 3: Sent packet 90 of size 88.75 KB at 2025-02-14 02:38:28.246
+Cluster 0, Sensor 1: Sent packet 90 of size 90.41 KB at 2025-02-14 02:38:29.055
+Cluster 0, Sensor 7: Sent packet 86 of size 90.25 KB at 2025-02-14 02:38:30.867
+Cluster 0, Sensor 9: Sent packet 91 of size 92.44 KB at 2025-02-14 02:38:26.454
+Cluster 0, Sensor 2: Sent packet 92 of size 86.75 KB at 2025-02-14 02:38:42.840
+Cluster 0, Sensor 8: Sent packet 94 of size 88.52 KB at 2025-02-14 02:38:42.928
+Cluster 0, Sensor 0: Sent packet 88 of size 88.31 KB at 2025-02-14 02:38:41.999
+Cluster 0, Sensor 6: Sent packet 93 of size 89.61 KB at 2025-02-14 02:38:43.741
+Cluster 0, Sensor 4: Sent packet 90 of size 88.04 KB at 2025-02-14 02:38:43.921
+Cluster 0, Sensor 3: Sent packet 91 of size 90.45 KB at 2025-02-14 02:38:44.329
+Cluster 0, Sensor 1: Sent packet 91 of size 90.70 KB at 2025-02-14 02:38:45.159
+Cluster 0, Sensor 7: Sent packet 87 of size 90.49 KB at 2025-02-14 02:38:46.949
+Cluster 0, Sensor 9: Sent packet 92 of size 92.12 KB at 2025-02-14 02:38:57.538
+Cluster 0, Sensor 2: Sent packet 93 of size 86.53 KB at 2025-02-14 02:38:58.927
+Cluster 0, Sensor 8: Sent packet 95 of size 89.11 KB at 2025-02-14 02:38:59.012
+Cluster 0, Sensor 0: Sent packet 89 of size 91.12 KB at 2025-02-14 02:38:59.092
+Cluster 0, Sensor 5: Sent packet 97 of size 88.58 KB at 2025-02-14 02:38:43.266
+Cluster 0, Sensor 4: Sent packet 91 of size 89.16 KB at 2025-02-14 02:39:00.023
+Cluster 0, Sensor 3: Sent packet 92 of size 90.29 KB at 2025-02-14 02:39:00.417
+Cluster 0, Sensor 9: Sent packet 93 of size 89.78 KB at 2025-02-14 02:39:13.646
+Cluster 0, Sensor 1: Sent packet 92 of size 90.42 KB at 2025-02-14 02:39:01.263
+Cluster 0, Sensor 6: Sent packet 94 of size 88.58 KB at 2025-02-14 02:38:59.839
+Total rows: 197385Cluster 0 - New unique packets: 220, Total unique packets: 18725
+ 2025-02-14 02:39:17Cluster 0, Sensor 2: Sent packet 94 of size 87.88 KB at 2025-02-14 02:39:15.024
+Cluster 0, Sensor 8: Sent packet 96 of size 89.10 KB at 2025-02-14 02:39:15.114
+Cluster 0, Sensor 0: Sent packet 90 of size 91.26 KB at 2025-02-14 02:39:15.198
+Cluster 0, Sensor 5: Sent packet 98 of size 89.72 KB at 2025-02-14 02:39:15.352
+Cluster 0, Sensor 3: Sent packet 93 of size 89.36 KB at 2025-02-14 02:39:16.516
+Cluster 0, Sensor 9: Sent packet 94 of size 87.61 KB at 2025-02-14 02:39:16.734
+Cluster 0, Sensor 4: Sent packet 92 of size 89.14 KB at 2025-02-14 02:39:16.136
+Cluster 0, Sensor 1: Sent packet 93 of size 87.97 KB at 2025-02-14 02:39:17.366
+Cluster 0, Sensor 6: Sent packet 95 of size 89.11 KB at 2025-02-14 02:39:17.882
+Cluster 0, Sensor 7: Sent packet 88 of size 91.08 KB at 2025-02-14 02:39:03.052
+Cluster 0, Sensor 2: Sent packet 95 of size 87.89 KB at 2025-02-14 02:39:19.047
+Cluster 0, Sensor 8: Sent packet 97 of size 88.05 KB at 2025-02-14 02:39:31.212
+Cluster 0, Sensor 4: Sent packet 93 of size 88.56 KB at 2025-02-14 02:39:33.230
+Cluster 0, Sensor 0: Sent packet 91 of size 91.52 KB at 2025-02-14 02:39:31.292
+Cluster 0, Sensor 5: Sent packet 99 of size 90.38 KB at 2025-02-14 02:39:31.439
+Cluster 0, Sensor 5: Finished sending messages
+Cluster 0, Sensor 9: Sent packet 95 of size 88.04 KB at 2025-02-14 02:39:32.817
+Cluster 0, Sensor 1: Sent packet 94 of size 88.92 KB at 2025-02-14 02:39:33.449
+Cluster 0, Sensor 6: Sent packet 96 of size 88.71 KB at 2025-02-14 02:39:33.976
+Cluster 0, Sensor 7: Sent packet 89 of size 90.82 KB at 2025-02-14 02:39:34.155
+Cluster 0, Sensor 2: Sent packet 96 of size 87.71 KB at 2025-02-14 02:39:35.141
+Cluster 0, Sensor 8: Sent packet 98 of size 88.54 KB at 2025-02-14 02:39:35.308
+Cluster 0, Sensor 4: Sent packet 94 of size 88.15 KB at 2025-02-14 02:39:36.309
+Cluster 0, Sensor 0: Sent packet 92 of size 89.76 KB at 2025-02-14 02:39:37.382
+Cluster 0, Sensor 3: Sent packet 94 of size 88.64 KB at 2025-02-14 02:39:32.594
+Cluster 0, Sensor 9: Sent packet 96 of size 88.25 KB at 2025-02-14 02:39:48.915
+Cluster 0, Sensor 6: Sent packet 97 of size 89.63 KB at 2025-02-14 02:39:50.089
+Cluster 0, Sensor 7: Sent packet 90 of size 87.92 KB at 2025-02-14 02:39:50.253
+Cluster 0, Sensor 1: Sent packet 95 of size 89.01 KB at 2025-02-14 02:39:49.558
+Cluster 0, Sensor 2: Sent packet 97 of size 88.90 KB at 2025-02-14 02:39:51.233
+Cluster 0, Sensor 8: Sent packet 99 of size 89.17 KB at 2025-02-14 02:39:51.411
+Cluster 0, Sensor 8: Finished sending messages
+Cluster 0, Sensor 4: Sent packet 95 of size 89.04 KB at 2025-02-14 02:39:52.417
+Cluster 0, Sensor 1: Sent packet 96 of size 88.68 KB at 2025-02-14 02:40:06.663
+Cluster 0, Sensor 3: Sent packet 95 of size 89.28 KB at 2025-02-14 02:40:03.717
+Cluster 0, Sensor 9: Sent packet 97 of size 89.55 KB at 2025-02-14 02:40:05.017
+Cluster 0, Sensor 6: Sent packet 98 of size 90.77 KB at 2025-02-14 02:40:06.198
+Cluster 0, Sensor 2: Sent packet 98 of size 88.80 KB at 2025-02-14 02:40:07.321
+Cluster 0, Sensor 0: Sent packet 93 of size 90.12 KB at 2025-02-14 02:39:53.490
+Cluster 0, Sensor 7: Sent packet 91 of size 89.15 KB at 2025-02-14 02:40:06.336
+Cluster 0, Sensor 4: Sent packet 96 of size 88.87 KB at 2025-02-14 02:40:08.515
+Cluster 0, Sensor 1: Sent packet 97 of size 88.24 KB at 2025-02-14 02:40:08.746
+Cluster 0, Sensor 3: Sent packet 96 of size 89.23 KB at 2025-02-14 02:40:08.798
+Cluster 0, Sensor 9: Sent packet 98 of size 90.68 KB at 2025-02-14 02:40:09.096
+Cluster 0, Sensor 2: Sent packet 99 of size 88.63 KB at 2025-02-14 02:40:10.426
+Cluster 0, Sensor 2: Finished sending messages
+Cluster 0, Sensor 4: Sent packet 97 of size 88.22 KB at 2025-02-14 02:40:11.612
+Cluster 0, Sensor 0: Sent packet 94 of size 90.59 KB at 2025-02-14 02:40:10.606
+Cluster 0, Sensor 9: Sent packet 99 of size 90.97 KB at 2025-02-14 02:40:25.185
+Cluster 0, Sensor 9: Finished sending messages
+Cluster 0, Sensor 6: Sent packet 99 of size 90.83 KB at 2025-02-14 02:40:10.315
+Cluster 0, Sensor 6: Finished sending messages
+Cluster 0, Sensor 1: Sent packet 98 of size 88.96 KB at 2025-02-14 02:40:11.871
+Cluster 0, Sensor 7: Sent packet 92 of size 89.18 KB at 2025-02-14 02:40:11.432
+Cluster 0, Sensor 4: Sent packet 98 of size 88.84 KB at 2025-02-14 02:40:27.726
+Cluster 0, Sensor 0: Sent packet 95 of size 89.99 KB at 2025-02-14 02:40:27.741
+Cluster 0, Sensor 3: Sent packet 97 of size 89.85 KB at 2025-02-14 02:40:12.898
+Cluster 0, Sensor 1: Sent packet 99 of size 89.04 KB at 2025-02-14 02:40:28.958
+Cluster 0, Sensor 1: Finished sending messages
+Cluster 0, Sensor 7: Sent packet 93 of size 89.41 KB at 2025-02-14 02:40:29.529
+Cluster 0, Sensor 4: Sent packet 99 of size 89.06 KB at 2025-02-14 02:40:29.829
+Cluster 0, Sensor 4: Finished sending messages
+Cluster 0, Sensor 0: Sent packet 96 of size 87.86 KB at 2025-02-14 02:40:29.885
+Cluster 0, Sensor 3: Sent packet 98 of size 90.91 KB at 2025-02-14 02:40:30.020
+Cluster 0, Sensor 7: Sent packet 94 of size 90.36 KB at 2025-02-14 02:40:31.635
+Cluster 0, Sensor 0: Sent packet 97 of size 88.58 KB at 2025-02-14 02:40:31.992
+Cluster 0, Sensor 3: Sent packet 99 of size 90.66 KB at 2025-02-14 02:40:32.109
+Cluster 0, Sensor 3: Finished sending messages
+Cluster 0, Sensor 7: Sent packet 95 of size 90.99 KB at 2025-02-14 02:40:33.727
+Cluster 0, Sensor 0: Sent packet 98 of size 88.93 KB at 2025-02-14 02:40:34.085
+Cluster 0, Sensor 7: Sent packet 96 of size 90.99 KB at 2025-02-14 02:40:35.824
+Cluster 0, Sensor 0: Sent packet 99 of size 88.57 KB at 2025-02-14 02:40:36.192
+Cluster 0, Sensor 0: Finished sending messages
+Cluster 0, Sensor 7: Sent packet 97 of size 88.22 KB at 2025-02-14 02:40:37.916
+Cluster 0, Sensor 7: Sent packet 98 of size 88.54 KB at 2025-02-14 02:40:40.012
+Cluster 0, Sensor 7: Sent packet 99 of size 89.13 KB at 2025-02-14 02:40:42.113
+Cluster 0, Sensor 7: Finished sending messages
+Total rows: 200594Cluster 0 - New unique packets: 107, Total unique packets: 18832
+ 2025-02-14 02:40:56Stopped all nc receivers and tcpdump
+Total rows: 230973Cluster 0 - New unique packets: 1081, Total unique packets: 19913
+ 2025-02-14 02:42:56Traceback (most recent call last):
+  File "/mydata/mydata/RL_agent/multi_cluster_combine.py", line 502, in <module>
+    topology(sys.argv)
+  File "/mydata/mydata/RL_agent/multi_cluster_combine.py", line 486, in topology
+    thread.join()
+  File "/usr/lib/python3.10/threading.py", line 1096, in join
+    self._wait_for_tstate_lock()
+  File "/usr/lib/python3.10/threading.py", line 1116, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+KeyboardInterrupt
