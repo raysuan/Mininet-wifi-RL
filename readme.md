@@ -1,3 +1,9 @@
+### Latest update
+File new_simulation.py is latest simulation code, and new_RL_agent.py has latest RL_agent code.
+There may need some adjustment on file path.
+
+
+
 #### Install Mininet-Wifi:
 
 **We highly recommend using Ubuntu version 16.04 or higher. Some new hostapd features might not work on Ubuntu 14.04.**
